@@ -1,0 +1,4 @@
+UIActivities.com.ibm.cics.explorer.developer.activity=true
+UIActivities.com.ibm.zos.explorer.rdz.only.activity=true
+UIActivities.org.eclipse.cdt.debug.ui.cdtActivity=false
+eclipse.preferences.version=1

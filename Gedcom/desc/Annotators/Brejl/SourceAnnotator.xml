@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <primitive>true</primitive>
+  <annotatorImplementationName>net.myerichsen.brejl.SourceAnnotator</annotatorImplementationName>
+  <analysisEngineMetaData>
+    <name>GenericAnnotator</name>
+    <description>Annotator to identify Individual Names, Places and Dates in probate extracts done by Erik Brejl and stored at www.brejl.dk.
+
+Requires encoding windows- 1252</description>
+    <version>1.0, 03. 12. 2011</version>
+    <vendor>Michael Erichsen</vendor>
+    <configurationParameters>
+      <configurationParameter>
+        <name>Patterns</name>
+        <type>String</type>
+        <multiValued>true</multiValued>
+        <mandatory>true</mandatory>
+      </configurationParameter>
+    </configurationParameters>
+    <configurationParameterSettings>
+      <nameValuePair>
+        <name>Patterns</name>
+        <value>
+          <array>
+            <string>Fundatorskifteuddrag</string>
+            <string>Gejstlig skifteprotokol</string>
+            <string>Gejstligt skifteprotokol</string>
+            <string>Gejstlige skifteprotokol</string>
+            <string>gejstlige skifteprotokol</string>
+            <string>Skifteprotokol</string>
+            <string>Skifteuddrag\r\nProtokol</string>
+            <string>Gejstligt skiftebreve</string>
+            <string>\r\nSkifteuddrag\r\n</string>
+            <string>\r\nSkifteuddrag af konceptskifter\r\n</string>
+            <string>\r\nSkiftebrev\r\n</string>
+            <string>herred skifteprotokol\r\n</string>
+          </array>
+        </value>
+      </nameValuePair>
+    </configurationParameterSettings>
+    <typeSystemDescription>
+      <imports>
+        <import location="..\..\Records\GedcomTypeSystemDescriptor.xml"/>
+      </imports>
+      <types>
+        <typeDescription>
+          <name>net.myerichsen.gedcom.ProbateSignature</name>
+          <description/>
+          <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+      </types>
+    </typeSystemDescription>
+    <typePriorities/>
+    <fsIndexCollection/>
+    <capabilities>
+      <capability>
+        <inputs/>
+        <outputs>
+          <type allAnnotatorFeatures="true">net.myerichsen.gedcom.SourceRecType</type>
+        </outputs>
+        <languagesSupported/>
+      </capability>
+    </capabilities>
+    <operationalProperties>
+      <modifiesCas>true</modifiesCas>
+      <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </analysisEngineMetaData>
+  <resourceManagerConfiguration/>
+</analysisEngineDescription>

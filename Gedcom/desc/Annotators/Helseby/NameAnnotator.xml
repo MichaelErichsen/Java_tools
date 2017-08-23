@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <primitive>true</primitive>
+  <annotatorImplementationName>net.myerichsen.helseby.NameAnnotator</annotatorImplementationName>
+  <analysisEngineMetaData>
+    <name>NameAnnotator</name>
+    <description>Annotator to identify Individual Names in probate extracts</description>
+    <version>1.0, 05. 12. 2011</version>
+    <vendor>Michael Erichsen</vendor>
+    <configurationParameters>
+      <configurationParameter>
+        <name>Patterns</name>
+        <description>Patterns to parse extracts</description>
+        <type>String</type>
+        <multiValued>true</multiValued>
+        <mandatory>true</mandatory>
+      </configurationParameter>
+    </configurationParameters>
+    <configurationParameterSettings>
+      <nameValuePair>
+        <name>Patterns</name>
+        <value>
+          <array>
+            <string>(\p{Upper}|Æ|Ø|Å)(\w|æ|ø|å)*((\.?\s(\p{Upper}|Æ|Ø|Å)(\w|æ|ø|å)*)| von| de| la)+</string>
+          </array>
+        </value>
+      </nameValuePair>
+    </configurationParameterSettings>
+    <typeSystemDescription>
+      <imports>
+        <import location="..\..\Records\GedcomTypeSystemDescriptor.xml"/>
+      </imports>
+    </typeSystemDescription>
+    <typePriorities/>
+    <fsIndexCollection/>
+    <capabilities>
+      <capability>
+        <inputs/>
+        <outputs>
+          <type allAnnotatorFeatures="true">net.myerichsen.gedcom.IndividualRecType</type>
+        </outputs>
+        <languagesSupported/>
+      </capability>
+    </capabilities>
+    <operationalProperties>
+      <modifiesCas>true</modifiesCas>
+      <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </analysisEngineMetaData>
+  <resourceManagerConfiguration/>
+</analysisEngineDescription>

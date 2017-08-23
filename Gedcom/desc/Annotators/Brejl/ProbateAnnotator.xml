@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <primitive>true</primitive>
+  <annotatorImplementationName>net.myerichsen.brejl.ProbateAnnotator</annotatorImplementationName>
+  <analysisEngineMetaData>
+    <name>ProbateAnnotator</name>
+    <description/>
+    <version>1.0, 22. 11. 2011</version>
+    <vendor>Michael Erichsen</vendor>
+    <configurationParameters/>
+    <configurationParameterSettings/>
+    <typeSystemDescription>
+      <imports>
+        <import location="..\..\Records\GedcomTypeSystemDescriptor.xml"/>
+      </imports>
+      <types>
+        <typeDescription>
+          <name>net.myerichsen.gedcom.ProbateSignature</name>
+          <description/>
+          <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+      </types>
+    </typeSystemDescription>
+    <typePriorities/>
+    <fsIndexCollection/>
+    <capabilities>
+      <capability>
+        <inputs>
+          <type allAnnotatorFeatures="true">net.myerichsen.gedcom.ProbateSignature</type>
+          <type allAnnotatorFeatures="true">net.myerichsen.gedcom.DateType</type>
+          <type allAnnotatorFeatures="true">net.myerichsen.gedcom.PlaceType</type>
+          <type allAnnotatorFeatures="true">net.myerichsen.gedcom.IndividualRecType</type>
+          <type allAnnotatorFeatures="true">net.myerichsen.gedcom.SourceRecType</type>
+        </inputs>
+        <outputs>
+          <type allAnnotatorFeatures="true">net.myerichsen.gedcom.EventRecType</type>
+        </outputs>
+        <languagesSupported>
+          <language>en</language>
+        </languagesSupported>
+      </capability>
+    </capabilities>
+    <operationalProperties>
+      <modifiesCas>true</modifiesCas>
+      <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </analysisEngineMetaData>
+  <resourceManagerConfiguration/>
+</analysisEngineDescription>

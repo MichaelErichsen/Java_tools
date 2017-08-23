@@ -1,0 +1,24 @@
+# 
+#Fri Jan 15 18:43:53 CET 2016
+remoteHelpPreferred=true
+# 
+#Fri Jan 15 18:43:53 CET 2016
+remoteHelpPath=/support/knowledgecenter/SS62YD_4.1.1,/support/knowledgecenter/SSYMRC_5.0.2,/support/knowledgecenter/SSQ2R2_9.5.0
+# 
+#Fri Jan 15 18:43:53 CET 2016
+remoteHelpProtocol=http,http,http
+# 
+#Fri Jan 15 18:43:53 CET 2016
+remoteHelpOn=true
+# 
+#Fri Jan 15 18:43:53 CET 2016
+remoteHelpHost=www.ibm.com,www.ibm.com,www.ibm.com
+# 
+#Fri Jan 15 18:43:53 CET 2016
+remoteHelpICEnabled=false,true,true
+# 
+#Fri Jan 15 18:43:53 CET 2016
+remoteHelpPort=80,80,80
+# 
+#Fri Jan 15 18:43:53 CET 2016
+remoteHelpName=IBM Data Studio,Rational solution for Collaborative Lifecycle Management,Help for Rational Developer for z Systems

@@ -1,0 +1,5 @@
+com.ibm.tpf.startup.core.cdtCheck=true
+com.ibm.tpf.startup.core.cdtEditorCheck=true
+defaultPerspectiveId=com.ibm.ftt.projects.view.ui.views.perspective
+eclipse.preferences.version=1
+showIntro=false

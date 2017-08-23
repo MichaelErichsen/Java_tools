@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            name="CA Gen Source Editor"
+            extensions="cool, coolold, coolnew, coolorg, psdef"
+            icon="icons/xact_icon.gif"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            class="dk.xact.xtoolrdz.geneditor.CaGenEditor"
+            id="cageneditorproject.editors.CaGenEditor">
+      </editor>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="dk.xact.xtoolrdz.geneditor.PreferencePage"
+            id="dk.xact.xtoolrdz.GenEditor.page1"
+            name="Xtool for RDz Preferences">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="dk.xact.xtoolrdz.geneditor.PreferenceInitializer">
+      </initializer>
+   </extension>
+
+</plugin>

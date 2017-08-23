@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <primitive>true</primitive>
+  <annotatorImplementationName>net.myerichsen.aurelia.SourceAnnotator</annotatorImplementationName>
+  <analysisEngineMetaData>
+    <name>AureliaSourceRecordAnnotator</name>
+    <description>Annotator to identify Source Records in probate extracts done by Aurelia Clemons and stored at www.aurelia-clemons.dk</description>
+    <version>1.0, 04. 12. 2011</version>
+    <vendor>Michael Erichsen</vendor>
+    <configurationParameters>
+      <configurationParameter>
+        <name>Patterns</name>
+        <description>Patterns to parse Aurelia Clemons probate extracts</description>
+        <type>String</type>
+        <multiValued>true</multiValued>
+        <mandatory>true</mandatory>
+      </configurationParameter>
+      <configurationParameter>
+        <name>RecordTypes</name>
+        <description>Names of the record types matching the patterns</description>
+        <type>String</type>
+        <multiValued>true</multiValued>
+        <mandatory>true</mandatory>
+      </configurationParameter>
+    </configurationParameters>
+    <configurationParameterSettings>
+      <nameValuePair>
+        <name>Patterns</name>
+        <value>
+          <array>
+            <string>\[.*\]</string>
+          </array>
+        </value>
+      </nameValuePair>
+      <nameValuePair>
+        <name>RecordTypes</name>
+        <value>
+          <array>
+            <string>SourceRecord</string>
+          </array>
+        </value>
+      </nameValuePair>
+    </configurationParameterSettings>
+    <typeSystemDescription>
+      <imports>
+        <import location="..\..\Records\GedcomTypeSystemDescriptor.xml"/>
+      </imports>
+    </typeSystemDescription>
+    <typePriorities/>
+    <fsIndexCollection/>
+    <capabilities>
+      <capability>
+        <inputs/>
+        <outputs>
+          <type allAnnotatorFeatures="true">net.myerichsen.gedcom.SourceRecType</type>
+        </outputs>
+        <languagesSupported/>
+      </capability>
+    </capabilities>
+    <operationalProperties>
+      <modifiesCas>true</modifiesCas>
+      <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </analysisEngineMetaData>
+  <resourceManagerConfiguration/>
+</analysisEngineDescription>

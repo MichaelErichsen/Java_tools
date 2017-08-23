@@ -1,0 +1,5 @@
+eclipse.preferences.version=1
+org.eclipse.rse.systemtype.linux.systemType.enabled=false
+org.eclipse.rse.systemtype.local.systemType.defaultUserId=michael
+org.eclipse.rse.systemtype.unix.systemType.enabled=false
+useridperkey=XACT20150612A.zos02.xact.dk\=michael;

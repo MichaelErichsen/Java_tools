@@ -1,0 +1,560 @@
+com.ibm.cics.eclipse.common.runtime_3.0.0.201512020512
+2016/01/15 18:43:29.730 CET [1] > com.ibm.cics.core.comm.ExplorerSecurityHelper.setPassphraseManager()
+2016/01/15 18:43:29.730 CET [1] < com.ibm.cics.core.comm.ExplorerSecurityHelper.setPassphraseManager()
+2016/01/15 18:43:29.732 CET [1] > com.ibm.cics.core.comm.internal.ConnectionsPreferenceInitializer.initializeDefaultPreferences()
+2016/01/15 18:43:29.732 CET [1] < com.ibm.cics.core.comm.internal.ConnectionsPreferenceInitializer.initializeDefaultPreferences()
+2016/01/15 18:43:29.811 CET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.setTrustStorePassphrase()
+2016/01/15 18:43:30.164 CET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.setTrustStorePassphrase()
+2016/01/15 18:43:30.164 CET [1] > com.ibm.cics.core.connections.internal.PassphraseManager.setKeyStorePassphrase()
+2016/01/15 18:43:30.170 CET [1] < com.ibm.cics.core.connections.internal.PassphraseManager.setKeyStorePassphrase()
+2016/01/15 18:43:30.172 CET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath()
+2016/01/15 18:43:30.172 CET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.getLocalProviderPath() [C:/Workspaces/TMG_Java/.metadata/.plugins/com.ibm.cics.core.connections/local.xml]
+2016/01/15 18:43:30.175 CET [1] > com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [org.eclipse.core.internal.registry.ConfigurationElementHandle@110fd]
+2016/01/15 18:43:30.176 CET [1] < com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [added: com.ibm.cics.core.comm.internal.ConnectionDescriptor[CICSPlex SM Data Interface, com.ibm.cics.sm.comm.cpsm.connection]]
+2016/01/15 18:43:30.176 CET [1] > com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [org.eclipse.core.internal.registry.ConfigurationElementHandle@11100]
+2016/01/15 18:43:30.176 CET [1] < com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [added: com.ibm.cics.core.comm.internal.ConnectionDescriptor[CMCI, com.ibm.cics.sm.comm.sm.connection]]
+2016/01/15 18:43:30.176 CET [1] > com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [org.eclipse.core.internal.registry.ConfigurationElementHandle@11160]
+2016/01/15 18:43:30.176 CET [1] < com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [added: com.ibm.cics.core.comm.internal.ConnectionDescriptor[z/OS FTP, com.ibm.cics.zos.comm.connection.ftp]]
+2016/01/15 18:43:30.176 CET [1] > com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [org.eclipse.core.internal.registry.ConfigurationElementHandle@112bd]
+2016/01/15 18:43:30.176 CET [1] < com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [added: com.ibm.cics.core.comm.internal.ConnectionDescriptor[z/OSMF, com.ibm.cics.zosmf.comm.connection]]
+2016/01/15 18:43:30.176 CET [1] > com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [org.eclipse.core.internal.registry.ConfigurationElementHandle@12df2]
+2016/01/15 18:43:30.176 CET [1] < com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [added: com.ibm.cics.core.comm.internal.ConnectionDescriptor[z/OS Remote System, com.ibm.ftt.cics.rse.RSE.connection]]
+2016/01/15 18:43:30.177 CET [1] > com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [org.eclipse.core.internal.registry.ConfigurationElementHandle@18c50]
+2016/01/15 18:43:30.177 CET [1] < com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [added: com.ibm.cics.core.comm.internal.ConnectionDescriptor[Problem Determination Tools, com.ibm.pdtools.comms.cics.connection]]
+2016/01/15 18:43:30.177 CET [1] > com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [org.eclipse.core.internal.registry.ConfigurationElementHandle@18d2d]
+2016/01/15 18:43:30.177 CET [1] < com.ibm.cics.core.comm.ConnectionRegistry.readConnection() [added: com.ibm.cics.core.comm.internal.ConnectionDescriptor[DTCN, com.ibm.pdtools.debugtool.dtcn.connection]]
+2016/01/15 18:43:30.177 CET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.cics.core.connections.internal.WritableFileConnectionProvider@6bb59206]
+2016/01/15 18:43:30.177 CET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@1698c79]
+2016/01/15 18:43:30.177 CET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2016/01/15 18:43:30.177 CET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@f0aec16]
+2016/01/15 18:43:30.178 CET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 OK null]
+2016/01/15 18:43:30.178 CET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2016/01/15 18:43:30.178 CET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2016/01/15 18:43:30.178 CET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addPersistedFileConnectionProviders()
+2016/01/15 18:43:30.178 CET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2016/01/15 18:43:30.178 CET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension() [org.eclipse.core.internal.registry.ExtensionHandle@12df4]
+2016/01/15 18:43:30.179 CET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement() [org.eclipse.core.internal.registry.ConfigurationElementHandle@12df5]
+2016/01/15 18:43:30.179 CET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider() [org.eclipse.core.internal.registry.ConfigurationElementHandle@12df5]
+2016/01/15 18:43:30.239 CET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider() [com.ibm.ftt.cics.rse.connection.RSEConnectionProvider@c1df5721]
+2016/01/15 18:43:30.239 CET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionProviderRegistry$1@6eb614e3]
+2016/01/15 18:43:30.239 CET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2016/01/15 18:43:30.239 CET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [org.eclipse.core.runtime.NullProgressMonitor@dd9d2e28]
+2016/01/15 18:43:30.240 CET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.refresh() [Status OK: unknown code=0 OK null]
+2016/01/15 18:43:30.240 CET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addConnectionProvider()
+2016/01/15 18:43:30.240 CET [1] addedcom.ibm.ftt.cics.rse.connection.RSEConnectionProvider@c1df5721 com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2016/01/15 18:43:30.240 CET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readConnectionProvider()
+2016/01/15 18:43:30.240 CET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readElement()
+2016/01/15 18:43:30.240 CET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.readExtension()
+2016/01/15 18:43:30.240 CET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addExtensionPointProviders()
+2016/01/15 18:43:30.267 CET [1] > com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager()
+2016/01/15 18:43:30.268 CET [1] < com.ibm.cics.core.connections.internal.ConnectionCredentialsManager.ConnectionCredentialsManager() [C:/Workspaces/TMG_Java/.metadata/.plugins/com.ibm.cics.core.connections/credentialMappings.xml]
+2016/01/15 18:43:30.270 CET [1] > com.ibm.cics.core.connections.internal.ConnectionManager.<init>()
+2016/01/15 18:43:30.270 CET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2016/01/15 18:43:30.270 CET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[]]
+2016/01/15 18:43:30.270 CET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@67d06c8c]
+2016/01/15 18:43:30.270 CET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2016/01/15 18:43:30.270 CET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections()
+2016/01/15 18:43:30.270 CET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.getConnections() [[]]
+2016/01/15 18:43:30.270 CET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$CacheUpdatingListener@526a6d7c]
+2016/01/15 18:43:30.270 CET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.addListener()
+2016/01/15 18:43:30.270 CET [1] > com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener() [com.ibm.cics.core.connections.internal.ConnectionManager$2@1d717bc]
+2016/01/15 18:43:30.270 CET [1] < com.ibm.cics.core.connections.internal.ConnectionProviderRegistry.addListener()
+2016/01/15 18:43:30.270 CET [1] < com.ibm.cics.core.connections.internal.ConnectionManager.<init>() [com.ibm.cics.core.connections.internal.ConnectionManager@62ab0705]
+2016/01/15 18:43:30.277 CET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2016/01/15 18:43:30.278 CET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.initializeStates()
+2016/01/15 18:43:30.677 CET [48] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2016/01/15 18:43:30.679 CET [48] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2016/01/15 18:43:30.710 CET [48] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2016/01/15 18:43:30.710 CET [48] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2016/01/15 18:43:30.719 CET [48] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2016/01/15 18:43:30.719 CET [48] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2016/01/15 18:43:30.749 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@4f2cc6de, org.eclipse.core.internal.registry.ConfigurationElementHandle@10aea, defaultHandler, Active]
+2016/01/15 18:43:30.764 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[ACTIVE,{}]]
+2016/01/15 18:43:30.765 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@95898293, org.eclipse.core.internal.registry.ConfigurationElementHandle@10aeb, defaultHandler, Dormant]
+2016/01/15 18:43:30.765 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[DORMANT,{}]]
+2016/01/15 18:43:30.765 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@d8a6eb1f, org.eclipse.core.internal.registry.ConfigurationElementHandle@10aec, defaultHandler, Force]
+2016/01/15 18:43:30.765 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$14[FORCE,{}]]
+2016/01/15 18:43:30.765 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@8ec31937, org.eclipse.core.internal.registry.ConfigurationElementHandle@10aed, defaultHandler, Unavailable]
+2016/01/15 18:43:30.765 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$41[UNAVAILABLE,{}]]
+2016/01/15 18:43:30.766 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@2da762cb, org.eclipse.core.internal.registry.ConfigurationElementHandle@10aee, defaultHandler, Available]
+2016/01/15 18:43:30.766 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$4[AVAILABLE,{}]]
+2016/01/15 18:43:30.766 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@81de1f9d, org.eclipse.core.internal.registry.ConfigurationElementHandle@10aef, defaultHandler, Enable]
+2016/01/15 18:43:30.766 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[ENABLE,{}]]
+2016/01/15 18:43:30.766 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@142635ce, org.eclipse.core.internal.registry.ConfigurationElementHandle@10af0, defaultHandler, Disable]
+2016/01/15 18:43:30.766 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[DISABLE,{}]]
+2016/01/15 18:43:30.766 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@5025f8f1, org.eclipse.core.internal.registry.ConfigurationElementHandle@10af1, defaultHandler, Stop]
+2016/01/15 18:43:30.766 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$46[STOP,{}]]
+2016/01/15 18:43:30.767 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@fe5aa2ff, org.eclipse.core.internal.registry.ConfigurationElementHandle@10af2, defaultHandler, StopUncon]
+2016/01/15 18:43:30.767 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$49[STOPUNCON,{}]]
+2016/01/15 18:43:30.767 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@a06ef4da, org.eclipse.core.internal.registry.ConfigurationElementHandle@10af3, defaultHandler, ForceDiscon]
+2016/01/15 18:43:30.767 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$50[FORCEDISCON,{}]]
+2016/01/15 18:43:30.767 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@bda745a2, org.eclipse.core.internal.registry.ConfigurationElementHandle@10af4, defaultHandler, Purge]
+2016/01/15 18:43:30.767 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$32[PURGE,{}]]
+2016/01/15 18:43:30.767 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@720d5fd8, org.eclipse.core.internal.registry.ConfigurationElementHandle@10af5, defaultHandler, ForcePurge]
+2016/01/15 18:43:30.767 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$33[FORCEPURGE,{}]]
+2016/01/15 18:43:30.768 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@51037332, org.eclipse.core.internal.registry.ConfigurationElementHandle@10af6, defaultHandler, Kill]
+2016/01/15 18:43:30.768 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$34[KILL,{}]]
+2016/01/15 18:43:30.768 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@6e02643b, org.eclipse.core.internal.registry.ConfigurationElementHandle@10af7, defaultHandler, PurgeTask]
+2016/01/15 18:43:30.768 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[PURGE,{TYPE=PURGE}]]
+2016/01/15 18:43:30.768 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@81236b5c, org.eclipse.core.internal.registry.ConfigurationElementHandle@10af8, defaultHandler, ForcePurgeTask]
+2016/01/15 18:43:30.768 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$47[FORCEPURGE,{}]]
+2016/01/15 18:43:30.768 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@7f38c309, org.eclipse.core.internal.registry.ConfigurationElementHandle@10af9, defaultHandler, KillTask]
+2016/01/15 18:43:30.768 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$48[KILL,{}]]
+2016/01/15 18:43:30.769 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@3bf58df7, org.eclipse.core.internal.registry.ConfigurationElementHandle@10afa, defaultHandler, DisableWait]
+2016/01/15 18:43:30.769 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[DISABLE,{BUSY=WAIT}]]
+2016/01/15 18:43:30.769 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@752cd6dc, org.eclipse.core.internal.registry.ConfigurationElementHandle@10afb, defaultHandler, DisableNoWait]
+2016/01/15 18:43:30.769 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[DISABLE,{BUSY=NOWAIT}]]
+2016/01/15 18:43:30.769 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@73898af2, org.eclipse.core.internal.registry.ConfigurationElementHandle@10afc, defaultHandler, DisableForce]
+2016/01/15 18:43:30.769 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[DISABLE,{BUSY=FORCE}]]
+2016/01/15 18:43:30.769 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@d82594e3, org.eclipse.core.internal.registry.ConfigurationElementHandle@10afd, defaultHandler, DisconnectWait]
+2016/01/15 18:43:30.769 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[DISCONNECT,{BUSY=WAIT}]]
+2016/01/15 18:43:30.770 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@2d9ebb74, org.eclipse.core.internal.registry.ConfigurationElementHandle@10afe, defaultHandler, DisconnectNoWait]
+2016/01/15 18:43:30.770 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[DISCONNECT,{BUSY=NOWAIT}]]
+2016/01/15 18:43:30.770 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@8cdd50e0, org.eclipse.core.internal.registry.ConfigurationElementHandle@10aff, defaultHandler, DisconnectForce]
+2016/01/15 18:43:30.770 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[DISCONNECT,{BUSY=FORCE}]]
+2016/01/15 18:43:30.770 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@b28ac620, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b00, defaultHandler, Rebuild]
+2016/01/15 18:43:30.770 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$24[REBUILD,{}]]
+2016/01/15 18:43:30.770 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@e8ac50ab, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b01, defaultHandler, Connect]
+2016/01/15 18:43:30.771 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[CONNECT,{}]]
+2016/01/15 18:43:30.771 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@9df09028, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b02, defaultHandler, Backout]
+2016/01/15 18:43:30.771 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$5[BACKOUT,{}]]
+2016/01/15 18:43:30.771 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@886107cc, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b03, defaultHandler, Commit]
+2016/01/15 18:43:30.771 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$8[COMMIT,{}]]
+2016/01/15 18:43:30.771 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@afdac93a, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b04, defaultHandler, NotPending]
+2016/01/15 18:43:30.771 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$19[NOTPENDING,{}]]
+2016/01/15 18:43:30.772 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@e5f58fb5, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b05, defaultHandler, NoRecoveryData]
+2016/01/15 18:43:30.772 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$18[NORECOVDATA,{}]]
+2016/01/15 18:43:30.772 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@e7c117eb, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b06, defaultHandler, Resynchronize]
+2016/01/15 18:43:30.772 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$28[RESYNC,{}]]
+2016/01/15 18:43:30.772 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@dc786810, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b07, defaultHandler, Cancel]
+2016/01/15 18:43:30.772 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$6[CANCEL,{}]]
+2016/01/15 18:43:30.772 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@c3cdc219, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b08, defaultHandler, ForceCancel]
+2016/01/15 18:43:30.773 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$13[FORCECANCEL,{}]]
+2016/01/15 18:43:30.773 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@3f7e1629, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b09, defaultHandler, Outservice]
+2016/01/15 18:43:30.773 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$31[OUTSERVICE,{}]]
+2016/01/15 18:43:30.773 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@d63a89bf, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b0a, defaultHandler, Inservice]
+2016/01/15 18:43:30.773 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$30[INSERVICE,{}]]
+2016/01/15 18:43:30.773 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@9a5345c1, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b0b, defaultHandler, EndAffinity]
+2016/01/15 18:43:30.773 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$11[ENDAFFINITY,{}]]
+2016/01/15 18:43:30.774 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@1d0e06d8, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b0c, defaultHandler, Scan]
+2016/01/15 18:43:30.774 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$29[SCAN,{}]]
+2016/01/15 18:43:30.774 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@fe1a3df1, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b0d, defaultHandler, Retract]
+2016/01/15 18:43:30.774 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$53[RETRACT,{}]]
+2016/01/15 18:43:30.774 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@439f3193, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b0e, defaultHandler, Publish]
+2016/01/15 18:43:30.774 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$52[PUBLISH,{}]]
+2016/01/15 18:43:30.774 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@e5811ecf, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b0f, defaultHandler, Release]
+2016/01/15 18:43:30.774 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$25[RELEASE,{}]]
+2016/01/15 18:43:30.775 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@bbb8e72a, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b10, defaultHandler, Acquire]
+2016/01/15 18:43:30.775 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$1[ACQUIRE,{}]]
+2016/01/15 18:43:30.775 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@a2a4abcf, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b11, defaultHandler, PurgeJVMClassCacheNoAutoStart]
+2016/01/15 18:43:30.775 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[PURGE,{AUTOSTARTST=DISABLED}]]
+2016/01/15 18:43:30.775 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@c8a5af39, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b12, defaultHandler, PurgeJVMClassCacheAutoStart]
+2016/01/15 18:43:30.775 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[PURGE,{AUTOSTARTST=ENABLED}]]
+2016/01/15 18:43:30.776 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@d759e024, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b13, defaultHandler, ForcePurgeJVMClassCacheNoAutoStart]
+2016/01/15 18:43:30.776 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[FORCEPURGE,{AUTOSTARTST=DISABLED}]]
+2016/01/15 18:43:30.776 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@2d3a91b9, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b14, defaultHandler, ForcePurgeJVMClassCacheAutoStart]
+2016/01/15 18:43:30.776 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[FORCEPURGE,{AUTOSTARTST=ENABLED}]]
+2016/01/15 18:43:30.776 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@363e505a, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b15, defaultHandler, PhaseOutJVMClassCacheNoAutoStart]
+2016/01/15 18:43:30.776 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[PHASEOUT,{AUTOSTARTST=DISABLED}]]
+2016/01/15 18:43:30.776 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@7f46aedb, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b16, defaultHandler, PhaseOutJVMClassCacheAutoStart]
+2016/01/15 18:43:30.777 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[PHASEOUT,{AUTOSTARTST=ENABLED}]]
+2016/01/15 18:43:30.777 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@ffbb2a33, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b18, defaultHandler, Switch]
+2016/01/15 18:43:30.777 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$40[SWITCH,{}]]
+2016/01/15 18:43:30.777 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@c0a40e0a, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b19, defaultHandler, AllStatistics]
+2016/01/15 18:43:30.778 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[STATISTICS,{ALL=null}]]
+2016/01/15 18:43:30.779 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@ef0df78b, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b1b, defaultHandler, ShutdownNormal]
+2016/01/15 18:43:30.779 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[SHUTDOWN,{NORMAL=null}]]
+2016/01/15 18:43:30.779 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@796095fe, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b1c, defaultHandler, ShutdownImmediate]
+2016/01/15 18:43:30.780 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[SHUTDOWN,{IMMEDIATE=null}]]
+2016/01/15 18:43:30.780 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@dace03c5, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b1d, defaultHandler, ShutdownTakeover]
+2016/01/15 18:43:30.780 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[SHUTDOWN,{TAKEOVER=null}]]
+2016/01/15 18:43:30.780 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@f0553430, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b1e, defaultHandler, SecurityRebuild]
+2016/01/15 18:43:30.780 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$38[SECREBUILD,{}]]
+2016/01/15 18:43:30.780 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@cbf5045b, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b1f, defaultHandler, SSLRebuild]
+2016/01/15 18:43:30.780 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$39[SSLREBUILD,{}]]
+2016/01/15 18:43:30.781 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@7364cf3b, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b20, defaultHandler, ResetTime]
+2016/01/15 18:43:30.781 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$37[RESETTIME,{}]]
+2016/01/15 18:43:30.781 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@19a2f90e, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b21, defaultHandler, DeleteShipped]
+2016/01/15 18:43:30.781 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$36[DELETSHIPPED,{}]]
+2016/01/15 18:43:30.781 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@e9f3c5c8, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b22, defaultHandler, ARMRestart]
+2016/01/15 18:43:30.781 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$35[ARMRESTART,{}]]
+2016/01/15 18:43:30.782 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@1fe033e2, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b23, defaultHandler, CloseWait]
+2016/01/15 18:43:30.782 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[CLOSE,{BUSY=WAIT}]]
+2016/01/15 18:43:30.782 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@c88e2cc8, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b24, defaultHandler, CloseNoWait]
+2016/01/15 18:43:30.783 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[CLOSE,{BUSY=NOWAIT}]]
+2016/01/15 18:43:30.783 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@e30933ba, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b25, defaultHandler, CloseForce]
+2016/01/15 18:43:30.783 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[CLOSE,{BUSY=FORCE}]]
+2016/01/15 18:43:30.783 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@10d28ed5, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b26, defaultHandler, Install]
+2016/01/15 18:43:30.783 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$15[INSTALL,{}]]
+2016/01/15 18:43:30.783 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@3b538165, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b27, defaultHandler, Open]
+2016/01/15 18:43:30.784 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$20[OPEN,{}]]
+2016/01/15 18:43:30.784 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@9d2afab9, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b30, defaultHandler, Deregister]
+2016/01/15 18:43:30.784 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$10[DEREGISTER,{}]]
+2016/01/15 18:43:30.784 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@16408a98, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b31, defaultHandler, Close]
+2016/01/15 18:43:30.784 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$7[CLOSE,{}]]
+2016/01/15 18:43:30.784 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@ad03c2df, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b32, defaultHandler, CloseImmediate]
+2016/01/15 18:43:30.784 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[IMMCLOSE,{}]]
+2016/01/15 18:43:30.785 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@f22742f, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b33, defaultHandler, Open]
+2016/01/15 18:43:30.785 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$20[OPEN,{}]]
+2016/01/15 18:43:30.785 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@136bc552, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b34, defaultHandler, Delete]
+2016/01/15 18:43:30.785 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$9[DELETE,{}]]
+2016/01/15 18:43:30.785 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@466263f7, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b35, defaultHandler, Close]
+2016/01/15 18:43:30.785 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$7[CLOSE,{}]]
+2016/01/15 18:43:30.786 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@91392a50, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b36, defaultHandler, Open]
+2016/01/15 18:43:30.786 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$20[OPEN,{}]]
+2016/01/15 18:43:30.787 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@ca354a3d, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b39, defaultHandler, Start]
+2016/01/15 18:43:30.788 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$44[START,{}]]
+2016/01/15 18:43:30.791 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@fcccca16, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b3a, defaultHandler, Drain]
+2016/01/15 18:43:30.791 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$45[DRAIN,{}]]
+2016/01/15 18:43:30.791 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@c421f150, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b3b, defaultHandler, Reset]
+2016/01/15 18:43:30.791 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$27[RESET,{}]]
+2016/01/15 18:43:30.792 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@71fa2ffc, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b3c, defaultHandler, Reset]
+2016/01/15 18:43:30.792 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$27[RESET,{}]]
+2016/01/15 18:43:30.792 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@ca9b34aa, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b3d, defaultHandler, Lock]
+2016/01/15 18:43:30.792 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$16[CSDLOCK,{}]]
+2016/01/15 18:43:30.792 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@48851b40, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b3e, defaultHandler, Unlock]
+2016/01/15 18:43:30.792 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$42[CSDUNLOCK,{}]]
+2016/01/15 18:43:30.958 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@df0d5624, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b4b, class, PhaseIn]
+2016/01/15 18:43:30.958 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$21[PHASEIN,{}]]
+2016/01/15 18:43:30.959 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@219abd39, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b69, class, DisableKillJVMServer]
+2016/01/15 18:43:30.959 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[DISABLE,{PURGETYPE=KILL}]]
+2016/01/15 18:43:30.959 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@c79948b2, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b6e, class, DisableForcePurgeJVMServer]
+2016/01/15 18:43:30.959 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[DISABLE,{PURGETYPE=FORCEPURGE}]]
+2016/01/15 18:43:30.959 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@4817233, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b73, class, DisablePurgeJVMServer]
+2016/01/15 18:43:30.959 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[DISABLE,{PURGETYPE=PURGE}]]
+2016/01/15 18:43:30.959 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@5879e916, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b78, class, DisablePhaseOutJVMServer]
+2016/01/15 18:43:30.959 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.actions.SimpleSystemManagerAction[DISABLE,{}]]
+2016/01/15 18:43:30.959 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@651d3159, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b7d, class, Available]
+2016/01/15 18:43:30.959 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$4[AVAILABLE,{}]]
+2016/01/15 18:43:30.960 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@ea302049, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b82, class, Unavailable]
+2016/01/15 18:43:30.960 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$41[UNAVAILABLE,{}]]
+2016/01/15 18:43:30.961 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@b989af2e, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b87, class, Start]
+2016/01/15 18:43:30.961 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$44[START,{}]]
+2016/01/15 18:43:30.961 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@99cfdc74, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b8d, class, Drain]
+2016/01/15 18:43:30.961 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$45[DRAIN,{}]]
+2016/01/15 18:43:30.961 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@f6c04a36, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b93, class, Stop]
+2016/01/15 18:43:30.961 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$46[STOP,{}]]
+2016/01/15 18:43:30.962 CET [1] > com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate@de44ef59, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b99, class, NewCopy]
+2016/01/15 18:43:30.962 CET [1] < com.ibm.cics.core.ui.editors.actions.CICSObjectSimpleActionDelegate.setInitializationData() [com.ibm.cics.sm.comm.SystemManagerActions$17[NEWCOPY,{}]]
+2016/01/15 18:43:30.962 CET [1] > com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction.setInitializationData() [com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction@b6449789, org.eclipse.core.internal.registry.ConfigurationElementHandle@10b9e, class, PROGRAM,program]
+2016/01/15 18:43:30.962 CET [1] - com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction.initialize() [PROGRAM, program]
+2016/01/15 18:43:30.962 CET [1] < com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction.setInitializationData()
+2016/01/15 18:43:30.962 CET [1] > com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction.setInitializationData() [com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction@cfbf354, org.eclipse.core.internal.registry.ConfigurationElementHandle@10ba3, class, TRANCLAS,transactionClass]
+2016/01/15 18:43:30.962 CET [1] - com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction.initialize() [TRANCLAS, transactionClass]
+2016/01/15 18:43:30.962 CET [1] < com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction.setInitializationData()
+2016/01/15 18:43:30.962 CET [1] > com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction.setInitializationData() [com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction@2a74cbf4, org.eclipse.core.internal.registry.ConfigurationElementHandle@10ba9, class, TRANCLAS,transactionClass]
+2016/01/15 18:43:30.962 CET [1] - com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction.initialize() [TRANCLAS, transactionClass]
+2016/01/15 18:43:30.962 CET [1] < com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction.setInitializationData()
+2016/01/15 18:43:30.962 CET [1] > com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction.setInitializationData() [com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction@4912d349, org.eclipse.core.internal.registry.ConfigurationElementHandle@10baf, class, TCPIPS,TCPIPService]
+2016/01/15 18:43:30.962 CET [1] - com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction.initialize() [TCPIPS, TCPIPService]
+2016/01/15 18:43:30.962 CET [1] < com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction.setInitializationData()
+2016/01/15 18:43:30.963 CET [1] > com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction.setInitializationData() [com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction@d3b79d5d, org.eclipse.core.internal.registry.ConfigurationElementHandle@10bb4, class, WEBSERV,webService]
+2016/01/15 18:43:30.963 CET [1] - com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction.initialize() [WEBSERV, webService]
+2016/01/15 18:43:30.963 CET [1] < com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction.setInitializationData()
+2016/01/15 18:43:30.963 CET [1] > com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction.setInitializationData() [com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction@d20b3f49, org.eclipse.core.internal.registry.ConfigurationElementHandle@10bb9, class, BUNDLE,bundle]
+2016/01/15 18:43:30.963 CET [1] - com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction.initialize() [BUNDLE, bundle]
+2016/01/15 18:43:30.963 CET [1] < com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction.setInitializationData()
+2016/01/15 18:43:30.963 CET [1] > com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction.setInitializationData() [com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction@7c17da63, org.eclipse.core.internal.registry.ConfigurationElementHandle@10bbe, class, PIPELINE,pipeline]
+2016/01/15 18:43:30.963 CET [1] - com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction.initialize() [PIPELINE, pipeline]
+2016/01/15 18:43:30.963 CET [1] < com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction.setInitializationData()
+2016/01/15 18:43:30.963 CET [1] > com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction.setInitializationData() [com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction@a415b931, org.eclipse.core.internal.registry.ConfigurationElementHandle@10bc3, class, URIMAP,URIMap]
+2016/01/15 18:43:30.963 CET [1] - com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction.initialize() [URIMAP, URIMap]
+2016/01/15 18:43:30.963 CET [1] < com.ibm.cics.core.ui.editors.actions.OpenRelatedCICSResourceAction.setInitializationData()
+2016/01/15 18:43:31.223 CET [48] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2016/01/15 18:43:31.223 CET [48] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2016/01/15 18:43:31.482 CET [48] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2016/01/15 18:43:31.482 CET [48] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2016/01/15 18:43:34.664 CET [1] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2016/01/15 18:43:34.664 CET [1] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2016/01/15 18:43:34.714 CET [1] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2016/01/15 18:43:34.714 CET [1] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2016/01/15 18:43:34.725 CET [1] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2016/01/15 18:43:34.725 CET [1] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2016/01/15 18:43:40.896 CET [79] An RSS feed "http://www.ibm.com/support/knowledgecenter/api/content/nl/en-us/rational_iea/com.ibm.iea.rdz/plugin_rss.xml" is malformed.  News from this site is temporarily unavailable. com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2016/01/15 18:43:41.622 CET [1] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2016/01/15 18:43:41.622 CET [1] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2016/01/15 18:43:41.680 CET [1] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2016/01/15 18:43:41.680 CET [1] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2016/01/15 18:43:41.710 CET [1] > com.ibm.cics.core.connections.AbstractConnectionProvider.updateConnectionParameters() [ConnectionParameters [
+	attributes={host=ZOS02.XACT.DK, port=4035},
+	connectionTypeId=com.ibm.ftt.cics.rse.RSE.connection,
+	id=zos02.xact.dk,
+	name=zos02.xact.dk
+]]
+2016/01/15 18:43:41.710 CET [1] > com.ibm.cics.core.comm.ConnectionRegistry.find() [com.ibm.ftt.cics.rse.RSE.connection]
+2016/01/15 18:43:41.710 CET [1] < com.ibm.cics.core.comm.ConnectionRegistry.find() [return: com.ibm.cics.core.comm.internal.ConnectionDescriptor[z/OS Remote System, com.ibm.ftt.cics.rse.RSE.connection]]
+2016/01/15 18:43:41.711 CET [1] > com.ibm.cics.core.connections.ConnectionWidgetManager.update() [com.ibm.cics.zos.comm.connection]
+2016/01/15 18:43:41.711 CET [1] < com.ibm.cics.core.connections.ConnectionWidgetManager.update() [com.ibm.cics.zos.comm.connection]
+2016/01/15 18:43:41.711 CET [1] < com.ibm.cics.core.connections.AbstractConnectionProvider.updateConnectionParameters() [ConnectionParameters [
+	attributes={host=ZOS02.XACT.DK, port=4035},
+	connectionTypeId=com.ibm.ftt.cics.rse.RSE.connection,
+	id=zos02.xact.dk,
+	name=zos02.xact.dk
+]]
+2016/01/15 18:43:43.983 CET [1]  com.ibm.cics.eclipse.common.AbstractContextManager.AbstractConnectionContextManager()<init>()
+2016/01/15 18:43:43.983 CET [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.zos.explorer.cancreatedataset.context]
+2016/01/15 18:43:43.983 CET [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.zos.explorer.cancreatedataset.context]
+2016/01/15 18:43:51.865 CET [37] > com.ibm.cics.bundle.core.AbstractModelManager.initialise()
+2016/01/15 18:43:51.865 CET [37] < com.ibm.cics.bundle.core.AbstractModelManager.initialise()
+2016/01/15 18:43:51.875 CET [37] > com.ibm.cics.appbinding.core.internal.ApplicationBindingModelManager.setBundleModelManager() [com.ibm.cics.bundle.core.internal.BundleModelManager@a2b82d40]
+2016/01/15 18:43:51.875 CET [37] < com.ibm.cics.appbinding.core.internal.ApplicationBindingModelManager.setBundleModelManager()
+2016/01/15 18:43:51.878 CET [37] > com.ibm.cics.bundle.core.AbstractModelManager.initialise()
+2016/01/15 18:43:51.878 CET [37] < com.ibm.cics.bundle.core.AbstractModelManager.initialise()
+2016/01/15 18:43:51.878 CET [37] > com.ibm.cics.bundle.core.AbstractModelManager.addListener() [com.ibm.cics.platform.core.internal.PlatformModelManager@f2bc9dd7]
+2016/01/15 18:43:51.878 CET [37] < com.ibm.cics.bundle.core.AbstractModelManager.addListener()
+2016/01/15 18:43:51.878 CET [37] > com.ibm.cics.bundle.core.AbstractModelManager.addListener() [com.ibm.cics.platform.core.internal.PlatformModelManager@f2bc9dd7]
+2016/01/15 18:43:51.878 CET [37] < com.ibm.cics.bundle.core.AbstractModelManager.addListener()
+2016/01/15 18:43:51.879 CET [37] > com.ibm.cics.appbinding.core.internal.ApplicationBindingModelManager.setPlatformModelManager() [com.ibm.cics.platform.core.internal.PlatformModelManager@f2bc9dd7]
+2016/01/15 18:43:51.879 CET [37] < com.ibm.cics.appbinding.core.internal.ApplicationBindingModelManager.setPlatformModelManager()
+2016/01/15 18:43:51.882 CET [37] > com.ibm.cics.bundle.core.AbstractModelManager.initialise()
+2016/01/15 18:43:51.882 CET [37] < com.ibm.cics.bundle.core.AbstractModelManager.initialise()
+2016/01/15 18:43:51.882 CET [37] > com.ibm.cics.bundle.core.AbstractModelManager.addListener() [com.ibm.cics.application.core.internal.ApplicationModelManager@fd3e19ce]
+2016/01/15 18:43:51.882 CET [37] < com.ibm.cics.bundle.core.AbstractModelManager.addListener()
+2016/01/15 18:43:51.882 CET [37] > com.ibm.cics.bundle.core.AbstractModelManager.addListener() [com.ibm.cics.application.core.internal.ApplicationModelManager@fd3e19ce]
+2016/01/15 18:43:51.882 CET [37] < com.ibm.cics.bundle.core.AbstractModelManager.addListener()
+2016/01/15 18:43:51.883 CET [37] > com.ibm.cics.appbinding.core.internal.ApplicationBindingModelManager.setApplicationModelManager() [com.ibm.cics.application.core.internal.ApplicationModelManager@fd3e19ce]
+2016/01/15 18:43:51.883 CET [37] < com.ibm.cics.appbinding.core.internal.ApplicationBindingModelManager.setApplicationModelManager()
+2016/01/15 18:43:51.883 CET [37] > com.ibm.cics.appbinding.core.internal.ApplicationBindingModelManager.initialise()
+2016/01/15 18:43:51.883 CET [37] > com.ibm.cics.bundle.core.AbstractModelManager.initialise()
+2016/01/15 18:43:51.883 CET [37] < com.ibm.cics.bundle.core.AbstractModelManager.initialise()
+2016/01/15 18:43:51.883 CET [37] > com.ibm.cics.bundle.core.AbstractModelManager.addListener() [com.ibm.cics.appbinding.core.internal.ApplicationBindingModelManager@615a7762]
+2016/01/15 18:43:51.883 CET [37] < com.ibm.cics.bundle.core.AbstractModelManager.addListener()
+2016/01/15 18:43:51.883 CET [37] > com.ibm.cics.bundle.core.AbstractModelManager.addListener() [com.ibm.cics.appbinding.core.internal.ApplicationBindingModelManager@615a7762]
+2016/01/15 18:43:51.883 CET [37] < com.ibm.cics.bundle.core.AbstractModelManager.addListener()
+2016/01/15 18:43:51.883 CET [37] > com.ibm.cics.bundle.core.AbstractModelManager.addListener() [com.ibm.cics.appbinding.core.internal.ApplicationBindingModelManager@615a7762]
+2016/01/15 18:43:51.883 CET [37] < com.ibm.cics.bundle.core.AbstractModelManager.addListener()
+2016/01/15 18:43:51.883 CET [37] > com.ibm.cics.bundle.core.AbstractModelManager.addListener() [com.ibm.cics.appbinding.core.internal.ApplicationBindingModelManager@615a7762]
+2016/01/15 18:43:51.883 CET [37] < com.ibm.cics.bundle.core.AbstractModelManager.addListener()
+2016/01/15 18:43:51.883 CET [37] < com.ibm.cics.appbinding.core.internal.ApplicationBindingModelManager.initialise()
+2016/01/15 18:43:51.887 CET [37] > com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup@a95602d8]
+2016/01/15 18:43:51.888 CET [37] < com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup()
+2016/01/15 18:43:51.888 CET [1] - com.ibm.cics.core.connections.internal.ConnectionsStartup.earlyStartup() [com.ibm.cics.core.connections.internal.ConnectionsStartup$1@799b779, org.eclipse.ui.internal.WorkbenchWindow@eb801f49]
+2016/01/15 18:43:51.892 CET [37]  com.ibm.cics.eclipse.common.AbstractContextManager.AbstractConnectionContextManager()<init>()
+2016/01/15 18:43:51.892 CET [37]  com.ibm.cics.eclipse.common.AbstractContextManager.BundleContextManager()<init>()
+2016/01/15 18:43:51.894 CET [1]  com.ibm.cics.eclipse.common.AbstractContextManager.AbstractConnectionContextManager()<init>()
+2016/01/15 18:43:51.894 CET [1]  com.ibm.cics.eclipse.common.AbstractContextManager.ConnectionContextManager()<init>()
+2016/01/15 18:43:51.895 CET [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.context]
+2016/01/15 18:43:51.895 CET [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecicsdef.context]
+2016/01/15 18:43:51.895 CET [1] > com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecpsmdef.context]
+2016/01/15 18:43:51.895 CET [1] < com.ibm.cics.eclipse.common.AbstractContextManager.deactivate() [com.ibm.cics.explorer.cancreatecpsmdef.context]
+2016/01/15 18:43:51.895 CET [1] < com.ibm.cics.core.ui.UIPlugin.init()
+2016/01/15 18:43:51.900 CET [1] @com.ibm.cics.explorer.developer.activity com.ibm.cics.explorer.Activator.setCapabilityDefaults()
+2016/01/15 18:43:51.900 CET [1] Setting preference defaults com.ibm.cics.explorer.Activator.setCapabilityDefaults()
+2016/01/15 18:43:51.917 CET [37] - com.ibm.cics.zos.model.ZOSConnectable.<init>() [com.ibm.cics.zos.model.ZOSConnectable@13200d39]
+2016/01/15 18:43:51.931 CET [1] Tables in registry: 131. 0 tables -> 0 categorized, 0 grouped, 0 individual. 37 tables -> 22 categorized, 0 grouped, 15 individual. 0 tables -> 0 categorized, 0 grouped, 0 individual. 0 tables -> 0 categorized, 0 grouped, 0 individual. No menus shown because perspective is: com.ibm.ftt.customizations.enterprise.perspective. Tables hidden by capabilities: [WLMATGRP, WLMGROUP, DB2CDEF, DBCTLSS, IPCONN, EVENT, MVSWLM, CONNECT, CONNDEF, PARTDEF, JRNLMODL, RQMDEF, JVMSVDEF, EJCOSE, STREAMNM, CICSPLEX, IPCONDEF, TRANDEF, TRANCLAS, WEBSVDEF, JVM, ENQMDEF, CSYSGRP, TSMODEL, TERMNL, DB2TDEF, TCPIPS, MAS, APPLDEF, CSYSDEF, URIMPDEF, WLMSPEC, TSQGBL, CMAS, PIPEDEF, JVMPROF, PROCDEF, CICSSTOR, TERMDEF, CPLEXDEF, LIBDSN, UOWENQ, BUNDDEF, LIBRARY, WLMAROUT, PRTNDEF, MGMTPART, PLATDEF, EVNTGBL, TCPDEF, MAPDEF, EJDJDEF, UOWLINK, WLMATRAN, MQCON, WLMAWDEF, DB2CONN, REQID, TYPTMDEF, PROGDEF, CMTCMDEF, SESSDEF, WLMAWTOR, WLMAWORK, MQCONN, TASKASSC, TSMDEF, LIBDEF, ATOMDEF, WLMAWAOR, EJCODEF, FILEDEF, LSRDEF, EXITGLUE, SYSDUMP, DOCDEF, CICSDSA, CLCACHE, MQCONDEF, WLMATAFF, MQINI, WLMATARG, WLMDEF, JRNLNAME, CMTCMLNK, PROFDEF, TRNCLDEF, HTASK, JVMPOOL, TDQDEF, JRNMDEF, TRANDUMP, EXITTRUE, DB2EDEF, RESGROUP, RESDESC].  com.ibm.cics.explorer.tables.ui.menus.DynamicViewsMenu.getContributionItems()
+2016/01/15 18:43:53.922 CET [1] Active perspective was null so menu was not populated. com.ibm.cics.explorer.tables.ui.menus.DynamicViewsMenu.getContributionItems()
+2016/01/15 18:43:54.087 CET [29] ! com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging() [java.net.UnknownHostException: <serverurl>]
+java.net.UnknownHostException: <serverurl>
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getInputStream(Unknown Source)
+	at java.net.HttpURLConnection.getResponseCode(Unknown Source)
+	at retrofit.client.UrlConnectionClient.readResponse(Unknown Source)
+	at retrofit.client.UrlConnectionClient.execute(Unknown Source)
+	at retrofit.RestAdapter$RestHandler.invokeRequest(Unknown Source)
+	at retrofit.RestAdapter$RestHandler.invoke(Unknown Source)
+	at com.sun.proxy.$Proxy18.isUserEnabled(Unknown Source)
+	at dk.xact.xatester.ui.license.LicenseChecker$2.load(Unknown Source)
+	at dk.xact.xatester.ui.license.LicenseChecker$2.load(Unknown Source)
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(Unknown Source)
+	at com.google.common.cache.LocalCache$Segment.loadSync(Unknown Source)
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(Unknown Source)
+	at com.google.common.cache.LocalCache$Segment.get(Unknown Source)
+	at com.google.common.cache.LocalCache.get(Unknown Source)
+	at com.google.common.cache.LocalCache.getOrLoad(Unknown Source)
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(Unknown Source)
+	at dk.xact.xatester.ui.license.LicenseChecker.getToken(Unknown Source)
+	at dk.xact.xatester.ui.license.LicenseChecker.updatePlatformAdapterRegistry(Unknown Source)
+	at dk.xact.xatester.ui.license.LicenseChecker.access$000(Unknown Source)
+	at dk.xact.xatester.ui.license.LicenseChecker$1.run(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Unknown Source)
+
+2016/01/15 18:43:54.221 CET [1] Tables in registry: 131. 0 tables -> 0 categorized, 0 grouped, 0 individual. 37 tables -> 22 categorized, 0 grouped, 15 individual. 0 tables -> 0 categorized, 0 grouped, 0 individual. 0 tables -> 0 categorized, 0 grouped, 0 individual. No menus shown because perspective is: com.ibm.ftt.projects.view.ui.views.perspective. Tables hidden by capabilities: [WLMATGRP, WLMGROUP, DB2CDEF, DBCTLSS, IPCONN, EVENT, MVSWLM, CONNECT, CONNDEF, PARTDEF, JRNLMODL, RQMDEF, JVMSVDEF, EJCOSE, STREAMNM, CICSPLEX, IPCONDEF, TRANDEF, TRANCLAS, WEBSVDEF, JVM, ENQMDEF, CSYSGRP, TSMODEL, TERMNL, DB2TDEF, TCPIPS, MAS, APPLDEF, CSYSDEF, URIMPDEF, WLMSPEC, TSQGBL, CMAS, PIPEDEF, JVMPROF, PROCDEF, CICSSTOR, TERMDEF, CPLEXDEF, LIBDSN, UOWENQ, BUNDDEF, LIBRARY, WLMAROUT, PRTNDEF, MGMTPART, PLATDEF, EVNTGBL, TCPDEF, MAPDEF, EJDJDEF, UOWLINK, WLMATRAN, MQCON, WLMAWDEF, DB2CONN, REQID, TYPTMDEF, PROGDEF, CMTCMDEF, SESSDEF, WLMAWTOR, WLMAWORK, MQCONN, TASKASSC, TSMDEF, LIBDEF, ATOMDEF, WLMAWAOR, EJCODEF, FILEDEF, LSRDEF, EXITGLUE, SYSDUMP, DOCDEF, CICSDSA, CLCACHE, MQCONDEF, WLMATAFF, MQINI, WLMATARG, WLMDEF, JRNLNAME, CMTCMLNK, PROFDEF, TRNCLDEF, HTASK, JVMPOOL, TDQDEF, JRNMDEF, TRANDUMP, EXITTRUE, DB2EDEF, RESGROUP, RESDESC].  com.ibm.cics.explorer.tables.ui.menus.DynamicViewsMenu.getContributionItems()
+2016/01/15 18:43:57.795 CET [55] > com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2016/01/15 18:43:57.795 CET [55] < com.ibm.cics.core.ui.editors.internal.OfflineEditorResourceChangeListener.resourceChanged()
+2016/01/15 18:43:57.818 CET [55] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@a31f6f71]]
+2016/01/15 18:43:57.819 CET [55] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2016/01/15 18:43:57.820 CET [55] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@a31f6f71]]
+2016/01/15 18:43:57.820 CET [55] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2016/01/15 18:43:57.820 CET [55] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@a31f6f71]]
+2016/01/15 18:43:57.820 CET [55] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2016/01/15 18:43:57.820 CET [55] > com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged() [org.eclipse.core.internal.events.ResourceChangeEvent[source=org.eclipse.core.internal.resources.Workspace@a31f6f71]]
+2016/01/15 18:43:57.820 CET [55] < com.ibm.cics.bundle.core.AbstractModelManager.resourceChanged()
+2016/01/15 18:43:57.867 CET [48] > Activator.start()
+2016/01/15 18:43:57.869 CET [48] > com.ibm.cics.bundle.core.AbstractModelManager.addListener() [com.ibm.cics.bundle.core.internal.BundleModelManager@a2b82d40]
+2016/01/15 18:43:57.869 CET [48] < com.ibm.cics.bundle.core.AbstractModelManager.addListener()
+2016/01/15 18:43:57.869 CET [48] > com.ibm.cics.bundle.core.AbstractModelManager.initialise()
+2016/01/15 18:43:57.869 CET [48] < com.ibm.cics.bundle.core.AbstractModelManager.initialise()
+2016/01/15 18:43:57.878 CET [48] > com.ibm.cics.bundle.core.AbstractModelManager.addListener() [com.ibm.cics.bundle.core.internal.BundleModelManager@a2b82d40]
+2016/01/15 18:43:57.878 CET [48] < com.ibm.cics.bundle.core.AbstractModelManager.addListener()
+2016/01/15 18:43:57.878 CET [48] > com.ibm.cics.bundle.core.AbstractModelManager.initialise()
+2016/01/15 18:43:57.878 CET [48] < com.ibm.cics.bundle.core.AbstractModelManager.initialise()
+2016/01/15 18:43:57.880 CET [48] > com.ibm.cics.bundle.core.AbstractModelManager.initialise()
+2016/01/15 18:43:57.880 CET [48] < com.ibm.cics.bundle.core.AbstractModelManager.initialise()
+2016/01/15 18:43:57.882 CET [48] > com.ibm.cics.bundle.core.AbstractModelManager.addListener() [com.ibm.cics.explorer.sdk.web.internal.OSGiApplicationProjectModelManager$OSGiApplicationProjectChangeListener@b993b1f1]
+2016/01/15 18:43:57.882 CET [48] < com.ibm.cics.bundle.core.AbstractModelManager.addListener()
+2016/01/15 18:43:58.953 CET [1] Could not create action delegate for id: com.ibm.datatools.optim.activity.activity.MyOptimSolutionsPulldownMenu com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2016/01/15 18:43:58.961 CET [1] ! com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging() [java.lang.NullPointerException]
+java.lang.NullPointerException
+	at org.eclipse.ui.internal.ShowInMenu.getSourcePart(Unknown Source)
+	at org.eclipse.ui.internal.ShowInMenu.fillMenu(Unknown Source)
+	at org.eclipse.ui.internal.ShowInMenu.fill(Unknown Source)
+	at org.eclipse.jface.action.MenuManager.doItemFill(Unknown Source)
+	at org.eclipse.jface.action.MenuManager.update(Unknown Source)
+	at org.eclipse.jface.action.MenuManager.updateAll(Unknown Source)
+	at org.eclipse.jface.action.MenuManager.update(Unknown Source)
+	at org.eclipse.jface.action.MenuManager.updateAll(Unknown Source)
+	at org.eclipse.jface.action.MenuManager.update(Unknown Source)
+	at org.eclipse.jface.action.MenuManager.updateAll(Unknown Source)
+	at com.ibm.datatools.optim.solutions.UpsellPluginActivator.updateActionBar(Unknown Source)
+	at com.ibm.datatools.optim.solutions.activity.MyOptimSolutionsPulldownMenu.updateActionLabelAndImage(Unknown Source)
+	at com.ibm.datatools.optim.solutions.activity.MyOptimSolutionsPulldownMenu.init(Unknown Source)
+	at org.eclipse.ui.internal.PluginAction.initDelegate(Unknown Source)
+	at org.eclipse.ui.internal.WWinPluginAction.initDelegate(Unknown Source)
+	at org.eclipse.ui.internal.PluginAction.createDelegate(Unknown Source)
+	at org.eclipse.ui.internal.WWinPluginAction.refreshActionList(Unknown Source)
+	at org.eclipse.ui.plugin.AbstractUIPlugin$1.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.jface.window.Window.runEventLoop(Unknown Source)
+	at org.eclipse.jface.window.Window.open(Unknown Source)
+	at org.eclipse.jface.dialogs.MessageDialog.open(Unknown Source)
+	at org.eclipse.jface.dialogs.MessageDialog.open(Unknown Source)
+	at org.eclipse.jface.dialogs.MessageDialog.openError(Unknown Source)
+	at dk.xact.xatester.ui.license.LicenseChecker.doShowError(Unknown Source)
+	at dk.xact.xatester.ui.license.LicenseChecker.access$400(Unknown Source)
+	at dk.xact.xatester.ui.license.LicenseChecker$3.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(Unknown Source)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$5.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+
+2016/01/15 18:44:11.100 CET [37] Bad extension specification com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2016/01/15 18:44:11.102 CET [37] startup class must implement org.eclipse.ui.IStartup com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2016/01/15 18:44:11.464 CET [1] ! com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging() [org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)]
+org.eclipse.swt.SWTException: Failed to execute runnable (java.lang.NullPointerException)
+	at org.eclipse.swt.SWT.error(Unknown Source)
+	at org.eclipse.swt.SWT.error(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.jface.window.Window.runEventLoop(Unknown Source)
+	at org.eclipse.jface.window.Window.open(Unknown Source)
+	at org.eclipse.jface.dialogs.MessageDialog.open(Unknown Source)
+	at org.eclipse.jface.dialogs.MessageDialog.open(Unknown Source)
+	at org.eclipse.jface.dialogs.MessageDialog.openError(Unknown Source)
+	at dk.xact.xatester.ui.license.LicenseChecker.doShowError(Unknown Source)
+	at dk.xact.xatester.ui.license.LicenseChecker.access$400(Unknown Source)
+	at dk.xact.xatester.ui.license.LicenseChecker$3.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(Unknown Source)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$5.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at com.ibm.datatools.quick.launch.ui.actions.AbstractCommandHandlerAction.execute(Unknown Source)
+	at com.ibm.datatools.quick.launch.ui.actions.AbstractCommandHandlerAction.run(Unknown Source)
+	at com.ibm.datatools.quick.launch.ui.actions.OpenQuickLaunchEditor$1.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	... 36 more
+java.lang.NullPointerException
+	at com.ibm.datatools.quick.launch.ui.actions.AbstractCommandHandlerAction.execute(Unknown Source)
+	at com.ibm.datatools.quick.launch.ui.actions.AbstractCommandHandlerAction.run(Unknown Source)
+	at com.ibm.datatools.quick.launch.ui.actions.OpenQuickLaunchEditor$1.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.jface.window.Window.runEventLoop(Unknown Source)
+	at org.eclipse.jface.window.Window.open(Unknown Source)
+	at org.eclipse.jface.dialogs.MessageDialog.open(Unknown Source)
+	at org.eclipse.jface.dialogs.MessageDialog.open(Unknown Source)
+	at org.eclipse.jface.dialogs.MessageDialog.openError(Unknown Source)
+	at dk.xact.xatester.ui.license.LicenseChecker.doShowError(Unknown Source)
+	at dk.xact.xatester.ui.license.LicenseChecker.access$400(Unknown Source)
+	at dk.xact.xatester.ui.license.LicenseChecker$3.run(Unknown Source)
+	at org.eclipse.swt.widgets.RunnableLock.run(Unknown Source)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Unknown Source)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Unknown Source)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(Unknown Source)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(Unknown Source)
+	at org.eclipse.ui.internal.Workbench$5.run(Unknown Source)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Unknown Source)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(Unknown Source)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(Unknown Source)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(Unknown Source)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.basicRun(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.run(Unknown Source)
+
+2016/01/15 18:44:59.794 CET [1] Referenced part does not exist yet: org.eclipse.help.ui.HelpView. com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()
+2016/01/15 18:45:00.106 CET [1] Tables in registry: 131. 0 tables -> 0 categorized, 0 grouped, 0 individual. 37 tables -> 22 categorized, 0 grouped, 15 individual. 0 tables -> 0 categorized, 0 grouped, 0 individual. 0 tables -> 0 categorized, 0 grouped, 0 individual. No menus shown because perspective is: org.eclipse.jdt.ui.JavaPerspective. Tables hidden by capabilities: [WLMATGRP, WLMGROUP, DB2CDEF, DBCTLSS, IPCONN, EVENT, MVSWLM, CONNECT, CONNDEF, PARTDEF, JRNLMODL, RQMDEF, JVMSVDEF, EJCOSE, STREAMNM, CICSPLEX, IPCONDEF, TRANDEF, TRANCLAS, WEBSVDEF, JVM, ENQMDEF, CSYSGRP, TSMODEL, TERMNL, DB2TDEF, TCPIPS, MAS, APPLDEF, CSYSDEF, URIMPDEF, WLMSPEC, TSQGBL, CMAS, PIPEDEF, JVMPROF, PROCDEF, CICSSTOR, TERMDEF, CPLEXDEF, LIBDSN, UOWENQ, BUNDDEF, LIBRARY, WLMAROUT, PRTNDEF, MGMTPART, PLATDEF, EVNTGBL, TCPDEF, MAPDEF, EJDJDEF, UOWLINK, WLMATRAN, MQCON, WLMAWDEF, DB2CONN, REQID, TYPTMDEF, PROGDEF, CMTCMDEF, SESSDEF, WLMAWTOR, WLMAWORK, MQCONN, TASKASSC, TSMDEF, LIBDEF, ATOMDEF, WLMAWAOR, EJCODEF, FILEDEF, LSRDEF, EXITGLUE, SYSDUMP, DOCDEF, CICSDSA, CLCACHE, MQCONDEF, WLMATAFF, MQINI, WLMATARG, WLMDEF, JRNLNAME, CMTCMLNK, PROFDEF, TRNCLDEF, HTASK, JVMPOOL, TDQDEF, JRNMDEF, TRANDUMP, EXITTRUE, DB2EDEF, RESGROUP, RESDESC].  com.ibm.cics.explorer.tables.ui.menus.DynamicViewsMenu.getContributionItems()
+2016/01/15 18:45:12.383 CET [1] Referenced part does not exist yet: org.eclipse.help.ui.HelpView. com.ibm.cics.eclipse.common.logging.ToJavaEclipseLogListener.logging()

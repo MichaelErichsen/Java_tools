@@ -1,0 +1,2167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<xsd:import namespace="http://www.w3.org/XML/1998/namespace"
+		schemaLocation="http://www.w3.org/2001/xml.xsd" />
+	<xsd:element name="GEDCOM">
+		<xsd:annotation>
+			<xsd:documentation>
+				GEDCOM Root. The root or container element for the
+				entire GEDCOM file. The first level of elements
+				contained in the GEDCOM element will be referred to as
+				"records," that is, a family record, individual record,
+				and so on
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="HeaderRec" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="FamilyRec" />
+				<xsd:element maxOccurs="unbounded" minOccurs="1"
+					ref="IndividualRec" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="EventRec" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="LDSOrdRec" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="ContactRec" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="SourceRec" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="RepositoryRec" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="GroupRec" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="HeaderRec">
+		<xsd:annotation>
+			<xsd:documentation>
+				Contains information about the creation and source of
+				the GEDCOM file.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="FileCreation" />
+				<xsd:element maxOccurs="1" minOccurs="0"
+					ref="Citation">
+					<xsd:annotation>
+						<xsd:documentation>
+							The citation is useful when all the data in
+							the file comes from a single source
+						</xsd:documentation>
+					</xsd:annotation>
+				</xsd:element>
+				<xsd:element ref="Submitter" />
+				<xsd:element maxOccurs="1" minOccurs="0" ref="Note" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="FamilyRec">
+		<xsd:annotation>
+			<xsd:documentation>
+				Family Record. Contains information about a family and
+				links to individuals who are family members and to
+				events that justify the formation structure of a family.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:annotation>
+				<xsd:documentation>
+					Contains information about a family and links to
+					individuals who are family members and to events
+					that justify the formation structure of a family.
+				</xsd:documentation>
+			</xsd:annotation>
+			<xsd:sequence>
+				<xsd:element maxOccurs="1" minOccurs="0" ref="HusbFath" />
+				<xsd:element maxOccurs="1" minOccurs="0" ref="WifeMoth" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Child" />
+				<xsd:element maxOccurs="1" minOccurs="0" ref="BasedOn" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="ExternalID" />
+				<xsd:element maxOccurs="1" minOccurs="0"
+					ref="Submitter" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Note" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Evidence" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Enrichment" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Changed" />
+			</xsd:sequence>
+			<xsd:attribute name="Id" type="xsd:ID" use="required">
+				<xsd:annotation>
+					<xsd:documentation>
+						A unique alphanumeric value used to identify and
+						link records. This value must be unique across
+						all records of all types within an XML file.
+						Since this identifier may not be unique across
+						other GEDCOM files or genealogical systems, it
+						would not normally be used as the key value in
+						the importing system. It may be kept as an
+						external ID for the sake of communicating about
+						specific records with the submitter.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="IndividualRec">
+		<xsd:annotation>
+			<xsd:documentation>
+				Individual Record. Contains information about an
+				Individual.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="IndivName" />
+				<xsd:element maxOccurs="1" minOccurs="0" ref="Gender" />
+				<xsd:element maxOccurs="1" minOccurs="0"
+					ref="DeathStatus" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="PersInfo" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="AssocIndiv" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="DupIndiv" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="ExternalID" />
+				<xsd:element maxOccurs="1" minOccurs="0"
+					ref="Submitter" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Note" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Evidence" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Enrichment" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Changed" />
+			</xsd:sequence>
+			<xsd:attribute name="Id" type="xsd:ID" use="required">
+				<xsd:annotation>
+					<xsd:documentation>
+						A unique alphanumeric value used to identify and
+						link records. This value must be unique across
+						all records of all types within an XML file.
+						Since this identifier may not be unique across
+						other GEDCOM files or genealogical systems, it
+						would not normally be used as the key value in
+						the importing system. It may be kept as an
+						external ID for the sake of communicating about
+						specific records with the submitter.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="EventRec">
+		<xsd:annotation>
+			<xsd:documentation>
+				Event Record. Contains information about an event and
+				links to related records (participants, evidence and
+				enrichment sources, submitter).
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element maxOccurs="unbounded" minOccurs="1"
+					ref="Participant" />
+				<xsd:element maxOccurs="1" minOccurs="0" ref="Date" />
+				<xsd:element maxOccurs="1" minOccurs="0" ref="Place" />
+				<xsd:element maxOccurs="1" minOccurs="0" ref="Religion" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="ExternalID" />
+				<xsd:element maxOccurs="1" minOccurs="0"
+					ref="Submitter" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Note" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Evidence" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Enrichment" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Changed" />
+			</xsd:sequence>
+			<xsd:attribute name="Id" type="xsd:ID" use="required">
+				<xsd:annotation>
+					<xsd:documentation>
+						A unique alphanumeric value used to identify and
+						link records. This value must be unique across
+						all records of all types within an XML file.
+						Since this identifier may not be unique across
+						other GEDCOM files or genealogical systems, it
+						would not normally be used as the key value in
+						the importing system. It may be kept as an
+						external ID for the sake of communicating about
+						specific records with the submitter.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="EventType" use="required">
+				<xsd:annotation>
+					<xsd:documentation>
+						A large number of different types of events are
+						worth recording. Some, such as birth, are
+						important to genealogy. Others, such as Eagle
+						Scout court of honor, are primarily of social or
+						historical interest. The following are common
+						values and should be used whenever appropriate:
+
+						birth death marriage annulment baptism
+						baptism-LDS bar mitzvah bas mitzvah blessing
+						burial census christening christening-adult
+						confirmation confirmation-LDS cremation divorce
+						divorce filed emigration endowment engagement
+						first communion graduation immigration marriage
+						banns marriage contract marriage license
+						marriage settlement naturalization ordination
+						probate retirement will
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:enumeration value="birth" />
+						<xsd:enumeration value="death" />
+						<xsd:enumeration value="marriage" />
+						<xsd:enumeration value="annulment" />
+						<xsd:enumeration value="baptism" />
+						<xsd:enumeration value="baptism-LDS" />
+						<xsd:enumeration value="bar mitzvah" />
+						<xsd:enumeration value="bas mitzvah" />
+						<xsd:enumeration value="blessing" />
+						<xsd:enumeration value="burial" />
+						<xsd:enumeration value="census" />
+						<xsd:enumeration value="christening" />
+						<xsd:enumeration value="christening-adult" />
+						<xsd:enumeration value="confirmation" />
+						<xsd:enumeration value="confirmation-LDS" />
+						<xsd:enumeration value="cremation" />
+						<xsd:enumeration value="divorce" />
+						<xsd:enumeration value="divorce filed" />
+						<xsd:enumeration value="emigration" />
+						<xsd:enumeration value="endowment" />
+						<xsd:enumeration value="engagement" />
+						<xsd:enumeration value="first communion" />
+						<xsd:enumeration value="graduation" />
+						<xsd:enumeration value="immigration" />
+						<xsd:enumeration value="marriage banns" />
+						<xsd:enumeration value="marriage contract" />
+						<xsd:enumeration value="marriage license" />
+						<xsd:enumeration value="marriage settlement" />
+						<xsd:enumeration value="naturalization" />
+						<xsd:enumeration value="ordination" />
+						<xsd:enumeration value="probate" />
+						<xsd:enumeration value="retirement" />
+						<xsd:enumeration value="will" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+			<xsd:attribute name="VitalType" use="optional">
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:enumeration value="birth" />
+						<xsd:enumeration value="marriage" />
+						<xsd:enumeration value="diverce" />
+						<xsd:enumeration value="death" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="LDSOrdRec">
+		<xsd:annotation>
+			<xsd:documentation>
+				LDS Ordinance Record. This element contains information
+				about an LDS ordinance, links to the Individual
+				participants, and links to the events that justify it.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element maxOccurs="unbounded" minOccurs="1"
+					ref="Participant" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="OrdStat" />
+				<xsd:element maxOccurs="1" minOccurs="0"
+					ref="TempleCode" />
+				<xsd:element maxOccurs="1" minOccurs="0" ref="Date" />
+				<xsd:element maxOccurs="1" minOccurs="0" ref="Place" />
+				<xsd:element maxOccurs="1" minOccurs="0" ref="BasedOn" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="ExternalID" />
+				<xsd:element maxOccurs="1" minOccurs="0"
+					ref="Submitter" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Note" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Evidence" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Enrichment" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Changed" />
+			</xsd:sequence>
+			<xsd:attribute name="Id" type="xsd:ID" use="required">
+				<xsd:annotation>
+					<xsd:documentation>
+						A unique alphanumeric value used to identify and
+						link records. This value must be unique across
+						all records of all types within an XML file.
+						Since this identifier may not be unique across
+						other GEDCOM files or genealogical systems, it
+						would not normally be used as the key value in
+						the importing system. It may be kept as an
+						external ID for the sake of communicating about
+						specific records with the submitter.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+
+			<xsd:attribute name="LDSOrdType" use="required">
+				<xsd:annotation>
+					<xsd:documentation>
+						The type of ordinance. Valid values are:
+
+						B = Baptism C = Confirmation E = Endowment SM =
+						Sealing to spouse and marriage SP = Sealing to
+						parents SS = Sealing to spouse W = Initiatory
+						ordinances
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:enumeration value="B" />
+						<xsd:enumeration value="C" />
+						<xsd:enumeration value="E" />
+						<xsd:enumeration value="SM" />
+						<xsd:enumeration value="SP" />
+						<xsd:enumeration value="SS" />
+						<xsd:enumeration value="TO" />
+						<xsd:enumeration value="W" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ContactRec">
+		<xsd:annotation>
+			<xsd:documentation>
+				Contact Record. Contains information about a person or
+				organization that can be contacted for various reasons.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="Name" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="MailAddress" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Phone" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Email" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="URI" />
+				<xsd:element maxOccurs="1" minOccurs="0" ref="Public" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Note" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Changed" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="SameIndiv" />
+			</xsd:sequence>
+			<xsd:attribute name="Id" type="xsd:ID" use="required">
+				<xsd:annotation>
+					<xsd:documentation>
+						A unique alphanumeric value used to identify and
+						link records. This value must be unique across
+						all records of all types within an XML file.
+						Since this identifier may not be unique across
+						other GEDCOM files or genealogical systems, it
+						would not normally be used as the key value in
+						the importing system. It may be kept as an
+						external ID for the sake of communicating about
+						specific records with the submitter.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="ContactType" type="xsd:string"
+				use="optional">
+				<xsd:annotation>
+					<xsd:documentation>
+						The types of contacts are:
+
+						person business organization
+
+						Since this is not critical genealogical data,
+						other contact types may be added as needed.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="SourceRec">
+		<xsd:annotation>
+			<xsd:documentation>
+				Source Record. Contains information about a source. A
+				source can be printed, audio, video, computerized, or
+				any kind of material or media.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Repository" />
+				<xsd:element ref="Title" />
+				<xsd:element maxOccurs="1" minOccurs="0" ref="Article" />
+				<xsd:element maxOccurs="1" minOccurs="0" ref="Author" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="URI" />
+				<xsd:element maxOccurs="1" minOccurs="0"
+					ref="Publishing" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Note" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Changed" />
+			</xsd:sequence>
+			<xsd:attribute name="Id" type="xsd:ID" use="required">
+				<xsd:annotation>
+					<xsd:documentation>
+						A unique alphanumeric value used to identify and
+						link records. This value must be unique across
+						all records of all types within an XML file.
+						Since this identifier may not be unique across
+						other GEDCOM files or genealogical systems, it
+						would not normally be used as the key value in
+						the importing system. It may be kept as an
+						external ID for the sake of communicating about
+						specific records with the submitter.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+
+			<xsd:attribute name="SourceType" type="xsd:string"
+				use="optional">
+				<xsd:annotation>
+					<xsd:documentation>
+						Indicates the type of media of the source, such
+						as videotape, CD, magazine, book, and so on.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="language">
+				<xsd:annotation>
+					<xsd:documentation>
+						xml:lang The language of the source using the
+						standard XML language codes.
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:pattern value="[a-z]{2}(-[A-Z]{2})" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="RepositoryRec">
+		<xsd:annotation>
+			<xsd:documentation>
+				Repository Record. Contains information about a facility
+				that houses a source or sources.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="Name" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="MailAddress" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Phone" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Email" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="URI" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Note" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Changed" />
+			</xsd:sequence>
+			<xsd:attribute name="Id" type="xsd:ID" use="required">
+				<xsd:annotation>
+					<xsd:documentation>
+						A unique alphanumeric value used to identify and
+						link records. This value must be unique across
+						all records of all types within an XML file.
+						Since this identifier may not be unique across
+						other GEDCOM files or genealogical systems, it
+						would not normally be used as the key value in
+						the importing system. It may be kept as an
+						external ID for the sake of communicating about
+						specific records with the submitter.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+
+			<xsd:attribute name="RepositoryType" type="xsd:string"
+				use="optional">
+				<xsd:annotation>
+					<xsd:documentation>
+						The type of repository. For example:
+
+						library government home
+
+						Additional types may be appropriate.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="GroupRec">
+		<xsd:annotation>
+			<xsd:documentation>
+				Contains information about any group of people. A group
+				can be of genealogical, historical, or general interest.
+				Examples of groups that might be useful in genealogy
+				research are households and neighborhoods as found in a
+				census. A biological or legal traditional family
+				(father, mother, children) is documented in a Family
+				record rather than a Group record. Family-like groups
+				such as communes, orphanages, group homes, and so on are
+				documented here.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="Name" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Contact" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Member" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="ParentGroup" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="MailAddress" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Phone" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Email" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="URI" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="ExternalID" />
+				<xsd:element maxOccurs="1" minOccurs="0"
+					ref="Submitter" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Note" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Evidence" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Enrichment" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Changed" />
+			</xsd:sequence>
+			<xsd:attribute name="Id" type="xsd:ID" use="required">
+				<xsd:annotation>
+					<xsd:documentation>
+						A unique alphanumeric value used to identify and
+						link records. This value must be unique across
+						all records of all types within an XML file.
+						Since this identifier may not be unique across
+						other GEDCOM files or genealogical systems, it
+						would not normally be used as the key value in
+						the importing system. It may be kept as an
+						external ID for the sake of communicating about
+						specific records with the submitter.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+
+			<xsd:attribute name="GroupType" type="xsd:string"
+				use="optional">
+				<xsd:annotation>
+					<xsd:documentation>
+						Since groups are not core genealogical data and
+						there are an unlimited number of group types,
+						this value is not controlled
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Addressee" type="xsd:string">
+		<xsd:annotation>
+			<xsd:documentation>
+				The name of the person to whom correspondence is sent as
+				it would appear in the mailing address, such as: Mr.
+				John J. Jones, Jr.
+
+			</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AddrLine">
+		<xsd:annotation>
+			<xsd:documentation>
+				One line of a mailing address as it would appear on the
+				envelope.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType mixed="true">
+			<xsd:choice maxOccurs="unbounded" minOccurs="0">
+				<xsd:element name="ALString" type="xsd:string" />
+				<xsd:element ref="Addressee" />
+				<xsd:element ref="PlacePart" />
+			</xsd:choice>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Age">
+		<xsd:annotation>
+			<xsd:documentation>
+				A person's age in the format YY y MM m DD d, where YY is
+				the full number of years, MM is the number of months,
+				and DD is the number of days. For example, 26 y 4 m 21
+				d. If only years is specified, the "y" is not needed.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:string">
+				<xsd:pattern value="\d+\s*y?\s*\d*\s*m?\s*\d*\s*d?" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:element>
+	<xsd:element name="Article" type="xsd:string">
+		<xsd:annotation>
+			<xsd:documentation>
+				The title of an article from a larger publication, such
+				as a newspaper, magazine, and so on, as used in a
+				citation.
+			</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="Association" type="xsd:string">
+		<xsd:annotation>
+			<xsd:documentation>
+				The way in which associated individuals are connected,
+				such as &quot;brother in law,&quot; &quot;long time
+				friend,&quot; &quot;godfather,&quot; and so on. The
+				association is in terms of the association of the linked
+				individual to the referencing individual. For example in
+				a godfather/godson association, if the reference is in
+				the child's record, the association is
+				&quot;godfather.&quot;
+			</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="AssocIndiv">
+		<xsd:annotation>
+			<xsd:documentation>
+				Contains descriptive data and a link from an individual
+				to another individual who is in some way associated.
+				This is meant to document associations or relationships
+				between Individuals that cannot be documented in the
+				normal lineage relationships.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="Link" />
+				<xsd:element ref="Association" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Note" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Citation" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Author" type="xsd:string">
+		<xsd:annotation>
+			<xsd:documentation>
+				The name of the author of a book, article, recording,
+				and so on.
+			</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="BasedOn">
+		<xsd:annotation>
+			<xsd:documentation>
+				Descriptive information and a link to an event, which
+				justifies creating a family, placing an individual in a
+				family, or performing an ordinance.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Link" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Note" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="CallNbr" type="xsd:string">
+		<xsd:annotation>
+			<xsd:documentation>
+				A reference number or code used to file and retrieve a
+				source in a specific repository.
+			</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="Caption" type="xsd:string">
+		<xsd:annotation>
+			<xsd:documentation>
+				Explanatory comment accompanying a multimedia object,
+				particularly a picture, which is displayed with the
+				object.
+			</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="Changed">
+		<xsd:annotation>
+			<xsd:documentation>
+				Information on when and by whom a record was changed.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element maxOccurs="1" minOccurs="0" ref="Contact" />
+				<xsd:element maxOccurs="1" minOccurs="0" ref="Note" />
+			</xsd:sequence>
+			<xsd:attribute name="ChangedDate" use="required">
+				<xsd:annotation>
+					<xsd:documentation>
+						The date the record was changed in this format:
+
+						DD MMM YYYY.
+
+						(one or two digit day, 3 letter month
+						abbreviation in upper case, and 4 digit year,
+						using the Gregorian calendar. For example, 3 MAR
+						1842 or 14 JAN 1890.)
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:pattern
+							value="(0[1-9]|[1-2][0-9]|3[01])\s(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)\s\d+" />
+
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+			<xsd:attribute name="ChangedTime" use="required">
+				<xsd:annotation>
+					<xsd:documentation>
+						The time at which the record was changed in
+						24-hour clock format, including hours, minutes,
+						and optionally seconds, separated by a colon
+						(:). Fractions of seconds are shown in decimal
+						notation.
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:pattern
+							value="(([0-1]?[0-9])|([2][0-3])):([0-5]?[0-9])(:([0-5]?[0-9])(\.\d+)?)?" />
+
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Child">
+		<xsd:annotation>
+			<xsd:documentation>
+				Contains information about a child within a family and a
+				link to the individual who is the child.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="Link" />
+				<xsd:element maxOccurs="1" minOccurs="0" ref="ChildNbr" />
+				<xsd:element maxOccurs="1" minOccurs="0"
+					ref="RelToFath" />
+				<xsd:element maxOccurs="1" minOccurs="0"
+					ref="RelToMoth" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ChildNbr" type="xsd:int">
+		<xsd:annotation>
+			<xsd:documentation>
+				A number indicating the order of children in a family,
+				&quot;1&quot; being the oldest child, and so on.
+				Generally used when birth dates are not known but the
+				order of birth is known.
+			</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="Citation">
+		<xsd:annotation>
+			<xsd:documentation>
+				Contains information about a source citation and a link
+				to the source.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="Link" />
+				<xsd:element maxOccurs="1" minOccurs="0" ref="Caption" />
+				<xsd:element maxOccurs="1" minOccurs="0"
+					ref="WhereInSource" />
+				<xsd:element maxOccurs="1" minOccurs="0"
+					ref="WhenRecorded" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Extract" />
+				<xsd:element maxOccurs="unbounded" minOccurs="0"
+					ref="Note" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Contact">
+		<xsd:annotation>
+			<xsd:documentation>
+				Link to a contact person or organization.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="Link" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Coordinates">
+		<xsd:annotation>
+			<xsd:documentation>
+				The latitude and longitude of a place, separated by a
+				space, in degrees and decimal fractions of degrees, such
+				as: N35.6756 W67.8967.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:string">
+				<xsd:pattern value="(N|S)\d+\.?\d*\s(E|W)\d+\.?\d*" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:element>
+	<xsd:element name="Copyright" type="xsd:string">
+		<xsd:annotation>
+			<xsd:documentation>
+				A statement that data is copyrighted and the owner of
+				the copyright.
+			</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FileCreation">
+		<xsd:annotation>
+			<xsd:documentation>
+				Contains information about the creation of the GEDCOM
+				file containing this element.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="Product" maxOccurs="1" minOccurs="0" />
+
+				<xsd:element ref="Copyright" maxOccurs="1"
+					minOccurs="0" />
+
+			</xsd:sequence>
+			<xsd:attribute name="FileCreationDate">
+				<xsd:annotation>
+					<xsd:documentation>
+						The date the record was changed in the format:
+
+						DD MMM YYYY
+
+						(one or two digit day, 3 letter month
+						abbreviation in upper case, and 4 digit year,
+						using the Gregorian calendar). For example, 3
+						MAR 1832 or 23 APR 1923.
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:pattern
+							value="(0[1-9]|[1-2][0-9]|3[01])\s(JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)\s\d+" />
+
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+			<xsd:attribute name="FileCreationTime">
+				<xsd:annotation>
+					<xsd:documentation>
+						The time at which the record was changed in
+						24-hour clock format, including hours, minutes,
+						and optionally seconds, separated by a colon
+						(:). Fractions of seconds are shown in decimal
+						notation.
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:pattern
+							value="(([0-1]?[0-9])|([2][0-3])):([0-5]?[0-9])(:([0-5]?[0-9])(\.\d+)?)?" />
+
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Submitter">
+		<xsd:annotation>
+			<xsd:documentation>
+				Contains a link to the person who submitted information.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="Link" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Note">
+		<xsd:annotation>
+			<xsd:documentation>
+				Text giving a short explanation of an unusual
+				circumstance or an interesting fact. Extensive material,
+				such as a life story, should be contained in a source
+				(which may be a publication or a URI to a word
+				processing document).
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:attribute name="language">
+				<xsd:annotation>
+					<xsd:documentation>
+						xml:lang Standard XML language attribute
+						indicating the language of the extracted text.
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:pattern value="[a-z]{2}(-[A-Z]{2})" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="HusbFath">
+		<xsd:annotation>
+			<xsd:documentation>
+				Contains information about a husband or father in a
+				family, including a link to the individual record of the
+				father. The tag HusbFath is used rather than Husband
+				alone or Father alone, since some husbands are not
+				fathers and some fathers are not husbands.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="Link" />
+				<xsd:element ref="FamilyNbr" maxOccurs="1"
+					minOccurs="0" />
+
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="WifeMoth">
+		<xsd:annotation>
+			<xsd:documentation>
+				This element contains information and a link to the
+				individual record of the wife or mother in a family
+				record.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="Link" />
+				<xsd:element ref="FamilyNbr" maxOccurs="1"
+					minOccurs="0" />
+
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ExternalID">
+		<xsd:annotation>
+			<xsd:documentation>
+				This element contains information about a record ID for
+				this record from some other system. It can be useful in
+				accurately identifying a record when communicating with
+				the user of the other system.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:attribute name="ExternalIdType">
+				<xsd:annotation>
+					<xsd:documentation>
+						This indicates which system produced the
+						external ID. Valid values are:
+
+						User = Unique identifier generated by the
+						originator of the GEDCOM file, whether computer
+						or manually assigned. A manual identifier could
+						be something like a document description, page,
+						and line number.
+
+						AFN = Identifier of this record in the Ancestral
+						File of The Church of Jesus Christ of Latter-
+						day Saints.
+
+						Over time, other values can be added as needed
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:enumeration value="user" />
+						<xsd:enumeration value="AFN" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+			<xsd:attribute name="Id" type="xsd:ID" use="required">
+				<xsd:annotation>
+					<xsd:documentation>
+						A unique alphanumeric value used to identify and
+						link records. This value must be unique across
+						all records of all types within an XML file.
+						Since this identifier may not be unique across
+						other GEDCOM files or genealogical systems, it
+						would not normally be used as the key value in
+						the importing system. It may be kept as an
+						external ID for the sake of communicating about
+						specific records with the submitter.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Evidence">
+		<xsd:annotation>
+			<xsd:documentation>
+				A citation of source material that provides evidence to
+				support conclusions and actions, such as the formation
+				of a family, the performance of an LDS ordinance, the
+				creation of an individual record, and so on.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="Citation" maxOccurs="unbounded"
+					minOccurs="0" />
+
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Enrichment">
+		<xsd:annotation>
+			<xsd:documentation>
+				A citation of source material that provides interesting
+				or useful information but is not evidence to support
+				conclusions.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="Citation" maxOccurs="unbounded"
+					minOccurs="0" />
+
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="IndivName">
+		<xsd:annotation>
+			<xsd:documentation>
+				A person's full name as it is normally written in his
+				culture, or for translated names, in the natural order
+				of the culture into which it is being translated. The
+				name may contain titles, prefixes, suffixes, or whatever
+				is normally included in a personal name within a
+				culture. Tags within the name (NamePart and Level)
+				identify recognizable parts of a name, such as surname
+				and title.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+
+			<xsd:choice maxOccurs="unbounded" minOccurs="1">
+				<xsd:element name="INString" type="xsd:string" />
+				<xsd:element ref="NamePart" />
+				<xsd:element ref="IndivNameVariation" />
+			</xsd:choice>
+			<xsd:attribute name="IndNameType">
+				<xsd:annotation>
+					<xsd:documentation>
+						Valid values are:
+
+						nickname alias aka married maiden
+
+						Others that prove useful may be used.
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:enumeration value="given" />
+						<xsd:enumeration value="nickname" />
+						<xsd:enumeration value="alias" />
+						<xsd:enumeration value="aka" />
+						<xsd:enumeration value="married" />
+						<xsd:enumeration value="maiden" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+			<xsd:attribute name="IndNameMethod" type="xsd:string">
+				<xsd:annotation>
+					<xsd:documentation>
+						Some translations can be done in more than one
+						way. This specifies which variation was used.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="language">
+				<xsd:annotation>
+					<xsd:documentation>
+						xml:lang Standard XML language attribute
+						indicating the language of the extracted text.
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:pattern value="[a-z]{2}(-[A-Z]{2})" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Gender">
+		<xsd:annotation>
+			<xsd:documentation>
+				An individual's gender. The valid values are:
+
+				F = Female M = Male U = Unknown
+			</xsd:documentation>
+		</xsd:annotation>
+
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:string">
+				<xsd:enumeration value="F" />
+				<xsd:enumeration value="M" />
+				<xsd:enumeration value="U" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:element>
+	<xsd:element name="DeathStatus">
+		<xsd:annotation>
+			<xsd:documentation>
+				An indicator in the individual record that the person is
+				dead. Valid values are:
+
+				dead stillborn infant child
+
+				When a person is known to be dead, but no events
+				establish the death, this indicator allows proper
+				handling of ordinances that depend on age at death.
+				&quot;Infant&quot; indicates a death before a child is
+				one year old; &quot;child&quot; indicates a death before
+				age eight.
+			</xsd:documentation>
+		</xsd:annotation>
+
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:string">
+				<xsd:enumeration value="dead" />
+				<xsd:enumeration value="stillborn" />
+				<xsd:enumeration value="infant" />
+				<xsd:enumeration value="child" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:element>
+	<xsd:element name="PersInfo">
+		<xsd:annotation>
+			<xsd:documentation>
+				This element contains text describing an individual
+				which is not core genealogical data but is interesting
+				or useful in research. Examples might be a residence, an
+				occupation, military service, unusual physical
+				characteristics, and so on. Date and place elements are
+				allowed in personal information. A residence, for
+				example, would include a place and a date.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="Information" maxOccurs="1"
+					minOccurs="0" />
+
+				<xsd:element ref="Date" maxOccurs="1" minOccurs="0" />
+				<xsd:element ref="Place" maxOccurs="1" minOccurs="0" />
+			</xsd:sequence>
+			<xsd:attribute name="PIType">
+				<xsd:annotation>
+					<xsd:documentation>
+						Indicates the type of personal information
+						contained in the element. The possibilities are
+						unlimited, but the following are common
+						examples:
+
+						occupation residence attribute (meaning physical
+						attribute, such as height) military education
+						nationality SSN (meaning social security number)
+						national ID marriage (information about and
+						number of marriages) children (information about
+						and number of children) property religion title
+						(meaning nobility title)
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:enumeration value="occupation" />
+						<xsd:enumeration value="residence" />
+						<xsd:enumeration value="attribute" />
+						<xsd:enumeration value="military" />
+						<xsd:enumeration value="education" />
+						<xsd:enumeration value="nationality" />
+						<xsd:enumeration value="SSN" />
+						<xsd:enumeration value="national ID" />
+						<xsd:enumeration value="marriage" />
+						<xsd:enumeration value="children" />
+						<xsd:enumeration value="property" />
+						<xsd:enumeration value="religion" />
+						<xsd:enumeration value="title" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="DupIndiv">
+		<xsd:annotation>
+			<xsd:documentation>
+				This element contains information about and a link to
+				another individual record for a person who appears to be
+				the same person.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="Link" />
+				<xsd:element ref="Note" maxOccurs="unbounded"
+					minOccurs="0" />
+
+				<xsd:element ref="Citation" maxOccurs="unbounded"
+					minOccurs="0" />
+
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Participant">
+		<xsd:annotation>
+			<xsd:documentation>
+				Information about and a link to an individual who
+				participated in an event or LDS ordinance.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="Link" />
+				<xsd:element ref="Role" maxOccurs="1" minOccurs="0" />
+				<xsd:element ref="Living" maxOccurs="1" minOccurs="0" />
+				<xsd:element ref="Age" maxOccurs="1" minOccurs="0" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Date">
+		<xsd:annotation>
+			<xsd:documentation>
+				In order to accommodate the complexities of historical
+				dates and partially known or approximate dates, the date
+				element must be flexible. However, wherever possible and
+				appropriate, dates should be in the form:
+
+				DD MMM YYYY
+
+				For example, 3 MAR 1832 or 23 APR 1923.
+
+				The following are standard qualifiers used for dates
+				(the qualifiers generally precede the date):
+
+				ABT = About, meaning the date is not exact (ABT 12 JUN
+				1842, ABT 1812). CAL = Calculated mathematically, for
+				example, from an event date and age. EST = Estimated
+				based on an algorithm using some other event date. AFT =
+				Event happened after the given date. BEF = Event
+				happened before the given date. BET = Event happened
+				some time between date 1 and date 2. (BET 12 MAR 1836
+				AND 06 MAY 1836) FROM = Indicates the beginning of a
+				happening or state. TO = Indicates the ending of a
+				happening or state.
+
+
+
+				Partial dates can be used, such as JUL 1856 or 1856.
+				These are equivalent to between (BET) dates. For
+				example, JUL 1856 is the same as BET 1 JUL 1856 AND 31
+				JUL 1856. Partial dates such as 17 MAR can be used, but
+				are less valuable.
+
+
+
+				To show date imprecision, MAY 1890 is better than ABT 12
+				MAY 1890 because ABT or EST do not have assigned limits.
+
+
+
+				The slash (/) year modifier can be used to show the
+				possible date alternatives for pre-1752 dates brought
+				about by changing the beginning of the year from March
+				to January in the English calendar, such as, 15 FEB
+				1699/00.
+
+
+
+				A &quot;B.C.&quot; appended to the date indicates a date
+				before the birth of Christ.
+
+				RegEx:
+
+
+
+
+				"(ABT|CAL|EST|AFT|BEF|BET|FROM|TO)?\s?\d*\s?(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)?\s?\d+/?\d*\s?((AND)\s(0[1-9]|[1-2][0-9]|3[01])?\s?(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)?\s?\d+\s)?(\sB.C.)?"
+				/>
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:restriction base="xsd:string">
+				<xsd:pattern
+					value="(ABT|CAL|EST|AFT|BEF|BET|FROM|TO)?\s?\d*\s?(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)?\s?\d+/?\d*\s?((AND)\s(0[1-9]|[1-2][0-9]|3[01])?\s?(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec|JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC)?\s?\d+\s)?(\sB.C.)?" />
+
+			</xsd:restriction>
+			<xsd:attribute name="Calendar">
+				<xsd:annotation>
+					<xsd:documentation>
+						The calendar used for the given date. The valid
+						values are:
+
+						Gregorian Julian Hebrew French Roman unknown
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:enumeration value="Gregorian " />
+						<xsd:enumeration value="Julian" />
+						<xsd:enumeration value="Hebrew" />
+						<xsd:enumeration value="French" />
+						<xsd:enumeration value="Roman" />
+						<xsd:enumeration value="unknown" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Place">
+		<xsd:annotation>
+			<xsd:documentation>
+				The Place element contains information about the place
+				of an event or an LDS ordinance or personal information.
+				A place differs from a mailing address in several ways.
+				A mailing address is the necessary information on mail
+				to ensure successful delivery. A place refers to a
+				geographic location, perhaps as known at an earlier time
+				in history. It may have several translations or
+				variations to serve various people and uses. This
+				element contains a place-name, variations of the name,
+				and geographic coordinates. The place-name may be as
+				precise as a complete street address, but it is often
+				just the town, state or equivalent, and country.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="PlaceName" maxOccurs="1"
+					minOccurs="0" />
+
+				<xsd:element ref="Coordinates" maxOccurs="1"
+					minOccurs="0" />
+
+				<xsd:element ref="PlaceNameVar" maxOccurs="unbounded"
+					minOccurs="0" />
+
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Religion">
+		<xsd:annotation>
+			<xsd:documentation>
+				Specifies the sponsoring religion of a religious event.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType />
+	</xsd:element>
+	<xsd:element name="OrdStat">
+		<xsd:annotation>
+			<xsd:documentation>
+				Contains information about the status of an LDS
+				ordinance, including the date of the status change.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="Date" maxOccurs="1" minOccurs="0" />
+			</xsd:sequence>
+			<xsd:attribute name="OSCode">
+				<xsd:annotation>
+					<xsd:documentation>
+						A code indicating the status of an LDS
+						ordinance. Valid values are:
+
+						bic = Born in the covenant. canceled = An
+						ordinance was performed, but has been canceled.
+						cleared = The ordinance has been cleared to be
+						performed. completed = The ordinance has been
+						performed. dns = A sealing ordinance should not
+						be performed. qualified = An ordinance request
+						was qualified by authorized criteria. submitted
+						= An ordinance has been submitted. uncleared =
+						An ordinance was cleared, but the clearance has
+						been revoked.
+
+						The codes of child and stillborn which were used
+						in traditional GEDCOM are now contained in the
+						individual record.
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:enumeration value="bic" />
+						<xsd:enumeration value="canceled" />
+						<xsd:enumeration value="cleared" />
+						<xsd:enumeration value="completed" />
+						<xsd:enumeration value="dns" />
+						<xsd:enumeration value="qualified" />
+						<xsd:enumeration value="submitted" />
+						<xsd:enumeration value="uncleared" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="TempleCode" type="xsd:string">
+		<xsd:annotation>
+			<xsd:documentation>
+				The standard LDS temple code.
+			</xsd:documentation>
+		</xsd:annotation>
+
+	</xsd:element>
+	<xsd:element name="Name">
+		<xsd:annotation>
+			<xsd:documentation>
+				The name of anything other than an individual.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:attribute name="NType">
+				<xsd:annotation>
+					<xsd:documentation>
+						Type
+
+						The type of entity whose name is given. Possible
+						values are:
+
+						product person business organization government
+						agency
+
+						Other appropriate values may be used.
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:enumeration value="product" />
+						<xsd:enumeration value="person" />
+						<xsd:enumeration value="business" />
+						<xsd:enumeration value="organization" />
+						<xsd:enumeration value="government agency" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+			<xsd:attribute name="language">
+				<xsd:annotation>
+					<xsd:documentation>
+						xml:lang Standard XML language attribute
+						indicating the language of the extracted text.
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:pattern value="[a-z]{2}(-[A-Z]{2})" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="MailAddress">
+		<xsd:annotation>
+			<xsd:documentation>
+				A mailing address as it appears on a posted item. Can
+				include tags to mark the parts of the address, such as
+				country, city, and so on.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="AddrLine" maxOccurs="unbounded"
+					minOccurs="1" />
+
+			</xsd:sequence>
+			<xsd:attribute name="language">
+				<xsd:annotation>
+					<xsd:documentation>
+						xml:lang Standard XML language attribute
+						indicating the language of the extracted text.
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:pattern value="[a-z]{2}(-[A-Z]{2})" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Phone">
+		<xsd:annotation>
+			<xsd:documentation>A telephone number</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:attribute name="PType" type="xsd:string">
+				<xsd:annotation>
+					<xsd:documentation>
+						The type of phone, for example:
+
+						home business cell
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Email">
+		<xsd:annotation>
+			<xsd:documentation>
+				An electronic mail address.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:restriction base="xsd:string">
+				<xsd:pattern
+					value="[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}" />
+			</xsd:restriction>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="URI">
+		<xsd:annotation>
+			<xsd:documentation>
+				A Universal Resource Identifier as defined in World Wide
+				Web usage.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:restriction base="xsd:string">
+				<xsd:pattern
+					value="(http|https)\://[a-zA-Z0-9\-\.]+\.[a-zA-Z]{2,3}(/\S*)?" />
+			</xsd:restriction>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Public">
+		<xsd:annotation>
+			<xsd:documentation>
+				Indicates whether or not a contact has given permission
+				for his or her information to be made public. Valid
+				values are:
+
+				Y = Yes N = No
+
+				If no value is present, No is the default.
+			</xsd:documentation>
+		</xsd:annotation>
+
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:string">
+				<xsd:enumeration value="Y" />
+				<xsd:enumeration value="N" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:element>
+	<xsd:element name="SameIndiv">
+		<xsd:annotation>
+			<xsd:documentation>
+				Contains a link from an individual to another individual
+				who is thought to be the same person.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="Link" />
+				<xsd:element ref="Note" maxOccurs="unbounded"
+					minOccurs="0" />
+
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Repository">
+		<xsd:annotation>
+			<xsd:documentation>
+				Contains information about a repository that contains a
+				source, and the call number of the source within the
+				repository.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="Link" />
+				<xsd:element ref="CallNbr" maxOccurs="1" minOccurs="0" />
+
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Title" type="xsd:string">
+		<xsd:annotation>
+			<xsd:documentation>
+				The title of a source.
+			</xsd:documentation>
+		</xsd:annotation>
+
+	</xsd:element>
+	<xsd:element name="Publishing">
+		<xsd:annotation>
+			<xsd:documentation>
+				The Publishing element contains the customary publishing
+				information, such as publisher, publisher's location,
+				date of publication, and so forth.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType />
+	</xsd:element>
+	<xsd:element name="Member">
+		<xsd:annotation>
+			<xsd:documentation>
+				This element contains information about an Individual
+				who is a member of a group, including a link to the
+				individual record of the member.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="Link" />
+				<xsd:element ref="Role" maxOccurs="1" minOccurs="0" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="ParentGroup">
+		<xsd:annotation>
+			<xsd:documentation>
+				Contains information about the parent group (including a
+				link to the parent group, when the group is a member of
+				a larger group). For example, a household (considered as
+				a group of type &quot;household&quot;) in a census
+				belongs to a canvassing district (the parent group).
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element ref="Link" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="PlacePart">
+		<xsd:annotation>
+			<xsd:documentation>
+				A part of a place-name or address important enough to be
+				given recognition and meaning. For example, the name of
+				a city, state, region, country, tribe, and so on.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:attribute name="PPType" type="xsd:string">
+				<xsd:annotation>
+					<xsd:documentation>
+						The type of place-name part, such as city,
+						country, and so on. This method of handling
+						place-names makes them culturally neutral. The
+						type can be in any language and can conform to
+						any manner of geographic configuration. It
+						should be usable as a label that is meaningful
+						to the user.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="PPLevel">
+				<xsd:annotation>
+					<xsd:documentation>
+						The level is meant to give the order of
+						importance of place parts. Level 1 is the
+						largest geographic entity, and successive values
+						are for progressively smaller units. Level 1 is
+						reserved for the country (by whatever name) and
+						4 is reserved for the city or town level. Levels
+						2 and 3 are used for levels intermediate to
+						country and city or town, such as state and
+						county. Level 5 is reserved for a postal code.
+						Levels 6 and higher can be used for areas,
+						boroughs, neighborhoods, street names, or
+						whatever are useful place-names in a particular
+						place or culture. The basic purpose of the level
+						is to allow processing of place-names such as
+						sorting, indexing, searching, and so on.
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:int">
+						<xsd:minExclusive value="1" />
+						<xsd:maxExclusive value="7" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="Link">
+		<xsd:annotation>
+			<xsd:documentation>
+				Establishes a connection or link between two records.
+				The link is embedded in one record and references the
+				other.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:attribute name="Target" type="xsd:string">
+				<xsd:annotation>
+					<xsd:documentation>
+						The type of record being referenced.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="Ref" type="xsd:ID">
+				<xsd:annotation>
+					<xsd:documentation>
+						The record ID of the referenced record.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+	<xsd:element name="RelToFath">
+		<xsd:annotation>
+			<xsd:documentation>
+				Specifies the relationship a child has to the father in
+				a family. Valid values are:
+
+				biological adopted foster sealing
+
+				Other types of relationships might be documented if
+				useful. If no value is specified, biological is the
+				default.
+			</xsd:documentation>
+		</xsd:annotation>
+
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:string">
+				<xsd:enumeration value="biological" />
+				<xsd:enumeration value="adopted" />
+				<xsd:enumeration value="foster" />
+				<xsd:enumeration value="sealing" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:element>
+	<xsd:element name="RelToMoth">
+		<xsd:annotation>
+			<xsd:documentation>
+				Specifies the relationship a child has to the mother in
+				a family. Valid values are:
+
+				biological adopted foster sealing
+
+				Other types of relationships might be documented if
+				useful. If no value is specified, biological is the
+				default.
+			</xsd:documentation>
+		</xsd:annotation>
+
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:string">
+				<xsd:enumeration value="biological" />
+				<xsd:enumeration value="adopted" />
+				<xsd:enumeration value="foster" />
+				<xsd:enumeration value="sealing" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:element>
+	<xsd:element name="WhereInSource" type="xsd:string">
+		<xsd:annotation>
+			<xsd:documentation>
+				Gives where in a source the cited material is found,
+				such as &quot;p. 3, third paragraph&quot; or &quot;about
+				5 min. into the tape.&quot;
+			</xsd:documentation>
+		</xsd:annotation>
+
+	</xsd:element>
+	<xsd:element name="WhenRecorded" type="xsd:string">
+		<xsd:annotation>
+			<xsd:documentation>
+				The date on which cited material was recorded.
+			</xsd:documentation>
+		</xsd:annotation>
+
+	</xsd:element>
+	<xsd:element name="Extract">
+		<xsd:annotation>
+			<xsd:documentation>
+				Free form text copied verbatim from a source.
+				Interpretations, paraphrasing, observations, opinions,
+				and so on, should be placed in notes. Tags that allow
+				basic formatting (bolding, underlining, centering, and
+				so on) are allowed.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:attribute name="language">
+				<xsd:annotation>
+					<xsd:documentation>
+						xml:lang
+
+						Standard XML language attribute indicating the
+						language of the extracted text.
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:pattern value="[a-z]{2}(-[A-Z]{2})" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+
+		</xsd:complexType>
+	</xsd:element>
+
+
+	<xsd:element name="IndivNameVariation">
+		<xsd:annotation>
+			<xsd:documentation>
+				This element contains a variation of a name already
+				contained in an IndivName element, which is useful for
+				processing or handling the record. It is not meant to be
+				another name by which a person is known in the world.
+				Examples might be, standardized, nondiacritic,
+				translated, phonetic, Romanized, and so on.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+
+			<xsd:element name="NamePart" type="xsd:string" />
+			<xsd:choice maxOccurs="unbounded" minOccurs="1">
+				<xsd:element name="INVString" type="xsd:string" />
+				<xsd:element ref="NamePart" />
+			</xsd:choice>
+			<xsd:attribute name="INVType" type="xsd:string" />
+			<xsd:attribute name="INVMethod" type="xsd:string" />
+			<xsd:attribute name="language">
+				<xsd:annotation>
+					<xsd:documentation>
+						xml:lang Standard XML language attribute
+						indicating the language of the extracted text.
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:pattern value="[a-z]{2}(-[A-Z]{2})" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="Information" type="xsd:string">
+		<xsd:annotation>
+			<xsd:documentation>
+				Text describing an Individual's personal information.
+			</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+
+	<xsd:element name="Living">
+		<xsd:annotation>
+			<xsd:documentation>
+				Indicates whether a person was living when an ordinance
+				was performed. Valid values are:
+
+				Y = Yes N = No
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:simpleType>
+			<xsd:restriction base="xsd:string">
+				<xsd:enumeration value="Y" />
+				<xsd:enumeration value="N" />
+			</xsd:restriction>
+		</xsd:simpleType>
+	</xsd:element>
+
+	<xsd:element name="NamePart">
+		<xsd:annotation>
+			<xsd:documentation>
+				A part of an individual's name that is important enough
+				to be marked for meaning. It may be useful for sorting,
+				indexing, or searching for individuals.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+
+			<xsd:attribute name="NPType" type="xsd:string">
+				<xsd:annotation>
+					<xsd:documentation>
+						This is the type of the name part in the culture
+						of the intended audience. For example, in the
+						United States, the name part type may be
+						&quot;surname.&quot; In another language or
+						culture, the appropriate term for a family name
+						would be used. In non-European cultures, naming
+						customs may be very different. For example, in
+						Africa a person is given a &quot;day name&quot;
+						based on the day he was born. The name part
+						should be a term that would be appropriate as a
+						label in a user interface.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="NPLevel" type="xsd:int">
+				<xsd:annotation>
+					<xsd:documentation>
+						The level number gives an indication of meaning
+						and importance of the parts of a name. Because
+						of their importance in genealogy, a surname (or
+						equivalent) has a value of 1, a maiden name has
+						a value of 2, and a given name as used in the
+						temple is level 3. Other name parts can be given
+						numbers of 4 and above to indicate their
+						relative importance, with lower numbers being
+						considered more important. The level numbers can
+						be useful in sorting, indexing, and searching
+						names.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="PlaceName">
+		<xsd:annotation>
+			<xsd:documentation>
+				The PlaceName contains a name of a place. It may be a
+				translation of the local name. For example, an
+				English-speaking user with Japanese ancestors would
+				probably need to work with a translation of place-
+				names.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded" minOccurs="1">
+				<xsd:element name="PNString" type="xsd:string" />
+				<xsd:element ref="PlacePart" />
+			</xsd:choice>
+			<xsd:attribute name="PNType" type="xsd:string">
+				<xsd:annotation>
+					<xsd:documentation>
+						If a translated name, the type of translation.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="PNMethod" type="xsd:string">
+				<xsd:annotation>
+					<xsd:documentation>
+						The translation method within the translation
+						type, if appropriate.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="language">
+				<xsd:annotation>
+					<xsd:documentation>
+						xml:lang The language of the place-name in terms
+						of the XML standard language code
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:pattern value="[a-z]{2}(-[A-Z]{2})" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="PlaceNameVar">
+		<xsd:annotation>
+			<xsd:documentation>
+				Variations of a place-name due to differences in
+				language, changes over time, uncertainty, disagreement,
+				and so on.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:choice maxOccurs="unbounded" minOccurs="1">
+				<xsd:element name="PNVString" type="xsd:string" />
+				<xsd:element ref="PlacePart" />
+			</xsd:choice>
+			<xsd:attribute name="PNVType" type="xsd:string">
+				<xsd:annotation>
+					<xsd:documentation>
+						If a translated name, the type of translation.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="PNVMethod" type="xsd:string">
+				<xsd:annotation>
+					<xsd:documentation>
+						The translation method within the translation
+						type, if appropriate.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+			<xsd:attribute name="language">
+				<xsd:annotation>
+					<xsd:documentation>
+						xml:lang The language of the place-name in terms
+						of the XML standard language code
+					</xsd:documentation>
+				</xsd:annotation>
+				<xsd:simpleType>
+					<xsd:restriction base="xsd:string">
+						<xsd:pattern value="[a-z]{2}(-[A-Z]{2})" />
+					</xsd:restriction>
+				</xsd:simpleType>
+			</xsd:attribute>
+
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="Product">
+		<xsd:annotation>
+			<xsd:documentation>
+				This element contains information about the computer
+				software used to produce the GEDCOM file. It contains
+				the product name, version, and so on.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+
+
+				<xsd:element ref="ProductID" maxOccurs="1"
+					minOccurs="0" />
+				<xsd:element ref="Version" />
+				<xsd:element ref="Name" />
+				<xsd:element ref="Supplier" maxOccurs="1" minOccurs="0" />
+			</xsd:sequence>
+		</xsd:complexType>
+
+	</xsd:element>
+
+	<xsd:element name="ProductID" type="xsd:string">
+		<xsd:annotation>
+			<xsd:documentation>
+				The product ID is the common acronym by which a product
+				is known. For example, The Personal Ancestral File
+				system is known as PAF.
+			</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+
+	<xsd:element name="Version" type="xsd:string">
+		<xsd:annotation>
+			<xsd:documentation>
+				The version level of the product used to produce the
+				GEDCOM file.
+			</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+
+	<xsd:element name="Supplier">
+		<xsd:annotation>
+			<xsd:documentation>
+				Contains a link to the supplier of the product that
+				produced the GEDCOM file.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+			<xsd:sequence>
+
+				<xsd:element ref="Link" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="Role" type="xsd:string">
+		<xsd:annotation>
+			<xsd:documentation>
+				The role a participant played in an event or ordinance.
+				The significant roles for genealogy are father, mother,
+				child, husband, and wife. Some events or ordinances that
+				center on an individual do not have a natural name for
+				his or her role. For example, what is the role of a
+				person being baptized? In these cases, "principle" can
+				be used. The following are importance roles:
+
+				Birth, sealing to parents:
+
+				father mother child
+
+				Marriage, sealing to spouse:
+
+				husband wife
+
+				Baptism, endowment, initiatory:
+
+				principle
+
+				Roles are not limited to those listed. One might, for
+				example, record witnesses and officiators in ordinances.
+				In events, roles are very numerous.
+			</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="FamilyNbr">
+		<xsd:annotation>
+			<xsd:documentation>
+				Contains information about a family and links to
+				individuals who are family members and to events that
+				justify the formation structure of a family.
+			</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexType>
+
+			<xsd:attribute name="Id" type="xsd:ID" use="required">
+				<xsd:annotation>
+					<xsd:documentation>
+						A unique alphanumeric value used to identify and
+						link records. This value must be unique across
+						all records of all types within an XML file.
+						Since this identifier may not be unique across
+						other GEDCOM files or genealogical systems, it
+						would not normally be used as the key value in
+						the importing system. It may be kept as an
+						external ID for the sake of communicating about
+						specific records with the submitter.
+					</xsd:documentation>
+				</xsd:annotation>
+			</xsd:attribute>
+
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

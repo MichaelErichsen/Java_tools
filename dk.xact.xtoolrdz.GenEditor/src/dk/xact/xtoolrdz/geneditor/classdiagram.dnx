@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<?com.ibm.xtools.emf.core.signature <signature id="com.ibm.xtools.mmi.ui.signatures.diagram" version="7.0.0"><feature description="" name="Rational Modeling Platform (com.ibm.xtools.rmp)" url="" version="7.0.0"/></signature>?>
+<umlnotation:UMLDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.3/Umlnotation" xmi:id="_dNVi8JDsEeOH8YMEhMrVUg" type="Class" name="classdiagram.dnx">
+  <eAnnotations xmi:id="_dNVi8ZDsEeOH8YMEhMrVUg" source="com.ibm.xtools.common.ui.reduction.editingCapabilities">
+    <details xmi:id="_dNVi8pDsEeOH8YMEhMrVUg" key="com.ibm.xtools.activities.javaVisualizerActivity" value="1"/>
+  </eAnnotations>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_dhX5QJDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dhd_4JDsEeOH8YMEhMrVUg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_dhd_4ZDsEeOH8YMEhMrVUg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dhd_4pDsEeOH8YMEhMrVUg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dhd_45DsEeOH8YMEhMrVUg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dhd_5JDsEeOH8YMEhMrVUg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dhd_5ZDsEeOH8YMEhMrVUg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dhkGgJDsEeOH8YMEhMrVUg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dhkGgZDsEeOH8YMEhMrVUg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=PreferenceInitializer%5Bjcu%5Ename=PreferenceInitializer.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dhX5QZDsEeOH8YMEhMrVUg" x="35640" y="17160"/>
+  </children>
+  <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_dhkGgpDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dhkGhJDsEeOH8YMEhMrVUg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_dhkGhZDsEeOH8YMEhMrVUg" width="530" height="530"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dhqNIJDsEeOH8YMEhMrVUg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dhqNIZDsEeOH8YMEhMrVUg" type="Kind"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dhqNIpDsEeOH8YMEhMrVUg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dhqNI5DsEeOH8YMEhMrVUg" type="Parent"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_dhqNJJDsEeOH8YMEhMrVUg" type="AttributeCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_dhqNJZDsEeOH8YMEhMrVUg" type="OperationCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_dhqNJpDsEeOH8YMEhMrVUg" visible="false" type="SignalCompartment"/>
+    <element xmi:type="uml:Interface" href="mmi:///#jsrctype%5Ename=GenConstants%5Bjcu%5Ename=GenConstants.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D$uml.Interface"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dhkGg5DsEeOH8YMEhMrVUg" x="37224" y="25740"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_dhqNJ5DsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dhqNKZDsEeOH8YMEhMrVUg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_dhqNKpDsEeOH8YMEhMrVUg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dhqNK5DsEeOH8YMEhMrVUg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dhqNLJDsEeOH8YMEhMrVUg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dhqNLZDsEeOH8YMEhMrVUg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dhqNLpDsEeOH8YMEhMrVUg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dhqNL5DsEeOH8YMEhMrVUg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dhqNMJDsEeOH8YMEhMrVUg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=GenTagScanner%5Bjcu%5Ename=GenTagScanner.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dhqNKJDsEeOH8YMEhMrVUg" x="1320" y="17160"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_dhqNMZDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dhwTwJDsEeOH8YMEhMrVUg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_dhwTwZDsEeOH8YMEhMrVUg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dhwTwpDsEeOH8YMEhMrVUg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dhwTw5DsEeOH8YMEhMrVUg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dhwTxJDsEeOH8YMEhMrVUg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dhwTxZDsEeOH8YMEhMrVUg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dhwTxpDsEeOH8YMEhMrVUg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dhwTx5DsEeOH8YMEhMrVUg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=GenScanner%5Bjcu%5Ename=GenScanner.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dhqNMpDsEeOH8YMEhMrVUg" x="22704" y="16236"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_dhwTyJDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dhwTypDsEeOH8YMEhMrVUg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_dhwTy5DsEeOH8YMEhMrVUg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dhwTzJDsEeOH8YMEhMrVUg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dhwTzZDsEeOH8YMEhMrVUg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dhwTzpDsEeOH8YMEhMrVUg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dhwTz5DsEeOH8YMEhMrVUg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dh2aYJDsEeOH8YMEhMrVUg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dh2aYZDsEeOH8YMEhMrVUg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=PreferencePage%5Bjcu%5Ename=PreferencePage.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dhwTyZDsEeOH8YMEhMrVUg" x="44748" y="16500"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_dh2aYpDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dh2aZJDsEeOH8YMEhMrVUg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_dh2aZZDsEeOH8YMEhMrVUg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dh2aZpDsEeOH8YMEhMrVUg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dh2aZ5DsEeOH8YMEhMrVUg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dh2aaJDsEeOH8YMEhMrVUg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dh2aaZDsEeOH8YMEhMrVUg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dh2aapDsEeOH8YMEhMrVUg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dh2aa5DsEeOH8YMEhMrVUg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=GenPartitionScanner%5Bjcu%5Ename=GenPartitionScanner.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dh2aY5DsEeOH8YMEhMrVUg" x="30096" y="16764"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_dh2abJDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dh2abpDsEeOH8YMEhMrVUg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_dh2ab5DsEeOH8YMEhMrVUg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dh2acJDsEeOH8YMEhMrVUg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dh2acZDsEeOH8YMEhMrVUg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dh2acpDsEeOH8YMEhMrVUg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dh2ac5DsEeOH8YMEhMrVUg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dh2adJDsEeOH8YMEhMrVUg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dh2adZDsEeOH8YMEhMrVUg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=ColorManager%5Bjcu%5Ename=ColorManager.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dh2abZDsEeOH8YMEhMrVUg" x="24684" y="28776"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_dh2adpDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dh2aeJDsEeOH8YMEhMrVUg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_dh2aeZDsEeOH8YMEhMrVUg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dh2aepDsEeOH8YMEhMrVUg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dh2ae5DsEeOH8YMEhMrVUg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dh2afJDsEeOH8YMEhMrVUg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dh2afZDsEeOH8YMEhMrVUg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dh8hAJDsEeOH8YMEhMrVUg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dh8hAZDsEeOH8YMEhMrVUg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=GenConfiguration%5Bjcu%5Ename=GenConfiguration.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dh2ad5DsEeOH8YMEhMrVUg" x="15576" y="5544"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_dh8hApDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dh8hBJDsEeOH8YMEhMrVUg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_dh8hBZDsEeOH8YMEhMrVUg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dh8hBpDsEeOH8YMEhMrVUg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dh8hB5DsEeOH8YMEhMrVUg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dh8hCJDsEeOH8YMEhMrVUg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dh8hCZDsEeOH8YMEhMrVUg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dh8hCpDsEeOH8YMEhMrVUg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dh8hC5DsEeOH8YMEhMrVUg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=GenWhitespaceDetector%5Bjcu%5Ename=GenWhitespaceDetector.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dh8hA5DsEeOH8YMEhMrVUg" x="10692" y="29172"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_dh8hDJDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dh8hDpDsEeOH8YMEhMrVUg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_dh8hD5DsEeOH8YMEhMrVUg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dh8hEJDsEeOH8YMEhMrVUg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dh8hEZDsEeOH8YMEhMrVUg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_dh8hEpDsEeOH8YMEhMrVUg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dh8hE5DsEeOH8YMEhMrVUg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dh8hFJDsEeOH8YMEhMrVUg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_dh8hFZDsEeOH8YMEhMrVUg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=GenDoubleClickStrategy%5Bjcu%5Ename=GenDoubleClickStrategy.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dh8hDZDsEeOH8YMEhMrVUg" x="7128" y="16236"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_dh8hFpDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_diCnoJDsEeOH8YMEhMrVUg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_diCnoZDsEeOH8YMEhMrVUg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_diCnopDsEeOH8YMEhMrVUg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_diCno5DsEeOH8YMEhMrVUg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_diCnpJDsEeOH8YMEhMrVUg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_diCnpZDsEeOH8YMEhMrVUg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_diCnppDsEeOH8YMEhMrVUg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_diCnp5DsEeOH8YMEhMrVUg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=CaGenEditor%5Bjcu%5Ename=CaGenEditor.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dh8hF5DsEeOH8YMEhMrVUg" x="33396"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_diCnqJDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_diCnqpDsEeOH8YMEhMrVUg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_diCnq5DsEeOH8YMEhMrVUg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_diCnrJDsEeOH8YMEhMrVUg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_diCnrZDsEeOH8YMEhMrVUg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_diCnrpDsEeOH8YMEhMrVUg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_diCnr5DsEeOH8YMEhMrVUg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_diCnsJDsEeOH8YMEhMrVUg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_diCnsZDsEeOH8YMEhMrVUg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=GenWordDetector%5Bjcu%5Ename=GenWordDetector.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_diCnqZDsEeOH8YMEhMrVUg" x="17820" y="28908"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_diCnspDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_diCntJDsEeOH8YMEhMrVUg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_diCntZDsEeOH8YMEhMrVUg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_diCntpDsEeOH8YMEhMrVUg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_diCnt5DsEeOH8YMEhMrVUg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_diCnuJDsEeOH8YMEhMrVUg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_diCnuZDsEeOH8YMEhMrVUg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_diIuQJDsEeOH8YMEhMrVUg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_diIuQZDsEeOH8YMEhMrVUg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=Activator%5Bjcu%5Ename=Activator.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_diCns5DsEeOH8YMEhMrVUg" x="30756" y="27852"/>
+  </children>
+  <children xmi:type="umlnotation:UMLClassifierShape" xmi:id="_diIuQpDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label" useClassifierShape="true">
+    <children xmi:type="notation:DecorationNode" xmi:id="_diIuRJDsEeOH8YMEhMrVUg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_diIuRZDsEeOH8YMEhMrVUg" width="530" height="530"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_diIuRpDsEeOH8YMEhMrVUg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_diIuR5DsEeOH8YMEhMrVUg" type="Kind"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_diIuSJDsEeOH8YMEhMrVUg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_diIuSZDsEeOH8YMEhMrVUg" type="Parent"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_diIuSpDsEeOH8YMEhMrVUg" type="AttributeCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_diIuS5DsEeOH8YMEhMrVUg" type="OperationCompartment"/>
+    <children xmi:type="notation:SemanticListCompartment" xmi:id="_diIuTJDsEeOH8YMEhMrVUg" visible="false" type="SignalCompartment"/>
+    <element xmi:type="uml:Interface" href="mmi:///#jsrctype%5Ename=IGenColorConstants%5Bjcu%5Ename=IGenColorConstants.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D$uml.Interface"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_diIuQ5DsEeOH8YMEhMrVUg" y="28512"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_diIuTZDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_diIuT5DsEeOH8YMEhMrVUg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_diIuUJDsEeOH8YMEhMrVUg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_diIuUZDsEeOH8YMEhMrVUg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_diIuUpDsEeOH8YMEhMrVUg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_diIuU5DsEeOH8YMEhMrVUg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_diIuVJDsEeOH8YMEhMrVUg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_diIuVZDsEeOH8YMEhMrVUg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_diIuVpDsEeOH8YMEhMrVUg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=GenDocumentProvider%5Bjcu%5Ename=GenDocumentProvider.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_diIuTpDsEeOH8YMEhMrVUg" x="30360" y="8052"/>
+  </children>
+  <children xmi:type="umlnotation:UMLShape" xmi:id="_diIuV5DsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+    <children xmi:type="notation:DecorationNode" xmi:id="_diIuWZDsEeOH8YMEhMrVUg" type="ImageCompartment">
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_diIuWpDsEeOH8YMEhMrVUg" width="1320" height="1320"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_diIuW5DsEeOH8YMEhMrVUg" type="Stereotype"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_diIuXJDsEeOH8YMEhMrVUg" type="Name"/>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_diIuXZDsEeOH8YMEhMrVUg" type="Parent"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_diIuXpDsEeOH8YMEhMrVUg" visible="false" type="ANNOTATION_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_diO04JDsEeOH8YMEhMrVUg" type="ANNOTATED_ATTRIBUTE_COMPARTMENT"/>
+    <children xmi:type="notation:ListCompartment" xmi:id="_diO04ZDsEeOH8YMEhMrVUg" type="ANNOTATED_OPERATION_COMPARTMENT"/>
+    <element xmi:type="uml:Class" href="mmi:///#jsrctype%5Ename=NonRuleBasedDamagerRepairer%5Bjcu%5Ename=NonRuleBasedDamagerRepairer.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D$uml.Class"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_diIuWJDsEeOH8YMEhMrVUg" x="14520" y="15576"/>
+  </children>
+  <element xsi:nil="true"/>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvHaUJDsEeOH8YMEhMrVUg" source="_dhX5QJDsEeOH8YMEhMrVUg" target="_diCnspDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvNg8JDsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTnkJDsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTnkpDsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTnkZDsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvNg8ZDsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=PreferenceInitializer%5Bjcu%5Ename=PreferenceInitializer.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=Activator%5Bjcu%5Ename=Activator.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvHaUZDsEeOH8YMEhMrVUg" points="[26, 100, 4441, -8990]$[26, 4897, 4441, -4193]$[-4363, 4897, 52, -4193]$[-4363, 9090, 52, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d0vhMJDsEeOH8YMEhMrVUg" id="(0.33336979467378647,0.9439701173959426)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d0vhMZDsEeOH8YMEhMrVUg" id="(0.666838775951557,-8.20288344327331E-16)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvTnk5DsEeOH8YMEhMrVUg" source="_dhX5QJDsEeOH8YMEhMrVUg" target="_dhkGgpDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvTnlZDsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTnl5DsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTnmZDsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTnmJDsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvTnlpDsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=PreferenceInitializer%5Bjcu%5Ename=PreferenceInitializer.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GenConstants%5Bjcu%5Ename=GenConstants.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvTnlJDsEeOH8YMEhMrVUg" points="[52, 100, -834, -6913]$[52, 2252, -834, -4761]$[925, 2252, 39, -4761]$[925, 7013, 39, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d0vhMpDsEeOH8YMEhMrVUg" id="(0.666702940062067,0.9439701173959426)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d01n0JDsEeOH8YMEhMrVUg" id="(0.5001153227072864,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvTnmpDsEeOH8YMEhMrVUg" source="_dhqNJ5DsEeOH8YMEhMrVUg" target="_dh8hApDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvTnnJDsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTnnpDsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTnoJDsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTnn5DsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvTnnZDsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GenTagScanner%5Bjcu%5Ename=GenTagScanner.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GenWhitespaceDetector%5Bjcu%5Ename=GenWhitespaceDetector.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvTnm5DsEeOH8YMEhMrVUg" points="[39, 100, -9126, -10271]$[39, 5955, -9126, -4416]$[9192, 5955, 27, -4416]$[9192, 10371, 27, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d01n0ZDsEeOH8YMEhMrVUg" id="(0.5000661550674781,0.9439701173959426)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d01n0pDsEeOH8YMEhMrVUg" id="(0.3334819984322118,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvTnoZDsEeOH8YMEhMrVUg" source="_dhqNJ5DsEeOH8YMEhMrVUg" target="_dh2abJDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvTno5DsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTnpZDsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTnp5DsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTnppDsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvTnpJDsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GenTagScanner%5Bjcu%5Ename=GenTagScanner.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=ColorManager%5Bjcu%5Ename=ColorManager.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvTnopDsEeOH8YMEhMrVUg" points="[59, 100, -21391, -9940]$[59, 5426, -21391, -4614]$[21466, 5426, 16, -4614]$[21466, 10040, 16, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d01n05DsEeOH8YMEhMrVUg" id="(0.750066155067478,0.9439701173959426)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d01n1JDsEeOH8YMEhMrVUg" id="(0.20019354107281678,-1.4351001211407151E-15)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvTnqJDsEeOH8YMEhMrVUg" source="_dhqNJ5DsEeOH8YMEhMrVUg" target="_diIuQpDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvTnqpDsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTnrJDsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTnrpDsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTnrZDsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvTnq5DsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GenTagScanner%5Bjcu%5Ename=GenTagScanner.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=IGenColorConstants%5Bjcu%5Ename=IGenColorConstants.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvTnqZDsEeOH8YMEhMrVUg" points="[20, 100, -332, -9662]$[20, 2252, -332, -7510]$[405, 2252, 53, -7510]$[405, 9762, 53, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d01n1ZDsEeOH8YMEhMrVUg" id="(0.25006615506747815,0.9439701173959426)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d01n1pDsEeOH8YMEhMrVUg" id="(0.6666666666666666,-1.1769585270435824E-15)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvTnr5DsEeOH8YMEhMrVUg" source="_dhqNMZDsEeOH8YMEhMrVUg" target="_dhkGgpDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvTnsZDsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTns5DsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTntZDsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTntJDsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvTnspDsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GenScanner%5Bjcu%5Ename=GenScanner.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GenConstants%5Bjcu%5Ename=GenConstants.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvTnsJDsEeOH8YMEhMrVUg" points="[65, 102, -11885, -6108]$[65, 3036, -11885, -3174]$[11963, 3036, 13, -3174]$[11963, 6210, 13, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d01n15DsEeOH8YMEhMrVUg" id="(0.8333873535576096,0.96987087517934)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d01n2JDsEeOH8YMEhMrVUg" id="(0.16678215295226131,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvTntpDsEeOH8YMEhMrVUg" source="_dhqNMZDsEeOH8YMEhMrVUg" target="_dh8hApDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvTnuJDsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTnupDsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTnvJDsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTnu5DsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvTnuZDsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GenScanner%5Bjcu%5Ename=GenScanner.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GenWhitespaceDetector%5Bjcu%5Ename=GenWhitespaceDetector.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvTnt5DsEeOH8YMEhMrVUg" points="[13, 102, 9595, -9466]$[13, 5152, 9595, -4416]$[-9529, 5152, 53, -4416]$[-9529, 9568, 53, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d01n2ZDsEeOH8YMEhMrVUg" id="(0.16672054694217542,0.96987087517934)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d01n2pDsEeOH8YMEhMrVUg" id="(0.6668154613776623,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvTnvZDsEeOH8YMEhMrVUg" source="_dhqNMZDsEeOH8YMEhMrVUg" target="_diCnqJDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvTnv5DsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTnwZDsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTnw5DsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTnwpDsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvTnwJDsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GenScanner%5Bjcu%5Ename=GenScanner.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GenWordDetector%5Bjcu%5Ename=GenWordDetector.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvTnvpDsEeOH8YMEhMrVUg" points="[26, 102, 4143, -9228]$[26, 5681, 4143, -3649]$[-4077, 5681, 40, -3649]$[-4077, 9330, 40, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d01n25DsEeOH8YMEhMrVUg" id="(0.3333873535576096,0.96987087517934)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d01n3JDsEeOH8YMEhMrVUg" id="(0.5001542472090131,-1.5487351243472597E-15)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvTnxJDsEeOH8YMEhMrVUg" source="_dhqNMZDsEeOH8YMEhMrVUg" target="_dh2abJDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvTnxpDsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvTnyJDsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuMZDsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuMJDsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvTnx5DsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GenScanner%5Bjcu%5Ename=GenScanner.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=ColorManager%5Bjcu%5Ename=ColorManager.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvTnxZDsEeOH8YMEhMrVUg" points="[40, 102, -1172, -9135]$[40, 4094, -1172, -5143]$[1244, 4094, 32, -5143]$[1244, 9237, 32, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d07ucJDsEeOH8YMEhMrVUg" id="(0.5000537403267412,0.96987087517934)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d07ucZDsEeOH8YMEhMrVUg" id="(0.4001932373995854,-1.4351001211407151E-15)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvZuMpDsEeOH8YMEhMrVUg" source="_dhqNMZDsEeOH8YMEhMrVUg" target="_diCnspDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvZuNJDsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuNpDsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuOJDsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuN5DsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvZuNZDsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GenScanner%5Bjcu%5Ename=GenScanner.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=Activator%5Bjcu%5Ename=Activator.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvZuM5DsEeOH8YMEhMrVUg" points="[53, 102, -5575, -8185]$[53, 3565, -5575, -4722]$[5641, 3565, 13, -4722]$[5641, 8287, 13, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d07ucpDsEeOH8YMEhMrVUg" id="(0.6667205469421754,0.96987087517934)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d07uc5DsEeOH8YMEhMrVUg" id="(0.1668387759515571,-8.20288344327331E-16)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvZuOZDsEeOH8YMEhMrVUg" source="_dhwTyJDsEeOH8YMEhMrVUg" target="_diCnspDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvZuO5DsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuPZDsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuP5DsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuPpDsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvZuPJDsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=PreferencePage%5Bjcu%5Ename=PreferencePage.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=Activator%5Bjcu%5Ename=Activator.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvZuOpDsEeOH8YMEhMrVUg" points="[27, 102, 12358, -8422]$[27, 4860, 12358, -3664]$[-12265, 4860, 66, -3664]$[-12265, 8524, 66, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d07udJDsEeOH8YMEhMrVUg" id="(0.3333775185577943,0.9651162790697663)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d07udZDsEeOH8YMEhMrVUg" id="(0.8335054426182238,-8.20288344327331E-16)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvZuQJDsEeOH8YMEhMrVUg" source="_dhwTyJDsEeOH8YMEhMrVUg" target="_dhkGgpDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvZuQpDsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuRJDsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuRpDsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuRZDsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvZuQ5DsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=PreferencePage%5Bjcu%5Ename=PreferencePage.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GenConstants%5Bjcu%5Ename=GenConstants.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvZuQZDsEeOH8YMEhMrVUg" points="[53, 102, 6056, -6345]$[53, 5389, 6056, -1058]$[-5950, 5389, 53, -1058]$[-5950, 6447, 53, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d07udpDsEeOH8YMEhMrVUg" id="(0.6667108518911276,0.9651162790697663)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d07ud5DsEeOH8YMEhMrVUg" id="(0.6667821529522613,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvZuR5DsEeOH8YMEhMrVUg" source="_dh2adpDsEeOH8YMEhMrVUg" target="_dh2abJDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvZuSZDsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuS5DsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuTZDsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuTJDsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvZuSpDsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GenConfiguration%5Bjcu%5Ename=GenConfiguration.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=ColorManager%5Bjcu%5Ename=ColorManager.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvZuSJDsEeOH8YMEhMrVUg" points="[48, 104, -6906, -16506]$[48, 2325, -6906, -14285]$[7886, 2325, 932, -14285]$[7886, 11467, 932, -5143]$[7002, 11467, 48, -5143]$[7002, 16610, 48, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d07ueJDsEeOH8YMEhMrVUg" id="(0.6000766273306197,0.9845814977973568)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d07ueZDsEeOH8YMEhMrVUg" id="(0.600192933726354,-1.4351001211407151E-15)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvZuTpDsEeOH8YMEhMrVUg" source="_dh2adpDsEeOH8YMEhMrVUg" target="_dhkGgpDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvZuUJDsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuUpDsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuVJDsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuU5DsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvZuUZDsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GenConfiguration%5Bjcu%5Ename=GenConfiguration.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GenConstants%5Bjcu%5Ename=GenConstants.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvZuT5DsEeOH8YMEhMrVUg" points="[63, 104, -18203, -13479]$[63, 1267, -18203, -12316]$[7446, 1267, -10820, -12316]$[7446, 9351, -10820, -4232]$[18293, 9351, 27, -4232]$[18293, 13583, 27, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d07uepDsEeOH8YMEhMrVUg" id="(0.8000765247505253,0.9845814977973568)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d07ue5DsEeOH8YMEhMrVUg" id="(0.33344849246231156,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvZuVZDsEeOH8YMEhMrVUg" source="_dh2adpDsEeOH8YMEhMrVUg" target="_dhqNJ5DsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvZuV5DsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuWZDsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuW5DsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuWpDsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvZuWJDsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GenConfiguration%5Bjcu%5Ename=GenConfiguration.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GenTagScanner%5Bjcu%5Ename=GenTagScanner.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvZuVpDsEeOH8YMEhMrVUg" points="[16, 104, 13934, -4797]$[16, 1267, 13934, -3634]$[-13879, 1267, 39, -3634]$[-13879, 4901, 39, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d07ufJDsEeOH8YMEhMrVUg" id="(0.20007683249080882,0.9845814977973568)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d07ufZDsEeOH8YMEhMrVUg" id="(0.5000661550674781,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvZuXJDsEeOH8YMEhMrVUg" source="_dh2adpDsEeOH8YMEhMrVUg" target="_diIuQpDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvZuXpDsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuYJDsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuYpDsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuYZDsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvZuX5DsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GenConfiguration%5Bjcu%5Ename=GenConfiguration.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=IGenColorConstants%5Bjcu%5Ename=IGenColorConstants.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvZuXZDsEeOH8YMEhMrVUg" points="[8, 104, 15024, -16228]$[8, 738, 15024, -15594]$[-15549, 738, -533, -15594]$[-15549, 8822, -533, -7510]$[-14989, 8822, 27, -7510]$[-14989, 16332, 27, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1B1EJDsEeOH8YMEhMrVUg" id="(0.10007688378085586,0.9845814977973568)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1B1EZDsEeOH8YMEhMrVUg" id="(0.3333333333333333,-1.1769585270435824E-15)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvZuY5DsEeOH8YMEhMrVUg" source="_dh2adpDsEeOH8YMEhMrVUg" target="_diCnspDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvZuZZDsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuZ5DsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuaZDsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZuaJDsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvZuZpDsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GenConfiguration%5Bjcu%5Ename=GenConfiguration.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=Activator%5Bjcu%5Ename=Activator.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvZuZJDsEeOH8YMEhMrVUg" points="[55, 104, -11276, -15556]$[55, 1796, -11276, -13864]$[7666, 1796, -3665, -13864]$[7666, 9880, -3665, -5780]$[11357, 9880, 26, -5780]$[11357, 15660, 26, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1B1EpDsEeOH8YMEhMrVUg" id="(0.700076576040572,0.9845814977973568)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1B1E5DsEeOH8YMEhMrVUg" id="(0.3335054426182229,-8.20288344327331E-16)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvZuapDsEeOH8YMEhMrVUg" source="_dh2adpDsEeOH8YMEhMrVUg" target="_dhqNMZDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvZubJDsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvZubpDsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf00ZDsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf00JDsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvZubZDsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GenConfiguration%5Bjcu%5Ename=GenConfiguration.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GenScanner%5Bjcu%5Ename=GenScanner.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvZua5DsEeOH8YMEhMrVUg" points="[39, 104, -5700, -3991]$[39, 2854, -5700, -1241]$[5779, 2854, 40, -1241]$[5779, 4095, 40, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1B1FJDsEeOH8YMEhMrVUg" id="(0.5000766786206665,0.9845814977973568)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1B1FZDsEeOH8YMEhMrVUg" id="(0.5000537403267412,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvf00pDsEeOH8YMEhMrVUg" source="_dh2adpDsEeOH8YMEhMrVUg" target="_dh2aYpDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvf01JDsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf01pDsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf02JDsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf015DsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvf01ZDsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GenConfiguration%5Bjcu%5Ename=GenConfiguration.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GenPartitionScanner%5Bjcu%5Ename=GenPartitionScanner.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvf005DsEeOH8YMEhMrVUg" points="[71, 104, -9179, -4466]$[71, 738, -9179, -3832]$[9276, 738, 26, -3832]$[9276, 4570, 26, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1B1FpDsEeOH8YMEhMrVUg" id="(0.9000764734604779,0.9845814977973568)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1B1F5DsEeOH8YMEhMrVUg" id="(0.33338846994610566,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvf02ZDsEeOH8YMEhMrVUg" source="_dh2adpDsEeOH8YMEhMrVUg" target="_diIuV5DsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvf025DsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf03ZDsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf035DsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf03pDsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvf03JDsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GenConfiguration%5Bjcu%5Ename=GenConfiguration.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=NonRuleBasedDamagerRepairer%5Bjcu%5Ename=NonRuleBasedDamagerRepairer.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvf02pDsEeOH8YMEhMrVUg" points="[31, 104, 1065, -3279]$[31, 2325, 1065, -1058]$[-994, 2325, 40, -1058]$[-994, 3383, 40, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1B1GJDsEeOH8YMEhMrVUg" id="(0.4000767299107143,0.9845814977973568)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1B1GZDsEeOH8YMEhMrVUg" id="(0.5000405844155844,-3.70466273634594E-16)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvf04JDsEeOH8YMEhMrVUg" source="_dh2adpDsEeOH8YMEhMrVUg" target="_dh8hDJDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvf04pDsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf05JDsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf05pDsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf05ZDsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvf045DsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GenConfiguration%5Bjcu%5Ename=GenConfiguration.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GenDoubleClickStrategy%5Bjcu%5Ename=GenDoubleClickStrategy.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvf04ZDsEeOH8YMEhMrVUg" points="[24, 104, 8095, -3991]$[24, 1796, 8095, -2299]$[-8032, 1796, 39, -2299]$[-8032, 4095, 39, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1B1GpDsEeOH8YMEhMrVUg" id="(0.3000767812007611,0.9845814977973568)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1B1G5DsEeOH8YMEhMrVUg" id="(0.5000482532329666,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvf055DsEeOH8YMEhMrVUg" source="_dh8hFpDsEeOH8YMEhMrVUg" target="_dhkGgpDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvf06ZDsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf065DsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf07ZDsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf07JDsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvf06pDsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=CaGenEditor%5Bjcu%5Ename=CaGenEditor.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GenConstants%5Bjcu%5Ename=GenConstants.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvf06JDsEeOH8YMEhMrVUg" points="[68, 102, -5794, -22405]$[68, 736, -5794, -21771]$[13019, 736, 7157, -21771]$[13019, 21978, 7157, -529]$[5928, 21978, 66, -529]$[5928, 22507, 66, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1B1HJDsEeOH8YMEhMrVUg" id="(0.8572611565959409,0.96987087517934)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1B1HZDsEeOH8YMEhMrVUg" id="(0.8334484924623116,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvf07pDsEeOH8YMEhMrVUg" source="_dh8hFpDsEeOH8YMEhMrVUg" target="_diCnspDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvf08JDsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf08pDsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf09JDsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf085DsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvf08ZDsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=CaGenEditor%5Bjcu%5Ename=CaGenEditor.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=Activator%5Bjcu%5Ename=Activator.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvf075DsEeOH8YMEhMrVUg" points="[45, 102, 3578, -24482]$[45, 9662, 3578, -14922]$[-1225, 9662, 2308, -14922]$[-1225, 19862, 2308, -4722]$[-3493, 19862, 40, -4722]$[-3493, 24584, 40, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1H7sJDsEeOH8YMEhMrVUg" id="(0.5715463560885595,0.96987087517934)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1H7sZDsEeOH8YMEhMrVUg" id="(0.5001721092848904,-8.20288344327331E-16)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvf09ZDsEeOH8YMEhMrVUg" source="_dh8hFpDsEeOH8YMEhMrVUg" target="_diIuTZDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvf095DsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf0-ZDsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf0-5DsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf0-pDsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvf0-JDsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=CaGenEditor%5Bjcu%5Ename=CaGenEditor.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GenDocumentProvider%5Bjcu%5Ename=GenDocumentProvider.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvf09pDsEeOH8YMEhMrVUg" points="[34, 102, 2585, -4689]$[34, 1794, 2585, -2997]$[-2512, 1794, 39, -2997]$[-2512, 4791, 39, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1H7spDsEeOH8YMEhMrVUg" id="(0.4286893161900369,0.96987087517934)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1H7s5DsEeOH8YMEhMrVUg" id="(0.5001685583455734,-4.853226797080727E-16)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvf0_JDsEeOH8YMEhMrVUg" source="_dh8hFpDsEeOH8YMEhMrVUg" target="_dh2abJDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvf0_pDsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf1AJDsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf1ApDsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf1AZDsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvf0_5DsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=CaGenEditor%5Bjcu%5Ename=CaGenEditor.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=ColorManager%5Bjcu%5Ename=ColorManager.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvf0_ZDsEeOH8YMEhMrVUg" points="[23, 102, 7114, -25432]$[23, 1265, 7114, -24269]$[-5308, 1265, 1783, -24269]$[-5308, 20920, 1783, -4614]$[-7028, 20920, 63, -4614]$[-7028, 25534, 63, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1H7tJDsEeOH8YMEhMrVUg" id="(0.2858322762915129,0.96987087517934)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1H7tZDsEeOH8YMEhMrVUg" id="(0.800193136175174,-1.4351001211407151E-15)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvf1A5DsEeOH8YMEhMrVUg" source="_dh8hFpDsEeOH8YMEhMrVUg" target="_dhwTyJDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvf1BZDsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf1B5DsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf1CZDsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf1CJDsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvf1BpDsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=CaGenEditor%5Bjcu%5Ename=CaGenEditor.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=PreferencePage%5Bjcu%5Ename=PreferencePage.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvf1BJDsEeOH8YMEhMrVUg" points="[57, 102, -10327, -13155]$[57, 9662, -10327, -3595]$[10424, 9662, 40, -3595]$[10424, 13257, 40, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1H7tpDsEeOH8YMEhMrVUg" id="(0.7144041166974157,0.96987087517934)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1H7t5DsEeOH8YMEhMrVUg" id="(0.5000441852244609,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvf1CpDsEeOH8YMEhMrVUg" source="_dh8hFpDsEeOH8YMEhMrVUg" target="_dh2adpDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvf1DJDsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf1DpDsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf1EJDsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf1D5DsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvf1DZDsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=CaGenEditor%5Bjcu%5Ename=CaGenEditor.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GenConfiguration%5Bjcu%5Ename=GenConfiguration.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvf1C5DsEeOH8YMEhMrVUg" points="[11, 102, 14802, -2221]$[11, 736, 14802, -1587]$[-14752, 736, 39, -1587]$[-14752, 2323, 39, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1H7uJDsEeOH8YMEhMrVUg" id="(0.1429752363929876,0.96987087517934)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1H7uZDsEeOH8YMEhMrVUg" id="(0.5000769350709033,0.0)"/>
+  </edges>
+  <edges xmi:type="umlnotation:UMLConnector" xmi:id="_dvf1EZDsEeOH8YMEhMrVUg" source="_diIuTZDsEeOH8YMEhMrVUg" target="_dh2aYpDsEeOH8YMEhMrVUg" fontName="Segoe UI" fontHeight="8" roundedBendpointsRadius="4" routing="Rectilinear" lineColor="8421504" lineWidth="1" showStereotype="Text">
+    <children xmi:type="notation:DecorationNode" xmi:id="_dvf1E5DsEeOH8YMEhMrVUg" type="KindLabel">
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf1FZDsEeOH8YMEhMrVUg" type="Stereotype"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf1F5DsEeOH8YMEhMrVUg" type="Kind"/>
+      <children xmi:type="notation:BasicDecorationNode" xmi:id="_dvf1FpDsEeOH8YMEhMrVUg" type="Name"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dvf1FJDsEeOH8YMEhMrVUg" y="-186"/>
+    </children>
+    <element xmi:type="uml:Usage" href="mmi:///#jdep%5Bjsrctype%5Ename=GenDocumentProvider%5Bjcu%5Ename=GenDocumentProvider.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D%5Bjsrctype%5Ename=GenPartitionScanner%5Bjcu%5Ename=GenPartitionScanner.java%5Bjpack%5Ename=dk.xact.xtoolrdz.geneditor%5Bjsrcroot%5Esrcfolder=src%5Bproject%5Eid=dk.xact.xtoolrdz.GenEditor%5D%5D%5D%5D%5D$uml.Usage"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dvf1EpDsEeOH8YMEhMrVUg" points="[39, 100, 52, -6934]$[39, 7034, 52, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1H7upDsEeOH8YMEhMrVUg" id="(0.5001685583455734,0.9439701173959445)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d1H7u5DsEeOH8YMEhMrVUg" id="(0.6667219464914195,0.0)"/>
+  </edges>
+</umlnotation:UMLDiagram>

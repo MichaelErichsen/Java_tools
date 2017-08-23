@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <primitive>true</primitive>
+  <annotatorImplementationName>net.myerichsen.kermit.SourceAnnotator</annotatorImplementationName>
+  <analysisEngineMetaData>
+    <name>KermitSourceRecordAnnotator</name>
+    <description>Annotator to identify Source Records in probate extracts done by Kurt Kermit Nielsen and stored at http://www.kkermit.dk</description>
+    <version>23. 04. 2013</version>
+    <vendor>Michael Erichsen</vendor>
+    <configurationParameters>
+      <configurationParameter>
+        <name>Patterns</name>
+        <description>Patterns to parse probate extracts</description>
+        <type>String</type>
+        <multiValued>true</multiValued>
+        <mandatory>true</mandatory>
+      </configurationParameter>
+    </configurationParameters>
+    <configurationParameterSettings>
+      <nameValuePair>
+        <name>Patterns</name>
+        <value>
+          <array>
+            <string>Ekstrakt.*?&lt;/p&gt;</string>
+          </array>
+        </value>
+      </nameValuePair>
+    </configurationParameterSettings>
+    <typeSystemDescription>
+      <imports>
+        <import location="..\..\Records\GedcomTypeSystemDescriptor.xml"/>
+      </imports>
+    </typeSystemDescription>
+    <typePriorities/>
+    <fsIndexCollection/>
+    <capabilities>
+      <capability>
+        <inputs/>
+        <outputs>
+          <type allAnnotatorFeatures="true">net.myerichsen.gedcom.SourceRecType</type>
+        </outputs>
+        <languagesSupported/>
+      </capability>
+    </capabilities>
+    <operationalProperties>
+      <modifiesCas>true</modifiesCas>
+      <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </analysisEngineMetaData>
+  <resourceManagerConfiguration/>
+</analysisEngineDescription>

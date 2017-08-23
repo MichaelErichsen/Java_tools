@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/apache-uima/lib/jVinci.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/apache-uima/lib/uima-adapter-soap.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/apache-uima/lib/uima-adapter-vinci.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/apache-uima/lib/uima-cpe.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/apache-uima/lib/uima-document-annotation.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/apache-uima/lib/uima-tools.jar"/>
+	<classpathentry kind="lib" path="C:/Program Files (x86)/apache-uima/org.apache.log4j_1.2.13.v200903072027.jar"/>
+	<classpathentry exported="true" kind="var" path="UIMA_HOME/lib/uima-core.jar" sourcepath="/UIMA_SOURCE/uimaj-core">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/c:\programmer\apache-uima/docs/api"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry combineaccessrules="false" exported="true" kind="src" path="/uimaj-examples"/>
+	<classpathentry kind="con" path="DERBY_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/DerbyDB/derby.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

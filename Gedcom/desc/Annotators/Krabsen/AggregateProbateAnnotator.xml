@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <primitive>false</primitive>
+  <delegateAnalysisEngineSpecifiers>
+    <delegateAnalysisEngine key="SourceAnnotator">
+      <import location="SourceAnnotator.xml"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="ProbateAnnotator">
+      <import location="ProbateAnnotator.xml"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="DerbyCasConsumer">
+      <import location="DerbyCasConsumer.xml"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="DateAnnotator">
+      <import location="DateAnnotator.xml"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="NameAnnotator">
+      <import location="NameAnnotator.xml"/>
+    </delegateAnalysisEngine>
+    <delegateAnalysisEngine key="PlaceAnnotator">
+      <import location="PlaceAnnotator.xml"/>
+    </delegateAnalysisEngine>
+  </delegateAnalysisEngineSpecifiers>
+  <analysisEngineMetaData>
+    <name>AggregateProbateDescriptor</name>
+    <description>Asger Bruuns Skifteuddrag</description>
+    <version>14. 01. 2012</version>
+    <vendor>Michael Erichsen</vendor>
+    <configurationParameters searchStrategy="language_fallback"/>
+    <configurationParameterSettings/>
+    <flowConstraints>
+      <fixedFlow>
+        <node>NameAnnotator</node>
+        <node>PlaceAnnotator</node>
+        <node>DateAnnotator</node>
+        <node>SourceAnnotator</node>
+        <node>ProbateAnnotator</node>
+        <node>DerbyCasConsumer</node>
+      </fixedFlow>
+    </flowConstraints>
+    <fsIndexCollection/>
+    <capabilities>
+      <capability>
+        <inputs/>
+        <outputs>
+          <type allAnnotatorFeatures="true">net.myerichsen.gedcom.EventRecType</type>
+        </outputs>
+        <languagesSupported/>
+      </capability>
+    </capabilities>
+    <operationalProperties>
+      <modifiesCas>true</modifiesCas>
+      <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </analysisEngineMetaData>
+  <resourceManagerConfiguration/>
+</analysisEngineDescription>

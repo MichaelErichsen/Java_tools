@@ -1,0 +1,426 @@
+# 
+#Fri Jan 15 18:54:31 CET 2016
+B20=Levels\=9,Sequence\=VALUE
+# 
+#Fri Jan 15 18:54:31 CET 2016
+B21=Levels\=9,Sequence\=VALUE
+# 
+#Fri Jan 15 18:54:31 CET 2016
+E02=Sequence\=VALUE
+# 
+#Fri Jan 15 18:54:31 CET 2016
+E04=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+E03=Levels\=9,Sequence\=VALUE,Minimum\=0.00,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+E06=Levels\=1,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+E05=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+I04=Sequence\=VALUE
+# 
+#Fri Jan 15 18:54:31 CET 2016
+E08=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+I03=Levels\=1
+# 
+#Fri Jan 15 18:54:31 CET 2016
+E07=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+I06=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+I05=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+E09=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+I08=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+I07=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+Q02=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+I09=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+Q04=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+Q03=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+Q06=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+Q05=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+Q08=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+Q07=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+Q09=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+E11=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+E10=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+E12=Levels\=9,Sequence\=VALUE
+# 
+#Fri Jan 15 18:54:31 CET 2016
+I11=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+I10=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+I13=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+I12=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+I17=Levels\=9
+# 
+#Fri Jan 15 18:54:31 CET 2016
+I19=Sequence\=VALUE
+# 
+#Fri Jan 15 18:54:31 CET 2016
+Q11=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+I18=Sequence\=VALUE
+# 
+#Fri Jan 15 18:54:31 CET 2016
+Q10=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+Q13=Levels\=9,Sequence\=VALUE,MLD\=Y,stmtPct\=N
+# 
+#Fri Jan 15 18:54:31 CET 2016
+Q12=Levels\=9,Sequence\=VALUE,MLD\=Y,stmtPct\=N
+# 
+#Fri Jan 15 18:54:31 CET 2016
+Q14=Levels\=9,Sequence\=VALUE,MLD\=Y,stmtPct\=N
+# 
+#Fri Jan 15 18:54:31 CET 2016
+D01=Levels\=9,Sequence\=VALUE,Minimum\=0.00
+# 
+#Fri Jan 15 18:54:31 CET 2016
+coreConnected=
+# 
+#Fri Jan 15 18:54:31 CET 2016
+D03=Levels\=9,Sequence\=VALUE,Minimum\=0.00
+# 
+#Fri Jan 15 18:54:31 CET 2016
+I20=Sequence\=VALUE
+# 
+#Fri Jan 15 18:54:31 CET 2016
+D02=Levels\=9,Sequence\=VALUE,Minimum\=0.00
+# 
+#Fri Jan 15 18:54:31 CET 2016
+D05=Sequence\=VALUE,OMITEXCP\=N
+# 
+#Fri Jan 15 18:54:31 CET 2016
+H01=Sequence\=VALUE,Minimum\=0.00,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+D04=Sequence\=FILE
+# 
+#Fri Jan 15 18:54:31 CET 2016
+I21=Sequence\=VALUE
+# 
+#Fri Jan 15 18:54:31 CET 2016
+D07=Sequence\=VALUE,OMITEXCP\=N
+# 
+#Fri Jan 15 18:54:31 CET 2016
+H03=Sequence\=VALUE,omitEXCP\=N
+# 
+#Fri Jan 15 18:54:31 CET 2016
+D06=Sequence\=VALUE,OMITEXCP\=N
+# 
+#Fri Jan 15 18:54:31 CET 2016
+H02=Levels\=2,Sequence\=VALUE,Minimum\=0.00,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+H05=Sequence\=VALUE,omitEXCP\=N
+# 
+#Fri Jan 15 18:54:31 CET 2016
+D08=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+H07=Sequence\=VALUE,omitEXCP\=N
+# 
+#Fri Jan 15 18:54:31 CET 2016
+filterOwnedby=*
+# 
+#Fri Jan 15 18:54:31 CET 2016
+H09=Levels\=2,Sequence\=VALUE,Minimum\=0.00,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+H08=Sequence\=VALUE,Minimum\=0.00,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+X01=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+X03=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+X02=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+X05=Levels\=1,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+X04=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+H10=Levels\=2,Sequence\=VALUE,Minimum\=0.00,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+H11=Levels\=2,Sequence\=VALUE,Minimum\=0.00,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+saveReportPath=c\:\\
+# 
+#Fri Jan 15 18:54:31 CET 2016
+C02=Levels\=9,Sequence\=VALUE,Minimum\=0.00,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+C01=Levels\=9,Sequence\=VALUE,DPAGroup\=Y,ShowDB2\=Y,Minimum\=0.00,MLD\=Y,Datamg\=Y,ShowIMS\=Y,ADABAS\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+C04=Intervals\=45
+# 
+#Fri Jan 15 18:54:31 CET 2016
+C03=Levels\=9,Sequence\=VALUE,Minimum\=0.00,SliceSize\=64
+# 
+#Fri Jan 15 18:54:31 CET 2016
+C06=Levels\=9,Sequence\=VALUE,ShowInact\=Y,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+G02=Levels\=9
+# 
+#Fri Jan 15 18:54:31 CET 2016
+C05=Levels\=9,Sequence\=VALUE,DPAGroup\=Y,ShowDB2\=Y,ShowInact\=Y,MLD\=Y,Datamg\=Y,ShowIMS\=Y,ADABAS\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+C08=Levels\=9,Sequence\=VALUE,MLD\=Y,SYSVIEW\=N
+# 
+#Fri Jan 15 18:54:31 CET 2016
+C07=Sequence\=VALUE,OmitCPU\=N
+# 
+#Fri Jan 15 18:54:31 CET 2016
+G03=Levels\=9
+# 
+#Fri Jan 15 18:54:31 CET 2016
+K02=Sequence\=VALUE,Levels\=9
+# 
+#Fri Jan 15 18:54:31 CET 2016
+C09=Levels\=2,Sequence\=VALUE
+# 
+#Fri Jan 15 18:54:31 CET 2016
+K01=Levels\=9,Sequence\=VALUE,TCBSRB\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+S02=Sequence\=NAME,OmitESD\=Y,OmitNUC\=N,OmitPLPA\=N,Omitdup\=N
+# 
+#Fri Jan 15 18:54:31 CET 2016
+S03=Sequence\=NAME,Omitdup\=N
+# 
+#Fri Jan 15 18:54:31 CET 2016
+S06=Intervals\=45
+# 
+#Fri Jan 15 18:54:31 CET 2016
+W02=Levels\=9,Sequence\=VALUE,ShowInact\=Y,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+filterJobname=*
+# 
+#Fri Jan 15 18:54:31 CET 2016
+S05=Intervals\=45
+# 
+#Fri Jan 15 18:54:31 CET 2016
+W01=Levels\=9,Sequence\=VALUE,DPAGroup\=Y,ShowDB2\=Y,ShowInact\=Y,MLD\=Y,Datamg\=Y,ShowIMS\=Y,ADABAS\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+W04=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+W03=Levels\=9,Sequence\=VALUE,ShowInact\=Y,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+W05=Sequence\=VALUE
+# 
+#Fri Jan 15 18:54:31 CET 2016
+C10=Levels\=2,Sequence\=VALUE
+# 
+#Fri Jan 15 18:54:31 CET 2016
+S10=Levels\=3,MsgE\=Y,MsgW\=Y,MsgI\=Y,MsgD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+dataSource=local
+# 
+#Fri Jan 15 18:54:31 CET 2016
+B02=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+B03=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+B04=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+B05=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+F03=Levels\=9,Sequence\=VALUE,Minimum\=0.00
+# 
+#Fri Jan 15 18:54:31 CET 2016
+B06=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+F02=Levels\=1,Sequence\=THREAD
+# 
+#Fri Jan 15 18:54:31 CET 2016
+B07=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+F05=Levels\=9,Sequence\=VALUE,Minimum\=0.00
+# 
+#Fri Jan 15 18:54:31 CET 2016
+B08=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+F04=Levels\=9,Sequence\=VALUE,Minimum\=0.00
+# 
+#Fri Jan 15 18:54:31 CET 2016
+B09=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+F07=Levels\=9,Sequence\=VALUE,OfTotal\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+J03=Sequence\=VALUE
+# 
+#Fri Jan 15 18:54:31 CET 2016
+J02=Intervals\=15,Totals\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+F09=Levels\=9,Sequence\=VALUE,OfTotal\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+J05=Levels\=2,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+F08=Levels\=9,Sequence\=VALUE,OfTotal\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+J04=Levels\=2,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+J07=Levels\=2,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+J06=Levels\=2,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+J09=Levels\=2,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+checkForUpdates=01300100000006
+# 
+#Fri Jan 15 18:54:31 CET 2016
+B10=Levels\=9,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+B11=Levels\=9,Sequence\=VALUE
+# 
+#Fri Jan 15 18:54:31 CET 2016
+B12=Levels\=9,Sequence\=VALUE,MLD\=Y,stmtPct\=N
+# 
+#Fri Jan 15 18:54:31 CET 2016
+F10=Levels\=9,Sequence\=VALUE,stmtPct\=N
+# 
+#Fri Jan 15 18:54:31 CET 2016
+B13=Levels\=9,Sequence\=VALUE
+# 
+#Fri Jan 15 18:54:31 CET 2016
+B14=Levels\=9,Sequence\=VALUE
+# 
+#Fri Jan 15 18:54:31 CET 2016
+F12=Levels\=2,Sequence\=VALUE,stmtPct\=N
+# 
+#Fri Jan 15 18:54:31 CET 2016
+B15=Levels\=9,Sequence\=VALUE
+# 
+#Fri Jan 15 18:54:31 CET 2016
+F11=Levels\=2,Sequence\=VALUE,posSQL\=Y,negSQL\=Y,stmtSQL\=N,stmtPct\=N
+# 
+#Fri Jan 15 18:54:31 CET 2016
+B16=Levels\=9,Sequence\=VALUE
+# 
+#Fri Jan 15 18:54:31 CET 2016
+F14=Levels\=9,Sequence\=VALUE,DPAGroup\=Y,ShowDB2\=Y,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+J10=Levels\=2,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+B17=Levels\=9,Sequence\=VALUE
+# 
+#Fri Jan 15 18:54:31 CET 2016
+B18=Levels\=9,Sequence\=VALUE
+# 
+#Fri Jan 15 18:54:31 CET 2016
+F16=Levels\=2,Sequence\=VALUE,stmtPct\=N
+# 
+#Fri Jan 15 18:54:31 CET 2016
+J12=Levels\=2,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+B19=Levels\=9,Sequence\=VALUE
+# 
+#Fri Jan 15 18:54:31 CET 2016
+F15=Levels\=2,Sequence\=VALUE,stmtPct\=N
+# 
+#Fri Jan 15 18:54:31 CET 2016
+J11=Levels\=2,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+F18=Levels\=2,Sequence\=VALUE,stmtPct\=N
+# 
+#Fri Jan 15 18:54:31 CET 2016
+J14=Levels\=2,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+F17=Levels\=2,Sequence\=VALUE,stmtPct\=N
+# 
+#Fri Jan 15 18:54:31 CET 2016
+J16=Levels\=2,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+F19=Levels\=2,Sequence\=VALUE,stmtPct\=N
+# 
+#Fri Jan 15 18:54:31 CET 2016
+J15=Levels\=2,Sequence\=VALUE,MLD\=Y
+# 
+#Fri Jan 15 18:54:31 CET 2016
+J17=Levels\=2,Sequence\=VALUE,MLD\=Y

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <primitive>true</primitive>
+  <annotatorImplementationName>net.myerichsen.bornholm.DateAnnotator</annotatorImplementationName>
+  <analysisEngineMetaData>
+    <name>DateAnnotator</name>
+    <description>Annotator to identify dates in probate extracts</description>
+    <version>03. 05. 2013</version>
+    <vendor>Michael Erichsen</vendor>
+    <configurationParameters>
+      <configurationParameter>
+        <name>Patterns</name>
+        <description>Patterns to parse Aurelia Clemons probate extracts</description>
+        <type>String</type>
+        <multiValued>true</multiValued>
+        <mandatory>true</mandatory>
+      </configurationParameter>
+    </configurationParameters>
+    <configurationParameterSettings>
+      <nameValuePair>
+        <name>Patterns</name>
+        <value>
+          <array>
+            <string>\d{4}\.\s+\d{1,2}.\s(jan|feb|marts|april|maj|juni|juli|aug|sep|okt|nov|dec).</string>
+            <string>\d{4}\s\d{1,2}/\d{1,2}</string>
+          </array>
+        </value>
+      </nameValuePair>
+    </configurationParameterSettings>
+    <typeSystemDescription>
+      <imports>
+        <import location="..\..\Records\GedcomTypeSystemDescriptor.xml"/>
+      </imports>
+    </typeSystemDescription>
+    <typePriorities/>
+    <fsIndexCollection/>
+    <capabilities>
+      <capability>
+        <inputs/>
+        <outputs>
+          <type>net.myerichsen.gedcom.DateType</type>
+        </outputs>
+        <languagesSupported/>
+      </capability>
+    </capabilities>
+    <operationalProperties>
+      <modifiesCas>true</modifiesCas>
+      <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </analysisEngineMetaData>
+  <resourceManagerConfiguration/>
+</analysisEngineDescription>

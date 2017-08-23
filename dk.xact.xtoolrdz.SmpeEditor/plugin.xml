@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            name="SMP/E Source Editor"
+            extensions="mcs, ptf"
+            icon="icons/xact_icon.gif"
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            class="dk.xact.xtoolrdz.smpeeditor.SmpeEditor"
+            id="smpeeditorproject.editors.SmpeEditor">
+      </editor>
+   </extension>
+   <extension
+         point="org.eclipse.ui.preferencePages">
+      <page
+            class="dk.xact.xtoolrdz.smpeeditor.PreferencePage"
+            id="dk.xact.xtoolrdz.SmpeEditor.page1"
+            name="Xtool for RDz Preferences">
+      </page>
+   </extension>
+   <extension
+         point="org.eclipse.core.runtime.preferences">
+      <initializer
+            class="dk.xact.xtoolrdz.smpeeditor.PreferenceInitializer">
+      </initializer>
+   </extension>
+
+</plugin>

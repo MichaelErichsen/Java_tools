@@ -1,0 +1,28 @@
+Undtagelser:
+
+NOTE betyder, at der kommer en kommenter. Den strækker sig over alle de linier, der har samme nummer. Fx
+    2 |  NOTE Pakolliset syöttötiedot:
+    2 |           Tekninen omistaja
+    2 |           Sovellus
+
+
+I toppen af programmerne, ud for de enkelte views, kan der stå nogle options i parentes, 
+fx Spec View import iat1_aikataulu (optional,transient,import only) 
+Det er egentlig kun i denne kontekst, at disse nøgleord skal farves.
+
+/L17"CA Gen" Block Comment On =  -- Block Comment On Alt =  === 
+Line Comment Valid Columns = [4-14] Line Comment Num = 2 * Line Comment Alt = NOTE 
+String Chars = " 
+/ColorAltComment Colors = 6258495
+/ColorString Colors = 16711722
+/ColorComment Colors = 6258495
+/Colors = 0,8421376,8421376,8421504,255,
+/Colors Back = 16777215,16777215,16777215,16777215,16777215,
+/Colors Auto Back = 1,1,1,1,1,
+/Font Style = 0,0,0,0,0,
+/Delimiters = = 	(){}[].,;<>-
+/Open Brace Strings =  "{" "(" "["
+/Close Brace Strings = "}" ")" "]"
+/Open Fold Strings = "case" "case of" "case_of" "when" "if" "else" "while" "   Hidden Field(s)"
+/Close Fold Strings = "+--" "+---" "   Check Box" "   Defined Events:" "   Entry Field" "   
+Group Box" "   Literal" "   Push Button" "   Special Field"

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="dk.xact.xtoolrdz.SmpeEditor.feature"
+      label="Xact RDz SMP/E Editor"
+      version="1.0.1.qualifier"
+      provider-name="Xact Consulting">
+
+   <description url="http://www.example.com/description">
+      This feature is an SMP/E MCS source editor with colour coding,
+but no code assist.
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      This Eclipse feature is copyright (c) Xact Consulting 2015.
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      Groucho Marx: Now pay particular attention to this first clause, because it&apos;s most important. There&apos;s the party of the first part shall be known in this contract as the party of the first part. How do you like that, that&apos;s pretty neat eh?
+
+Chico Marx: No, that&apos;s no good.
+
+Groucho Marx: What&apos;s the matter with it?
+
+Chico Marx: I don&apos;t know, let&apos;s hear it again.
+
+Groucho Marx: So the party of the first part shall be known in this contract as the party of the first part.
+
+Chico Marx: Well it sounds a little better this time.
+
+Groucho Marx: Well, it grows on you. Would you like to hear it once more?
+
+Chico Marx: Just the first part.
+
+Groucho Marx: What do you mean, the party of the first part?
+
+Chico Marx: No, the first part of the party, of the first part.
+
+Groucho Marx: All right. It says the first part of the party of the first part shall be known in this contract as the first part of the party of the first part, shall be known in this contract - look, why should we quarrel about a thing like this, we&apos;ll take it right out, eh?
+
+Chico Marx: Yes, it&apos;s too long anyhow. Now what have we got left?
+
+Groucho Marx: Well I&apos;ve got about a foot and a half. Now what&apos;s the matter?
+
+Chico Marx: I don&apos;t like the second party either.
+
+Groucho Marx: Well, you should have come to the first party, we didn&apos;t get home till around four in the morning. I was blind for three days.
+
+Chico Marx: Hey look, why can&apos;t the first part of the second party be the second part of the first party, then you&apos;ll get something.
+
+Groucho Marx: Well look, rather than go through all that again, what do you say?
+
+Chico Marx: Fine.
+
+Groucho Marx: Now I&apos;ve got something here you&apos;re bound to like, you&apos;ll be crazy about it.
+
+Chico Marx: No, I don&apos;t like it.
+
+Groucho Marx: You don&apos;t like what?
+
+Chico Marx: Whatever it is, I don&apos;t like it.
+
+Groucho Marx: Well don&apos;t let&apos;s break up an old friendship over a thing like that. Ready?
+
+Chico Marx: OK. Now the next part I don&apos;t think you&apos;re going to like.
+
+Groucho Marx: Well your word&apos;s good enough for me. Now then, is my word good enough for you?
+
+Chico Marx: I should say not.
+
+Groucho Marx: Well I&apos;ll take out two more clauses. Now the party of the eighth part --
+
+Chico Marx: No, that&apos;s no good, no.
+
+Groucho Marx: The party of the ninth part --
+
+Chico Marx: No, that&apos;s no good too. Hey, how is it my contract is skinnier than yours?
+
+Groucho Marx: Well, I don&apos;t know, you must have been out on a tail last night. But anyhow, we&apos;re all set now, are we? Now just you put your name right down there, then the deal is legal.
+
+Chico Marx: I forgot to tell you, I can&apos;t write.
+
+Groucho Marx: Well that&apos;s all right, there&apos;s no ink in the pen anyhow. But listen, it&apos;s a contract isn&apos;t it? We&apos;ve got a contract, no matter how small it is.
+
+Chico Marx: Oh sure. You bet. Hey wait, wait. What does this say here, this thing here?
+
+Groucho Marx: Oh that? Oh that&apos;s the usual clause, that&apos;s in every contract. That just says, it says, &apos;If any of the parties participating in this contract are shown not to be in their right mind, the entire agreement is automatically nullified.&apos;
+
+Chico Marx: Well, I don&apos;t know.
+
+Groucho Marx: It&apos;s all right, that&apos;s in every contract. That&apos;s what they call a sanity clause.
+
+Chico Marx: You can&apos;t fool me, there ain&apos;t no sanity clause.
+   </license>
+
+   <url>
+      <discovery label="Xact Consulting home page" url="http://www.xact.dk"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.core.runtime"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="org.eclipse.ui.views.properties.tabbed" version="3.5.300" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="dk.xact.xtoolrdz.SmpeEditor"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

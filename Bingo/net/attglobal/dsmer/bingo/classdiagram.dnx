@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--xtools2_universal_type_manager-->
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.ibm.com/xtools/1.5.0/Notation" xmlns:uml="http://www.eclipse.org/uml2/1.0.0/UML" xmlns:umlnotation="http://www.ibm.com/xtools/1.5.0/Umlnotation" xmi:id="_UL0TQG_UEduACekMPxa-cQ" type="Class" name="classdiagram.dnx">
+  <children xmi:id="_d2r2EG_UEduACekMPxa-cQ" sourceEdges="_oYqnEW_UEduACekMPxa-cQ _oYwtsG_UEduACekMPxa-cQ _oYwts2_UEduACekMPxa-cQ _oYwttm_UEduACekMPxa-cQ _oYwtuW_UEduACekMPxa-cQ _oYwtvG_UEduACekMPxa-cQ _oYwtv2_UEduACekMPxa-cQ">
+    <children xmi:id="_d3EQkG_UEduACekMPxa-cQ" type="ImageCompartment">
+      <element xmi:type="uml:Package" href="vizref:///#jpack^vcore.target=uml2.Package^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_d3EQkW_UEduACekMPxa-cQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_d3EQkm_UEduACekMPxa-cQ" type="Stereotype">
+      <element xmi:type="uml:Package" href="vizref:///#jpack^vcore.target=uml2.Package^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]"/>
+    </children>
+    <children xmi:id="_d3EQk2_UEduACekMPxa-cQ" type="Name">
+      <element xmi:type="uml:Package" href="vizref:///#jpack^vcore.target=uml2.Package^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_d2r2EW_UEduACekMPxa-cQ" showStereotype="Label"/>
+    <element xmi:type="uml:Package" href="vizref:///#jpack^vcore.target=uml2.Package^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d2x8sG_UEduACekMPxa-cQ" x="7646" y="1468"/>
+  </children>
+  <children xmi:id="_nXVs8G_UEduACekMPxa-cQ" sourceEdges="_oY20UG_UEduACekMPxa-cQ _oY20V2_UEduACekMPxa-cQ _ocGVlW_UEduACekMPxa-cQ" targetEdges="_oYwtuW_UEduACekMPxa-cQ _ocewGG_UEduACekMPxa-cQ">
+    <children xmi:id="_nXbzkG_UEduACekMPxa-cQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_nXbzkW_UEduACekMPxa-cQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_nXbzkm_UEduACekMPxa-cQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_nXbzk2_UEduACekMPxa-cQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_nXbzlG_UEduACekMPxa-cQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_nXbzlW_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_nXbzlm_UEduACekMPxa-cQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_nXbzl2_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_nXbzmG_UEduACekMPxa-cQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_nXbzmW_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_ndpJQG_UEduACekMPxa-cQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_ndpJQW_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_nXVs8W_UEduACekMPxa-cQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nXVs8m_UEduACekMPxa-cQ" x="7460" y="24472"/>
+  </children>
+  <children xmi:id="_oEnCoG_UEduACekMPxa-cQ" sourceEdges="_ocGVnW_UEduACekMPxa-cQ" targetEdges="_oYwtvG_UEduACekMPxa-cQ _oY20UG_UEduACekMPxa-cQ _ocYpeG_UEduACekMPxa-cQ _ocq9UG_UEduACekMPxa-cQ">
+    <children xmi:id="_oEnCo2_UEduACekMPxa-cQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_oEnCpG_UEduACekMPxa-cQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_oEnCpW_UEduACekMPxa-cQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oEnCpm_UEduACekMPxa-cQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oEnCp2_UEduACekMPxa-cQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_oEnCqG_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oEtJQG_UEduACekMPxa-cQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_oEtJQW_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oEtJQm_UEduACekMPxa-cQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_oEtJQ2_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oEtJRG_UEduACekMPxa-cQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_oEtJRW_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_oEnCoW_UEduACekMPxa-cQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oEnCom_UEduACekMPxa-cQ" x="11571" y="17603"/>
+  </children>
+  <children xmi:id="_oI_zYG_UEduACekMPxa-cQ" sourceEdges="_ocMcNW_UEduACekMPxa-cQ _ocSi0W_UEduACekMPxa-cQ _ocSi2W_UEduACekMPxa-cQ" targetEdges="_oYqnEW_UEduACekMPxa-cQ _ocSi0W_UEduACekMPxa-cQ">
+    <children xmi:id="_oI_zY2_UEduACekMPxa-cQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_oI_zZG_UEduACekMPxa-cQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_oI_zZW_UEduACekMPxa-cQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oI_zZm_UEduACekMPxa-cQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oI_zZ2_UEduACekMPxa-cQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_oI_zaG_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oI_zaW_UEduACekMPxa-cQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_oI_zam_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oI_za2_UEduACekMPxa-cQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_oI_zbG_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oJF6AG_UEduACekMPxa-cQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_oJF6AW_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_oI_zYW_UEduACekMPxa-cQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oI_zYm_UEduACekMPxa-cQ" x="4146" y="4331"/>
+  </children>
+  <children xmi:id="_oL9n0G_UEduACekMPxa-cQ" targetEdges="_oYwttm_UEduACekMPxa-cQ _oY20V2_UEduACekMPxa-cQ _ocGVnW_UEduACekMPxa-cQ _ock2sG_UEduACekMPxa-cQ _oc3KkG_UEduACekMPxa-cQ">
+    <children xmi:id="_oL9n02_UEduACekMPxa-cQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_oL9n1G_UEduACekMPxa-cQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_oL9n1W_UEduACekMPxa-cQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oL9n1m_UEduACekMPxa-cQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oL9n12_UEduACekMPxa-cQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_oL9n2G_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oL9n2W_UEduACekMPxa-cQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_oL9n2m_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oL9n22_UEduACekMPxa-cQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_oMDucG_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oMDucW_UEduACekMPxa-cQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_oMDucm_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_oL9n0W_UEduACekMPxa-cQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oL9n0m_UEduACekMPxa-cQ" x="10215" y="35641"/>
+  </children>
+  <children xmi:id="_oMuc0G_UEduACekMPxa-cQ" sourceEdges="_ocYpcG_UEduACekMPxa-cQ _ocYpeG_UEduACekMPxa-cQ _ocewEG_UEduACekMPxa-cQ _ocewGG_UEduACekMPxa-cQ" targetEdges="_oYwtv2_UEduACekMPxa-cQ _ocMcNW_UEduACekMPxa-cQ">
+    <children xmi:id="_oMuc02_UEduACekMPxa-cQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_oMuc1G_UEduACekMPxa-cQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_oMuc1W_UEduACekMPxa-cQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oMuc1m_UEduACekMPxa-cQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oMuc12_UEduACekMPxa-cQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_oMuc2G_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oMuc2W_UEduACekMPxa-cQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_oMuc2m_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oMuc22_UEduACekMPxa-cQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_oMuc3G_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oMuc3W_UEduACekMPxa-cQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_oMuc3m_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_oMuc0W_UEduACekMPxa-cQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oMuc0m_UEduACekMPxa-cQ" x="11574" y="12447"/>
+  </children>
+  <children xmi:id="_oNrfEG_UEduACekMPxa-cQ" sourceEdges="_ock2sG_UEduACekMPxa-cQ _ocq9UG_UEduACekMPxa-cQ _ocxD9G_UEduACekMPxa-cQ" targetEdges="_oYwtsG_UEduACekMPxa-cQ _ocewEG_UEduACekMPxa-cQ">
+    <children xmi:id="_oNrfE2_UEduACekMPxa-cQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_oNrfFG_UEduACekMPxa-cQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_oNrfFW_UEduACekMPxa-cQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oNrfFm_UEduACekMPxa-cQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oNrfF2_UEduACekMPxa-cQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_oNrfGG_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oNrfGW_UEduACekMPxa-cQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_oNrfGm_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oNrfG2_UEduACekMPxa-cQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_oNrfHG_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oNrfHW_UEduACekMPxa-cQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_oNrfHm_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_oNrfEW_UEduACekMPxa-cQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oNrfEm_UEduACekMPxa-cQ" x="13384" y="24469"/>
+  </children>
+  <children xmi:id="_oOcUEG_UEduACekMPxa-cQ" sourceEdges="_oc3KkG_UEduACekMPxa-cQ" targetEdges="_oYwts2_UEduACekMPxa-cQ _ocGVlW_UEduACekMPxa-cQ _ocSi2W_UEduACekMPxa-cQ _ocYpcG_UEduACekMPxa-cQ _ocxD9G_UEduACekMPxa-cQ">
+    <children xmi:id="_oOcUE2_UEduACekMPxa-cQ" type="ImageCompartment">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+      <layoutConstraint xmi:type="notation:Size" xmi:id="_oOcUFG_UEduACekMPxa-cQ" width="1320" height="1320"/>
+    </children>
+    <children xmi:id="_oOcUFW_UEduACekMPxa-cQ" type="Stereotype">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oOcUFm_UEduACekMPxa-cQ" type="Name">
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oOcUF2_UEduACekMPxa-cQ" type="AttributeCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_oOcUGG_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oOcUGW_UEduACekMPxa-cQ" type="OperationCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_oOcUGm_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oOcUG2_UEduACekMPxa-cQ" visible="false" type="SignalCompartment">
+      <styles xmi:type="umlnotation:UMLListCompartmentStyle" xmi:id="_oOcUHG_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <children xmi:id="_oOcUHW_UEduACekMPxa-cQ" visible="false" type="StructureCompartment">
+      <styles xmi:type="umlnotation:UMLShapeCompartmentStyle" xmi:id="_oOcUHm_UEduACekMPxa-cQ"/>
+      <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_oOcUEW_UEduACekMPxa-cQ" showStereotype="Label"/>
+    <element xmi:type="uml:Class" href="vizref:///#jsrctype^vcore.target=uml2.Class^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oOcUEm_UEduACekMPxa-cQ" x="7044" y="28792"/>
+  </children>
+  <styles xmi:type="umlnotation:UMLDiagramStyle" xmi:id="_UL0TQW_UEduACekMPxa-cQ"/>
+  <edges xmi:id="_oYqnEW_UEduACekMPxa-cQ" type="OwnedElement" source="_d2r2EG_UEduACekMPxa-cQ" target="_oI_zYG_UEduACekMPxa-cQ">
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_oYqnEm_UEduACekMPxa-cQ" showStereotype="Text"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oYqnE2_UEduACekMPxa-cQ" points="[0, 635, 3281, -4855]$[-3281, 2222, 0, -3268]"/>
+  </edges>
+  <edges xmi:id="_oYwtsG_UEduACekMPxa-cQ" type="OwnedElement" source="_d2r2EG_UEduACekMPxa-cQ" target="_oNrfEG_UEduACekMPxa-cQ">
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_oYwtsW_UEduACekMPxa-cQ" showStereotype="Text"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oYwtsm_UEduACekMPxa-cQ" points="[0, 635, -5622, -23098]$[423, 2222, -5199, -21511]$[423, 20770, -5199, -2963]$[5609, 22357, -13, -1376]"/>
+  </edges>
+  <edges xmi:id="_oYwts2_UEduACekMPxa-cQ" type="OwnedElement" source="_d2r2EG_UEduACekMPxa-cQ" target="_oOcUEG_UEduACekMPxa-cQ">
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_oYwttG_UEduACekMPxa-cQ" showStereotype="Text"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oYwttW_UEduACekMPxa-cQ" points="[0, 635, 1217, -28694]$[-6588, 2222, -5371, -27107]$[-6588, 25110, -5371, -4219]$[-1217, 26696, 0, -2633]"/>
+  </edges>
+  <edges xmi:id="_oYwttm_UEduACekMPxa-cQ" type="OwnedElement" source="_d2r2EG_UEduACekMPxa-cQ" target="_oL9n0G_UEduACekMPxa-cQ">
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_oYwtt2_UEduACekMPxa-cQ" showStereotype="Text"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oYwtuG_UEduACekMPxa-cQ" points="[0, 635, -1230, -34634]$[-7012, 2222, -8242, -33047]$[-7012, 31962, -8242, -3307]$[1217, 33549, -13, -1720]"/>
+  </edges>
+  <edges xmi:id="_oYwtuW_UEduACekMPxa-cQ" type="OwnedElement" source="_d2r2EG_UEduACekMPxa-cQ" target="_nXVs8G_UEduACekMPxa-cQ">
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_oYwtum_UEduACekMPxa-cQ" showStereotype="Text"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oYwtu2_UEduACekMPxa-cQ" points="[0, 635, 304, -23098]$[0, 20770, 304, -2963]$[-318, 22357, -14, -1376]"/>
+  </edges>
+  <edges xmi:id="_oYwtvG_UEduACekMPxa-cQ" type="OwnedElement" source="_d2r2EG_UEduACekMPxa-cQ" target="_oEnCoG_UEduACekMPxa-cQ">
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_oYwtvW_UEduACekMPxa-cQ" showStereotype="Text"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oYwtvm_UEduACekMPxa-cQ" points="[0, 635, -3823, -17502]$[846, 2222, -2977, -15915]$[846, 13918, -2977, -4219]$[3810, 15504, -13, -2633]"/>
+  </edges>
+  <edges xmi:id="_oYwtv2_UEduACekMPxa-cQ" type="OwnedElement" source="_d2r2EG_UEduACekMPxa-cQ" target="_oMuc0G_UEduACekMPxa-cQ">
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_oYwtwG_UEduACekMPxa-cQ" showStereotype="Text"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oYwtwW_UEduACekMPxa-cQ" points="[0, 635, -3823, -11496]$[1905, 2222, -1918, -9909]$[1905, 8758, -1918, -3373]$[3810, 10345, -13, -1786]"/>
+  </edges>
+  <edges xmi:id="_oY20UG_UEduACekMPxa-cQ" source="_nXVs8G_UEduACekMPxa-cQ" target="_oEnCoG_UEduACekMPxa-cQ">
+    <children xmi:id="_oY20U2_UEduACekMPxa-cQ" type="NameLabel">
+      <children xmi:id="_oY20VW_UEduACekMPxa-cQ" type="Stereotype">
+        <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_oY20Vm_UEduACekMPxa-cQ" type="Name">
+        <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oY20VG_UEduACekMPxa-cQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_oY20UW_UEduACekMPxa-cQ" showStereotype="Text"/>
+    <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oY20Um_UEduACekMPxa-cQ" points="[-14, -1376, -4141, 4220]$[4114, -2963, -13, 2633]"/>
+  </edges>
+  <edges xmi:id="_oY20V2_UEduACekMPxa-cQ" source="_nXVs8G_UEduACekMPxa-cQ" target="_oL9n0G_UEduACekMPxa-cQ">
+    <children xmi:id="_ocGVkG_UEduACekMPxa-cQ" type="KindLabel">
+      <children xmi:id="_ocGVkm_UEduACekMPxa-cQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ocGVlG_UEduACekMPxa-cQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ocGVk2_UEduACekMPxa-cQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ocGVkW_UEduACekMPxa-cQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_oY20WG_UEduACekMPxa-cQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oY20WW_UEduACekMPxa-cQ" points="[-14, 1376, -1548, -10160]$[1521, 2963, -13, -8573]$[1521, 9816, -13, -1720]"/>
+  </edges>
+  <edges xmi:id="_ocGVlW_UEduACekMPxa-cQ" source="_nXVs8G_UEduACekMPxa-cQ" target="_oOcUEG_UEduACekMPxa-cQ">
+    <children xmi:id="_ocGVmG_UEduACekMPxa-cQ" type="KindLabel">
+      <children xmi:id="_ocGVmm_UEduACekMPxa-cQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ocGVnG_UEduACekMPxa-cQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ocGVm2_UEduACekMPxa-cQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ocGVmW_UEduACekMPxa-cQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_ocGVlm_UEduACekMPxa-cQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ocGVl2_UEduACekMPxa-cQ" points="[-14, 1376, 899, -4220]$[-913, 2963, 0, -2633]"/>
+  </edges>
+  <edges xmi:id="_ocGVnW_UEduACekMPxa-cQ" source="_oEnCoG_UEduACekMPxa-cQ" target="_oL9n0G_UEduACekMPxa-cQ">
+    <children xmi:id="_ocMcMG_UEduACekMPxa-cQ" type="KindLabel">
+      <children xmi:id="_ocMcMm_UEduACekMPxa-cQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ocMcNG_UEduACekMPxa-cQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ocMcM2_UEduACekMPxa-cQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ocMcMW_UEduACekMPxa-cQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_ocGVnm_UEduACekMPxa-cQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ocGVn2_UEduACekMPxa-cQ" points="[-13, 2633, 2580, -14499]$[-1177, 4220, 1416, -12912]$[-1177, 13825, 1416, -3307]$[-2606, 15412, -13, -1720]"/>
+  </edges>
+  <edges xmi:id="_ocMcNW_UEduACekMPxa-cQ" source="_oI_zYG_UEduACekMPxa-cQ" target="_oMuc0G_UEduACekMPxa-cQ">
+    <children xmi:id="_ocMcOG_UEduACekMPxa-cQ" type="KindLabel">
+      <children xmi:id="_ocMcOm_UEduACekMPxa-cQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ocSi0G_UEduACekMPxa-cQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ocMcO2_UEduACekMPxa-cQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ocMcOW_UEduACekMPxa-cQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_ocMcNm_UEduACekMPxa-cQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ocMcN2_UEduACekMPxa-cQ" points="[0, 3267, -7104, -3374]$[7091, 4855, -13, -1786]"/>
+  </edges>
+  <edges xmi:id="_ocSi0W_UEduACekMPxa-cQ" source="_oI_zYG_UEduACekMPxa-cQ" target="_oI_zYG_UEduACekMPxa-cQ">
+    <children xmi:id="_ocSi1G_UEduACekMPxa-cQ" type="KindLabel">
+      <children xmi:id="_ocSi1m_UEduACekMPxa-cQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ocSi2G_UEduACekMPxa-cQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ocSi12_UEduACekMPxa-cQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ocSi1W_UEduACekMPxa-cQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_ocSi0m_UEduACekMPxa-cQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ocSi02_UEduACekMPxa-cQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:id="_ocSi2W_UEduACekMPxa-cQ" source="_oI_zYG_UEduACekMPxa-cQ" target="_oOcUEG_UEduACekMPxa-cQ">
+    <children xmi:id="_ocSi3G_UEduACekMPxa-cQ" type="KindLabel">
+      <children xmi:id="_ocSi3m_UEduACekMPxa-cQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ocSi4G_UEduACekMPxa-cQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ocSi32_UEduACekMPxa-cQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ocSi3W_UEduACekMPxa-cQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_ocSi2m_UEduACekMPxa-cQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Bingo[jcu^name=Bingo.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ocSi22_UEduACekMPxa-cQ" points="[0, 3267, -2064, -20572]$[0, 19620, -2064, -4219]$[2064, 21206, 0, -2633]"/>
+  </edges>
+  <edges xmi:id="_ocYpcG_UEduACekMPxa-cQ" source="_oMuc0G_UEduACekMPxa-cQ" target="_oOcUEG_UEduACekMPxa-cQ">
+    <children xmi:id="_ocYpc2_UEduACekMPxa-cQ" type="KindLabel">
+      <children xmi:id="_ocYpdW_UEduACekMPxa-cQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ocYpd2_UEduACekMPxa-cQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ocYpdm_UEduACekMPxa-cQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ocYpdG_UEduACekMPxa-cQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_ocYpcW_UEduACekMPxa-cQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ocYpcm_UEduACekMPxa-cQ" points="[-13, 1786, 5027, -15412]$[4749, 3373, 9789, -13825]$[4749, 12979, 9789, -4219]$[-5040, 14565, 0, -2633]"/>
+  </edges>
+  <edges xmi:id="_ocYpeG_UEduACekMPxa-cQ" source="_oMuc0G_UEduACekMPxa-cQ" target="_oEnCoG_UEduACekMPxa-cQ">
+    <children xmi:id="_ocYpe2_UEduACekMPxa-cQ" type="KindLabel">
+      <children xmi:id="_ocYpfW_UEduACekMPxa-cQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ocYpf2_UEduACekMPxa-cQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ocYpfm_UEduACekMPxa-cQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ocYpfG_UEduACekMPxa-cQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_ocYpeW_UEduACekMPxa-cQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ocYpem_UEduACekMPxa-cQ" points="[-13, 1786, -13, -4220]$[-13, 3373, -13, -2633]"/>
+  </edges>
+  <edges xmi:id="_ocewEG_UEduACekMPxa-cQ" source="_oMuc0G_UEduACekMPxa-cQ" target="_oNrfEG_UEduACekMPxa-cQ">
+    <children xmi:id="_ocewE2_UEduACekMPxa-cQ" type="KindLabel">
+      <children xmi:id="_ocewFW_UEduACekMPxa-cQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ocewF2_UEduACekMPxa-cQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ocewFm_UEduACekMPxa-cQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ocewFG_UEduACekMPxa-cQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_ocewEW_UEduACekMPxa-cQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ocewEm_UEduACekMPxa-cQ" points="[-13, 1786, -1812, -9816]$[2950, 3373, 1151, -8229]$[2950, 8639, 1151, -2963]$[1786, 10226, -13, -1376]"/>
+  </edges>
+  <edges xmi:id="_ocewGG_UEduACekMPxa-cQ" source="_oMuc0G_UEduACekMPxa-cQ" target="_nXVs8G_UEduACekMPxa-cQ">
+    <children xmi:id="_ocewG2_UEduACekMPxa-cQ" type="KindLabel">
+      <children xmi:id="_ocewHW_UEduACekMPxa-cQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ocewH2_UEduACekMPxa-cQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ocewHm_UEduACekMPxa-cQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ocewHG_UEduACekMPxa-cQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_ocewGW_UEduACekMPxa-cQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=Player[jcu^name=Player.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=FixedBoard[jcu^name=FixedBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ocewGm_UEduACekMPxa-cQ" points="[-13, 1786, 4114, -9816]$[-2977, 3373, 1150, -8229]$[-2977, 8639, 1150, -2963]$[-4141, 10226, -14, -1376]"/>
+  </edges>
+  <edges xmi:id="_ock2sG_UEduACekMPxa-cQ" source="_oNrfEG_UEduACekMPxa-cQ" target="_oL9n0G_UEduACekMPxa-cQ">
+    <children xmi:id="_ock2s2_UEduACekMPxa-cQ" type="KindLabel">
+      <children xmi:id="_ock2tW_UEduACekMPxa-cQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ock2t2_UEduACekMPxa-cQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ock2tm_UEduACekMPxa-cQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ock2tG_UEduACekMPxa-cQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_ock2sW_UEduACekMPxa-cQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ock2sm_UEduACekMPxa-cQ" points="[-13, 1376, 4379, -10160]$[-2209, 2963, 2183, -8573]$[-2209, 8229, 2183, -3307]$[-4405, 9816, -13, -1720]"/>
+  </edges>
+  <edges xmi:id="_ocq9UG_UEduACekMPxa-cQ" source="_oNrfEG_UEduACekMPxa-cQ" target="_oEnCoG_UEduACekMPxa-cQ">
+    <children xmi:id="_ocxD8G_UEduACekMPxa-cQ" type="NameLabel">
+      <children xmi:id="_ocxD8m_UEduACekMPxa-cQ" type="Stereotype">
+        <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ocxD82_UEduACekMPxa-cQ" type="Name">
+        <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ocxD8W_UEduACekMPxa-cQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_ocq9UW_UEduACekMPxa-cQ" showStereotype="Text"/>
+    <element xmi:type="uml:Generalization" href="vizref:///#jgen^vcore.target=uml2.Generalization[jsrctype^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Board[jcu^name=Board.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ocq9Um_UEduACekMPxa-cQ" points="[-13, -1376, 1786, 4220]$[-1812, -2963, -13, 2633]"/>
+  </edges>
+  <edges xmi:id="_ocxD9G_UEduACekMPxa-cQ" source="_oNrfEG_UEduACekMPxa-cQ" target="_oOcUEG_UEduACekMPxa-cQ">
+    <children xmi:id="_ocxD92_UEduACekMPxa-cQ" type="KindLabel">
+      <children xmi:id="_ocxD-W_UEduACekMPxa-cQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ocxD-2_UEduACekMPxa-cQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_ocxD-m_UEduACekMPxa-cQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ocxD-G_UEduACekMPxa-cQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_ocxD9W_UEduACekMPxa-cQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=RandomBoard[jcu^name=RandomBoard.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ocxD9m_UEduACekMPxa-cQ" points="[-13, 1376, 6826, -4220]$[-6839, 2963, 0, -2633]"/>
+  </edges>
+  <edges xmi:id="_oc3KkG_UEduACekMPxa-cQ" source="_oOcUEG_UEduACekMPxa-cQ" target="_oL9n0G_UEduACekMPxa-cQ">
+    <children xmi:id="_oc3Kk2_UEduACekMPxa-cQ" type="KindLabel">
+      <children xmi:id="_oc3KlW_UEduACekMPxa-cQ" type="Stereotype">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_oc3Kl2_UEduACekMPxa-cQ" type="Kind">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <children xmi:id="_oc3Klm_UEduACekMPxa-cQ" type="Name">
+        <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      </children>
+      <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oc3KlG_UEduACekMPxa-cQ" y="-185"/>
+    </children>
+    <styles xmi:type="umlnotation:UMLConnectorStyle" xmi:id="_oc3KkW_UEduACekMPxa-cQ" showStereotype="Text"/>
+    <element xmi:type="uml:Usage" href="vizref:///#jdep^vcore.target=uml2.Usage[jsrctype^name=NumberBag[jcu^name=NumberBag.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]][jsrctype^name=Util[jcu^name=Util.java[jpack^name=net.attglobal.dsmer.bingo[jsrcroot^srcfolder=[project^vcore.target=uml2.Model^id=Bingo]]]]]"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oc3Kkm_UEduACekMPxa-cQ" points="[0, 2632, -2447, -3308]$[2434, 4220, -13, -1720]"/>
+  </edges>
+</notation:Diagram>

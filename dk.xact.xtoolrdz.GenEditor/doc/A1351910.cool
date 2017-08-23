@@ -1,0 +1,308 @@
+ 
+         Member name: A1351910
+ 
+         +->   SYSTEM_TEST_VALIDATE_BATCH_DATES  09/07/2012  21:24
+         ¤       IMPORTS:
+         ¤         Entity View import date_validation_routines (Transient, Optional, Import only)
+         ¤           validation_type
+         ¤           return_code
+         ¤           date_1
+         ¤           date_2
+         ¤           number_of_days
+         ¤           day_number
+         ¤           year_day_number
+         ¤           year_week_number
+         ¤           name_of_day
+         ¤           name_of_month
+         ¤           sign
+         ¤         Entity View import vp_std_supplied (Transient, Optional, Import only)
+         ¤           text_80
+         ¤       EXPORTS:
+         ¤         Work View export_used date_routines_validated (Transient, Export only)
+         ¤           vpdt_rutine_name
+         ¤         Entity View export date_validation_routines (Transient, Export only)
+         ¤           validation_type
+         ¤           return_code
+         ¤           date_1
+         ¤           date_2
+         ¤           number_of_days
+         ¤           day_number
+         ¤           year_day_number
+         ¤           year_week_number
+         ¤           name_of_day
+         ¤           name_of_month
+         ¤           sign
+         ¤         Entity View export vp_std_supplied (Transient, Export only)
+         ¤           text_80
+         ¤       LOCALS:
+         ¤         Entity View temp system_management
+         ¤           type
+         ¤           production_date
+         ¤           text
+         ¤         Entity View temp_imp date_validation_routines
+         ¤           validation_type
+         ¤           date_1
+         ¤           date_2
+         ¤           number_of_days
+         ¤           year_day_number
+         ¤           sign
+         ¤         Entity View temp_exp date_validation_routines
+         ¤           validation_type
+         ¤           return_code
+         ¤           date_1
+         ¤           date_2
+         ¤           number_of_days
+         ¤           day_number
+         ¤           year_day_number
+         ¤           year_week_number
+         ¤           name_of_day
+         ¤           name_of_month
+         ¤           sign
+         ¤
+         ¤     PROCEDURE STATEMENTS
+         ¤
+       1 ¤
+       2 ¤  NOTE:
+       2 ¤  **************************************************
+       2 ¤  2007.03.26 BK  tilrettet til 21-26 Target2
+       2 ¤  **************************************************
+       3 ¤  EXIT STATE IS processing_ok
+       4 ¤
+       5 ¤  MOVE import date_validation_routines TO export date_validation_routines
+       6 ¤  MOVE import vp_std_supplied TO export vp_std_supplied
+       7 ¤
+       8 ¤  NOTE:
+       8 ¤  *********************************************************
+       8 ¤  Fælles validering for alle kalender funktioner
+       8 ¤  *********************************************************
+       9 ¤
+      10 ¤  +->IF import date_validation_routines validation_type >= 1
+      10 ¤  ¤        AND  import date_validation_routines validation_type <= 26
+      11 ¤  ¤  SET temp_imp date_validation_routines validation_type TO import date_validation_routines validation_type
+      10 ¤  +> ELSE
+      12 ¤  ¤  EXIT STATE IS date_validate_routine_not_found WITH ROLLBACK
+      13 ¤  ¤  SET export vp_std_supplied text_80 TO "Angivet kalenderrutine findes ikke (værdisæt skal være 01 - 26 ) "
+      14 ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "UKENDT"
+      15<------ESCAPE
+      10 ¤  +--
+      16 ¤
+      17 ¤  +->IF import date_validation_routines date_1 = datenum(0)
+      18 ¤  ¤  +->IF import date_validation_routines validation_type ^= 18
+      18 ¤  ¤  ¤        AND  import date_validation_routines validation_type ^= 20
+      19 ¤  ¤  ¤  EXIT STATE IS field_must_be_entered WITH ROLLBACK
+      20 ¤  ¤  ¤  SET export vp_std_supplied text_80 TO "Dato skal være angivet for kalenderrutine 01 til 17 og for 19."
+      21 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "UKENDT"
+      22<---------ESCAPE
+      18 ¤  ¤  +--
+      17 ¤  +--
+      23 ¤
+      24 ¤  NOTE:
+      24 ¤  *********************************************************
+      24 ¤  valider input felter pr. kalender funktion
+      24 ¤  *********************************************************
+      25 ¤
+      26 ¤  +->CASE OF import date_validation_routines validation_type
+      26 ¤  +> CASE 1
+      26 ¤  +> CASE 2
+      26 ¤  +> CASE 3
+      26 ¤  +> CASE 4
+      27 ¤  ¤  +->IF import date_validation_routines date_2 = datenum(0)
+      28 ¤  ¤  ¤  SET export vp_std_supplied text_80 TO "Date_2 skal være angivet og større end 0"
+      29 ¤  ¤  ¤  EXIT STATE IS field_must_be_entered WITH ROLLBACK
+      30 ¤ <------ESCAPE
+      27 ¤  ¤  +--
+      26 ¤  +> CASE 5
+      31 ¤  ¤  +->IF import date_validation_routines date_2 = datenum(0)
+      32 ¤  ¤  ¤  SET export vp_std_supplied text_80 TO "Date_2 skal være angivet og større end 0"
+      33 ¤  ¤  ¤  EXIT STATE IS field_must_be_entered WITH ROLLBACK
+      34 ¤ <------ESCAPE
+      31 ¤  ¤  +--
+      26 ¤  +> CASE 6
+      35 ¤  ¤  +->IF import date_validation_routines date_2 = datenum(0)
+      36 ¤  ¤  ¤  SET export vp_std_supplied text_80 TO "Date_2 skal være angivet og større end 0"
+      37 ¤  ¤  ¤  EXIT STATE IS field_must_be_entered WITH ROLLBACK
+      38 ¤ <------ESCAPE
+      35 ¤  ¤  +--
+      26 ¤  +> CASE 7
+      39 ¤  ¤  +->IF import date_validation_routines date_2 = datenum(0)
+      40 ¤  ¤  ¤  SET export vp_std_supplied text_80 TO "Date_2 skal være angivet og større end 0"
+      41 ¤  ¤  ¤  EXIT STATE IS field_must_be_entered WITH ROLLBACK
+      42 ¤ <------ESCAPE
+      39 ¤  ¤  +--
+      26 ¤  +> CASE 8
+      43 ¤  ¤  +->IF import date_validation_routines date_2 = datenum(0)
+      44 ¤  ¤  ¤  SET export vp_std_supplied text_80 TO "Date_2 skal være angivet og større end 0"
+      45 ¤  ¤  ¤  EXIT STATE IS field_must_be_entered WITH ROLLBACK
+      46 ¤ <------ESCAPE
+      43 ¤  ¤  +--
+      26 ¤  +> CASE 9
+      47 ¤  ¤  +->IF import date_validation_routines date_2 = datenum(0)
+      48 ¤  ¤  ¤  SET export vp_std_supplied text_80 TO "Date_2 skal være angivet og større end 0"
+      49 ¤  ¤  ¤  EXIT STATE IS field_must_be_entered WITH ROLLBACK
+      50 ¤ <------ESCAPE
+      47 ¤  ¤  +--
+      26 ¤  +> CASE 10
+      51 ¤  ¤  +->IF import date_validation_routines number_of_days = 0
+      52 ¤  ¤  ¤  SET export vp_std_supplied text_80 TO "Number_of_days skal være angivet og større end 0"
+      53 ¤  ¤  ¤  EXIT STATE IS field_must_be_entered WITH ROLLBACK
+      54 ¤ <------ESCAPE
+      51 ¤  ¤  +--
+      55 ¤  ¤  +->IF import date_validation_routines sign = SPACES
+      56 ¤  ¤  ¤  SET export vp_std_supplied text_80 TO "Date_2 skal være angivet og større end 0"
+      57 ¤  ¤  ¤  EXIT STATE IS field_must_be_entered WITH ROLLBACK
+      58 ¤ <------ESCAPE
+      55 ¤  ¤  +--
+      26 ¤  +> CASE 11
+      59 ¤  ¤  +->IF import date_validation_routines number_of_days = 0
+      60 ¤  ¤  ¤  SET export vp_std_supplied text_80 TO "Number_of_days skal være angivet og større end 0"
+      61 ¤  ¤  ¤  EXIT STATE IS field_must_be_entered WITH ROLLBACK
+      62 ¤ <------ESCAPE
+      59 ¤  ¤  +--
+      63 ¤  ¤  +->IF import date_validation_routines sign = SPACES
+      64 ¤  ¤  ¤  SET export vp_std_supplied text_80 TO "Sign skal være angivet (blank er invalid)"
+      65 ¤  ¤  ¤  EXIT STATE IS field_must_be_entered WITH ROLLBACK
+      66 ¤ <------ESCAPE
+      63 ¤  ¤  +--
+      26 ¤  +> CASE 12
+      67 ¤  ¤  +->IF import date_validation_routines number_of_days = 0
+      68 ¤  ¤  ¤  SET export vp_std_supplied text_80 TO "Number_of_days skal være angivet og større end 0"
+      69 ¤  ¤  ¤  EXIT STATE IS field_must_be_entered WITH ROLLBACK
+      70 ¤ <------ESCAPE
+      67 ¤  ¤  +--
+      71 ¤  ¤  +->IF import date_validation_routines sign = SPACES
+      72 ¤  ¤  ¤  SET export vp_std_supplied text_80 TO "Sign skal være angivet (blank er invalid)"
+      73 ¤  ¤  ¤  EXIT STATE IS field_must_be_entered WITH ROLLBACK
+      74 ¤ <------ESCAPE
+      71 ¤  ¤  +--
+      26 ¤  +> CASE 13
+      26 ¤  +> CASE 14
+      26 ¤  +> CASE 15
+      26 ¤  +> CASE 16
+      75 ¤  ¤  +->IF import date_validation_routines sign = SPACES
+      76 ¤  ¤  ¤  SET export vp_std_supplied text_80 TO "Sign skal være angivet (blank er invalid)"
+      77 ¤  ¤  ¤  EXIT STATE IS field_must_be_entered WITH ROLLBACK
+      78 ¤ <------ESCAPE
+      75 ¤  ¤  +--
+      26 ¤  +> CASE 17
+      79 ¤  ¤  +->IF import date_validation_routines sign = SPACES
+      80 ¤  ¤  ¤  SET export vp_std_supplied text_80 TO "Sign skal være angivet (blank er invalid)"
+      81 ¤  ¤  ¤  EXIT STATE IS field_must_be_entered WITH ROLLBACK
+      82 ¤ <------ESCAPE
+      79 ¤  ¤  +--
+      26 ¤  +> CASE 18
+      83 ¤  ¤  +->IF import date_validation_routines year_day_number = SPACES
+      84 ¤  ¤  ¤  SET export vp_std_supplied text_80 TO "Year_day_number skal være angivet (blank er invalid)"
+      85 ¤  ¤  ¤  EXIT STATE IS field_must_be_entered WITH ROLLBACK
+      86 ¤ <------ESCAPE
+      83 ¤  ¤  +--
+      26 ¤  +> CASE 19
+      26 ¤  +> CASE 20
+      26 ¤  +> CASE 21
+      26 ¤  +> CASE 22
+      87 ¤  ¤  +->IF import date_validation_routines date_2 = datenum(0)
+      88 ¤  ¤  ¤  SET export vp_std_supplied text_80 TO "Date_2 skal være angivet og større end 0"
+      89 ¤  ¤  ¤  EXIT STATE IS field_must_be_entered WITH ROLLBACK
+      90 ¤ <------ESCAPE
+      87 ¤  ¤  +--
+      26 ¤  +> CASE 23
+      91 ¤  ¤  +->IF import date_validation_routines date_2 = datenum(0)
+      92 ¤  ¤  ¤  SET export vp_std_supplied text_80 TO "Date_2 skal være angivet og større end 0"
+      93 ¤  ¤  ¤  EXIT STATE IS field_must_be_entered WITH ROLLBACK
+      94 ¤ <------ESCAPE
+      91 ¤  ¤  +--
+      26 ¤  +> CASE 24
+      95 ¤  ¤  +->IF import date_validation_routines number_of_days = 0
+      96 ¤  ¤  ¤  SET export vp_std_supplied text_80 TO "Number_of_days skal være angivet og større end 0"
+      97 ¤  ¤  ¤  EXIT STATE IS field_must_be_entered WITH ROLLBACK
+      98 ¤ <------ESCAPE
+      95 ¤  ¤  +--
+      99 ¤  ¤  +->IF import date_validation_routines sign = SPACES
+     100 ¤  ¤  ¤  SET export vp_std_supplied text_80 TO "Sign skal være angivet (blank er invalid)"
+     101 ¤  ¤  ¤  EXIT STATE IS field_must_be_entered WITH ROLLBACK
+     102 ¤ <------ESCAPE
+      99 ¤  ¤  +--
+      26 ¤  +> CASE 25
+      26 ¤  +> CASE 26
+     103 ¤  ¤  +->IF import date_validation_routines sign = SPACES
+     104 ¤  ¤  ¤  SET export vp_std_supplied text_80 TO "Sign skal være angivet (blank er invalid)"
+     105 ¤  ¤  ¤  EXIT STATE IS field_must_be_entered WITH ROLLBACK
+     106 ¤ <------ESCAPE
+     103 ¤  ¤  +--
+      26 ¤  +> OTHERWISE
+      26 ¤  +--
+     107 ¤
+     108 ¤
+     109 ¤  +->IF EXITSTATE = processing_ok
+     110 ¤  ¤  USE gv000112_call_date_routines
+     110 ¤  ¤     WHICH IMPORTS: Entity View import date_validation_routines
+     110 ¤  ¤     WHICH EXPORTS: Entity View export date_validation_routines
+     111 ¤  ¤
+     112 ¤  ¤  NOTE:
+     112 ¤  ¤  *****************************************************
+     112 ¤  ¤  Dokumenter navn (VP) på ønsket kalenderrutine
+     112 ¤  ¤  *****************************************************
+     113 ¤  ¤
+     114 ¤  ¤  +->CASE OF import date_validation_routines validation_type
+     114 ¤  ¤  +> CASE 1
+     115 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTAV1"
+     114 ¤  ¤  +> CASE 2
+     116 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTBV1"
+     114 ¤  ¤  +> CASE 3
+     117 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTPV1"
+     114 ¤  ¤  +> CASE 4
+     118 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTAV2"
+     114 ¤  ¤  +> CASE 5
+     119 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTBV2"
+     114 ¤  ¤  +> CASE 6
+     120 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTPV2"
+     114 ¤  ¤  +> CASE 7
+     121 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTABA"
+     114 ¤  ¤  +> CASE 8
+     122 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTBBA"
+     114 ¤  ¤  +> CASE 9
+     123 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTPBA"
+     114 ¤  ¤  +> CASE 10
+     124 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTABD"
+     114 ¤  ¤  +> CASE 11
+     125 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTBBD"
+     114 ¤  ¤  +> CASE 12
+     126 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTPBD"
+     114 ¤  ¤  +> CASE 13
+     127 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTTAN"
+     114 ¤  ¤  +> CASE 14
+     128 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTTBN"
+     114 ¤  ¤  +> CASE 15
+     129 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTTPN"
+     114 ¤  ¤  +> CASE 16
+     130 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTBDB"
+     114 ¤  ¤  +> CASE 17
+     131 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTPDB"
+     114 ¤  ¤  +> CASE 18
+     132 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTTAK"
+     114 ¤  ¤  +> CASE 19
+     133 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTAUG"
+     114 ¤  ¤  +> CASE 20
+     134 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTDAT"
+     114 ¤  ¤  +> CASE 21
+     135 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTTV1"
+     114 ¤  ¤  +> CASE 22
+     136 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTTV2"
+     114 ¤  ¤  +> CASE 23
+     137 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTTBA"
+     114 ¤  ¤  +> CASE 24
+     138 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTTBD"
+     114 ¤  ¤  +> CASE 25
+     139 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTTN"
+     114 ¤  ¤  +> CASE 26
+     140 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "VPDTTDB"
+     114 ¤  ¤  +> OTHERWISE
+     141 ¤  ¤  ¤  SET export_used date_routines_validated vpdt_rutine_name TO "UKENDT"
+     114 ¤  ¤  +--
+     109 ¤  +> ELSE
+     142 ¤  ¤  SET temp system_management type TO 6
+     143 ¤  ¤  SET temp system_management text TO "Datorutine ej aktiveret pga. exitstate ifbm validering."
+     144 ¤  ¤  USE gv000122_run_statistics
+     144 ¤  ¤     WHICH IMPORTS: Entity View temp system_management
+     109 ¤  +--
+         +---
+ 

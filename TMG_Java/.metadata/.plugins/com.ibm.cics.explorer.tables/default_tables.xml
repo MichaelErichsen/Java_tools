@@ -1,0 +1,1289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Tables xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:model="http://www.ibm.com/xmlns/prod/cics/explorer/tables">
+  <tables name="" type="INDTDQ" id="com.ibm.cics.core.ui.view.indirectTdqueues">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="TDQUEUE" width="-1"/>
+    <columnSettings attribute="INDIRECTNAME" width="-1"/>
+    <columnSettings attribute="INDIRECTTYPE" width="-1"/>
+    <columnSettings attribute="OUTCNT" width="-1"/>
+  </tables>
+  <tables name="" type="JVM" id="com.ibm.cics.sm.ui.views.jvmStatus">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="PROFILE" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="PHASINGOUTST" width="-1"/>
+  </tables>
+  <tables name="" type="TCPIPS" id="com.ibm.cics.sm.ui.views.tcpipServices">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="PORT" width="-1"/>
+    <columnSettings attribute="OPENSTATUS" width="-1"/>
+    <columnSettings attribute="CONNECTIONS" width="-1"/>
+    <columnSettings attribute="BACKLOG" width="-1"/>
+    <columnSettings attribute="IPADDRESS" width="-1"/>
+    <columnSettings attribute="TSQPREFIX" width="-1"/>
+    <columnSettings attribute="SOCKETCLOSE" width="-1"/>
+  </tables>
+  <tables name="" type="EXTRATDQ" id="com.ibm.cics.core.ui.view.extraPartitionTdqueues">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="TDQUEUE" width="-1"/>
+    <columnSettings attribute="ENABLESTATUS" width="-1"/>
+    <columnSettings attribute="OPENSTATUS" width="-1"/>
+    <columnSettings attribute="IOTYPE" width="-1"/>
+    <columnSettings attribute="RECORDLENGTH" width="-1"/>
+    <columnSettings attribute="RECORDFORMAT" width="-1"/>
+    <columnSettings attribute="PRINTCONTROL" width="-1"/>
+    <columnSettings attribute="OUTCNT" width="-1"/>
+  </tables>
+  <tables name="" type="PLATDEF" id="com.ibm.cics.sm.ui.views.platformDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+    <columnSettings attribute="PLATDIR" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="CHANGEUSRID" width="-1"/>
+  </tables>
+  <tables name="" type="REMTRAN" id="com.ibm.cics.core.ui.view.remoteTransactions">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="TRANID" width="-1"/>
+    <columnSettings attribute="REMOTENAME" width="-1"/>
+    <columnSettings attribute="REMOTESYSTEM" width="-1"/>
+    <columnSettings attribute="AVAILSTATUS" width="-1"/>
+    <columnSettings attribute="ROUTING" width="-1"/>
+    <columnSettings attribute="USECOUNT" width="-1"/>
+    <columnSettings attribute="REMOTECNT" width="-1"/>
+    <columnSettings attribute="TRPROF" width="-1"/>
+  </tables>
+  <tables name="" type="LIBDEF" id="com.ibm.cics.sm.ui.views.libraryDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+  </tables>
+  <tables name="" type="RPLLIST" id="com.ibm.cics.sm.ui.views.rplList">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="RPLNUM" width="-1"/>
+    <columnSettings attribute="DSNAME" width="-1"/>
+  </tables>
+  <tables name="" type="TRANDEF" id="com.ibm.cics.core.ui.view.transactionDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+    <columnSettings attribute="STATUS" width="-1"/>
+  </tables>
+  <tables name="" type="PLATFORM" id="com.ibm.cics.sm.ui.views.platforms">
+    <columnSettings attribute="PLATFORM" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+    <columnSettings attribute="STATUS" width="-1"/>
+    <columnSettings attribute="PLATHOME" width="-1"/>
+    <columnSettings attribute="PLATDIR" width="-1"/>
+    <columnSettings attribute="PLATDEF" width="-1"/>
+  </tables>
+  <tables name="" type="ENQMDEF" id="com.ibm.cics.sm.ui.views.enqueueModelDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+  </tables>
+  <tables name="" type="JVMSERV" id="com.ibm.cics.sm.ui.views.jvmServers">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="ENABLESTATUS" width="-1"/>
+    <columnSettings attribute="THREADLIMIT" width="-1"/>
+    <columnSettings attribute="SRVTHRCURR" width="-1"/>
+    <columnSettings attribute="INSTALLTIME" width="-1"/>
+  </tables>
+  <tables name="" type="TRANDUMP" id="com.ibm.cics.sm.ui.views.transactionDumps">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="TRANDUMPCODE" width="-1"/>
+    <columnSettings attribute="CURRENT" width="-1"/>
+    <columnSettings attribute="MAXIMUM" width="-1"/>
+    <columnSettings attribute="TRANDUMPING" width="-1"/>
+    <columnSettings attribute="TDMPTOTL" width="-1"/>
+    <columnSettings attribute="TDMPSUPP" width="-1"/>
+    <columnSettings attribute="SYSDUMPING" width="-1"/>
+  </tables>
+  <tables name="" type="CMTCMLNK" id="com.ibm.cics.sm.ui.views.cmasToCmasLinks">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="SYSID" width="-1"/>
+    <columnSettings attribute="PROTOCOL" width="-1"/>
+    <columnSettings attribute="APPLID" width="-1"/>
+    <columnSettings attribute="CPSMCONN" width="-1"/>
+    <columnSettings attribute="MSGSSENT" width="-1"/>
+    <columnSettings attribute="MSGSRCVD" width="-1"/>
+    <columnSettings attribute="CICSCONN" width="-1"/>
+    <columnSettings attribute="CICSSERV" width="-1"/>
+  </tables>
+  <tables name="" type="WEBSERV" id="com.ibm.cics.sm.ui.views.webServices">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="STATE" width="-1"/>
+    <columnSettings attribute="WEBUSECOUNT" width="-1"/>
+    <columnSettings attribute="PIPELINE" width="-1"/>
+    <columnSettings attribute="URIMAP" width="-1"/>
+  </tables>
+  <tables name="" type="EVENT" id="com.ibm.cics.core.ui.view.events">
+    <columnSettings attribute="SEVERITY" width="-1"/>
+    <columnSettings attribute="PRIORITY" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="EVALTYPE" width="-1"/>
+    <columnSettings attribute="DETAIL" width="-1"/>
+    <columnSettings attribute="VIEW" width="-1"/>
+    <columnSettings attribute="RESTYPE" width="-1"/>
+    <columnSettings attribute="KEY" width="-1"/>
+    <columnSettings attribute="DESC" width="-1"/>
+    <columnSettings attribute="TARGET" width="-1"/>
+    <columnSettings attribute="DATETIME" width="-1"/>
+  </tables>
+  <tables name="" type="TSMODEL" id="com.ibm.cics.sm.ui.views.tsModels">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="PREFIX" width="-1"/>
+    <columnSettings attribute="SECURITYST" width="-1"/>
+  </tables>
+  <tables name="" type="RQMDEF" id="com.ibm.cics.sm.ui.views.requestModelDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+  </tables>
+  <tables name="" type="WLMAWORK" id="com.ibm.cics.sm.ui.views.wlmActiveWorkloads">
+    <columnSettings attribute="WORKLOAD" width="-1"/>
+    <columnSettings attribute="WRKLOWNER" width="-1"/>
+    <columnSettings attribute="TORCNT" width="-1"/>
+    <columnSettings attribute="AORCNT" width="-1"/>
+    <columnSettings attribute="AFFINITY" width="-1"/>
+    <columnSettings attribute="AFFLIFE" width="-1"/>
+    <columnSettings attribute="AORSCOPE" width="-1"/>
+    <columnSettings attribute="EVENTNAME" width="-1"/>
+    <columnSettings attribute="STATUS" width="-1"/>
+    <columnSettings attribute="AFFAUTO" width="-1"/>
+    <columnSettings attribute="ALGTYPE" width="-1"/>
+    <columnSettings attribute="DESC" width="-1"/>
+    <columnSettings attribute="SHARED" width="-1"/>
+  </tables>
+  <tables name="" type="EVCSPEC" id="com.ibm.cics.sm.ui.views.captureSpecifications">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="CAPTURESPEC" width="-1"/>
+    <columnSettings attribute="EVENTBINDING" width="-1"/>
+    <columnSettings attribute="CAPTURETYPE" width="-1"/>
+    <columnSettings attribute="CAPTUREPOINT" width="-1"/>
+    <columnSettings attribute="EVENTNAME" width="-1"/>
+    <columnSettings attribute="EVNTCAPTURED" width="-1"/>
+  </tables>
+  <tables name="" type="TASK" id="com.ibm.cics.core.ui.view.tasks">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="TASK" width="-1"/>
+    <columnSettings attribute="TRANID" width="-1"/>
+    <columnSettings attribute="RUNSTATUS" width="-1"/>
+    <columnSettings attribute="USERID" width="-1"/>
+    <columnSettings attribute="FACILITY" width="-1"/>
+    <columnSettings attribute="LUNAME" width="-1"/>
+    <columnSettings attribute="PRIORITY" width="-1"/>
+    <columnSettings attribute="TRANCLASS" width="-1"/>
+    <columnSettings attribute="SUSPENDTIME" width="-1"/>
+  </tables>
+  <tables name="" type="WLMSPEC" id="com.ibm.cics.sm.ui.views.workloadSpecifications">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="AFFINITY" width="-1"/>
+    <columnSettings attribute="AFFLIFE" width="-1"/>
+    <columnSettings attribute="AORSCOPE" width="-1"/>
+    <columnSettings attribute="AFFAUTO" width="-1"/>
+    <columnSettings attribute="MATCH" width="-1"/>
+    <columnSettings attribute="EVENTNAME" width="-1"/>
+    <columnSettings attribute="ALGTYPE" width="-1"/>
+    <columnSettings attribute="DESC" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="CHANGEUSRID" width="-1"/>
+  </tables>
+  <tables name="" type="TRNCLDEF" id="com.ibm.cics.sm.ui.views.transactionClassDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+  </tables>
+  <tables name="" type="LSRDEF" id="com.ibm.cics.sm.ui.views.lsrPoolDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+  </tables>
+  <tables name="" type="CSYSGRP" id="com.ibm.cics.sm.ui.views.regionGroupDefinitions">
+    <columnSettings attribute="GROUP" width="-1"/>
+    <columnSettings attribute="DESC" width="-1"/>
+    <columnSettings attribute="PLATDEF" width="-1"/>
+    <columnSettings attribute="REGIONTYPE" width="-1"/>
+    <columnSettings attribute="CREATEORIGIN" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="CHANGEUSRID" width="-1"/>
+  </tables>
+  <tables name="" type="TSQNAME" id="com.ibm.cics.core.ui.view.tsqueues">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="LOCATION" width="-1"/>
+    <columnSettings attribute="NUMITEMS" width="-1"/>
+    <columnSettings attribute="QUELENGTH" width="-1"/>
+    <columnSettings attribute="MAXITEMLEN" width="-1"/>
+    <columnSettings attribute="MINITEMLEN" width="-1"/>
+  </tables>
+  <tables name="" type="JRNLNAME" id="com.ibm.cics.sm.ui.views.journalNames">
+    <columnSettings attribute="JOURNALNAME" width="-1"/>
+    <columnSettings attribute="STATUS" width="-1"/>
+    <columnSettings attribute="STREAMNAME" width="-1"/>
+    <columnSettings attribute="TYPE" width="-1"/>
+  </tables>
+  <tables name="" type="PROGDEF" id="com.ibm.cics.sm.ui.views.programDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+    <columnSettings attribute="STATUS" width="-1"/>
+  </tables>
+  <tables name="" type="XMLTRANS" id="com.ibm.cics.sm.ui.views.xmlTransforms">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="VALIDATIONST" width="-1"/>
+    <columnSettings attribute="ENABLESTATUS" width="-1"/>
+    <columnSettings attribute="USECOUNT" width="-1"/>
+    <columnSettings attribute="BUNDLE" width="-1"/>
+    <columnSettings attribute="INSTALLTIME" width="-1"/>
+  </tables>
+  <tables name="" type="CPLEXDEF" id="com.ibm.cics.sm.ui.views.cicsplexDefinitions">
+    <columnSettings attribute="CICSPLEX" width="-1"/>
+    <columnSettings attribute="INTVL" width="-1"/>
+    <columnSettings attribute="TMEZONE" width="-1"/>
+    <columnSettings attribute="TMEZONEO" width="-1"/>
+    <columnSettings attribute="DAYLGHTSV" width="-1"/>
+    <columnSettings attribute="SECCMDCHK" width="-1"/>
+    <columnSettings attribute="SECRESCHK" width="-1"/>
+    <columnSettings attribute="SECBYPASS" width="-1"/>
+    <columnSettings attribute="RODMPOP" width="-1"/>
+    <columnSettings attribute="STATE" width="-1"/>
+    <columnSettings attribute="DESC" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="CHANGEUSRID" width="-1"/>
+  </tables>
+  <tables name="" type="CICSDSA" id="com.ibm.cics.sm.ui.views.dynamicStorageAreas">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="ACCESSTYPE" width="-1"/>
+    <columnSettings attribute="SIZE" width="-1"/>
+    <columnSettings attribute="CUSHION" width="-1"/>
+    <columnSettings attribute="STGSOSC" width="-1"/>
+    <columnSettings attribute="STGFSIZE" width="-1"/>
+  </tables>
+  <tables name="" type="DB2CDEF" id="com.ibm.cics.sm.ui.views.db2ConnectionDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+  </tables>
+  <tables name="" type="CONNDEF" id="com.ibm.cics.sm.ui.views.connectionDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+  </tables>
+  <tables name="" type="EJDJDEF" id="com.ibm.cics.sm.ui.views.deployedJARFileDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+  </tables>
+  <tables name="" type="WLMATAFF" id="com.ibm.cics.sm.ui.views.workloadAffinities">
+    <columnSettings attribute="WORKLOAD" width="-1"/>
+    <columnSettings attribute="WRKLOWNER" width="-1"/>
+    <columnSettings attribute="TRANGRP" width="-1"/>
+    <columnSettings attribute="AFFINITY" width="-1"/>
+    <columnSettings attribute="LIFETIME" width="-1"/>
+    <columnSettings attribute="AOR" width="-1"/>
+    <columnSettings attribute="USERID" width="-1"/>
+    <columnSettings attribute="LUNAME" width="-1"/>
+    <columnSettings attribute="TORNAME" width="-1"/>
+    <columnSettings attribute="TERMID" width="-1"/>
+    <columnSettings attribute="CBTSKEY" width="-1"/>
+  </tables>
+  <tables name="" type="PROFDEF" id="com.ibm.cics.sm.ui.views.profileDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+  </tables>
+  <tables name="" type="APPLCTN" id="com.ibm.cics.sm.ui.views.applications">
+    <columnSettings attribute="APPLICATION" width="-1"/>
+    <columnSettings attribute="APPLDEF" width="-1"/>
+    <columnSettings attribute="MAJORVERSION" width="-1"/>
+    <columnSettings attribute="MINORVERSION" width="-1"/>
+    <columnSettings attribute="MICROVERSION" width="-1"/>
+    <columnSettings attribute="PLATDEF" width="-1"/>
+    <columnSettings attribute="ENABLESTATUS" width="-1"/>
+    <columnSettings attribute="AVAILSTATUS" width="-1"/>
+  </tables>
+  <tables name="" type="TYPTMDEF" id="com.ibm.cics.sm.ui.views.typetermDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+  </tables>
+  <tables name="" type="BUNDLE" id="com.ibm.cics.sm.ui.views.bundles">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="BUNDLEID" width="-1"/>
+    <columnSettings attribute="MAJORVERSION" width="-1"/>
+    <columnSettings attribute="MINORVERSION" width="-1"/>
+    <columnSettings attribute="MICROVERSION" width="-1"/>
+    <columnSettings attribute="ENABLESTATUS" width="-1"/>
+    <columnSettings attribute="AVAILSTATUS" width="-1"/>
+    <columnSettings attribute="INSTALLTIME" width="-1"/>
+    <columnSettings attribute="ENABLEDCOUNT" width="-1"/>
+  </tables>
+  <tables name="" type="LIBDSN" id="com.ibm.cics.sm.ui.views.libraryDSNames">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="LIBRARY" width="-1"/>
+    <columnSettings attribute="DSNUM" width="-1"/>
+    <columnSettings attribute="DSNAME" width="-1"/>
+    <columnSettings attribute="DSNSEARCHPOS" width="-1"/>
+  </tables>
+  <tables name="" type="TSQSHR" id="com.ibm.cics.sm.ui.views.sharedTsqueues">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="POOLNAME" width="-1"/>
+    <columnSettings attribute="LOCATION" width="-1"/>
+    <columnSettings attribute="NUMITEMS" width="-1"/>
+    <columnSettings attribute="QUELENGTH" width="-1"/>
+    <columnSettings attribute="MAXITEMLEN" width="-1"/>
+    <columnSettings attribute="MINITEMLEN" width="-1"/>
+    <columnSettings attribute="LASTUSEDINT" width="-1"/>
+    <columnSettings attribute="EXPIRYINT" width="-1"/>
+    <columnSettings attribute="RECOVSTATUS" width="-1"/>
+  </tables>
+  <tables name="" type="DB2ENTRY" id="com.ibm.cics.sm.ui.views.db2Entries">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="ENABLESTATUS" width="-1"/>
+    <columnSettings attribute="THREADWAIT" width="-1"/>
+    <columnSettings attribute="THREADLIMIT" width="-1"/>
+    <columnSettings attribute="THREADS" width="-1"/>
+    <columnSettings attribute="PLAN" width="-1"/>
+  </tables>
+  <tables name="" type="CMAS" id="com.ibm.cics.sm.ui.views.cmasDetails">
+    <columnSettings attribute="CMASNAME" width="-1"/>
+    <columnSettings attribute="JOBNAME" width="-1"/>
+    <columnSettings attribute="APPLID" width="-1"/>
+    <columnSettings attribute="MVSLOC" width="-1"/>
+    <columnSettings attribute="SYSID" width="-1"/>
+  </tables>
+  <tables name="" type="TSMDEF" id="com.ibm.cics.sm.ui.views.tsModelDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+  </tables>
+  <tables name="" type="EPADAPT" id="com.ibm.cics.sm.ui.views.epAdapters">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="ENABLESTATUS" width="-1"/>
+    <columnSettings attribute="BUNDLE" width="-1"/>
+    <columnSettings attribute="ADAPTERTYPE" width="-1"/>
+    <columnSettings attribute="DATAFORMAT" width="-1"/>
+    <columnSettings attribute="INSTALLTIME" width="-1"/>
+  </tables>
+  <tables name="" type="DB2EDEF" id="com.ibm.cics.sm.ui.views.db2EntryDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+  </tables>
+  <tables name="" type="HTASK" id="com.ibm.cics.sm.ui.views.completedTasks">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="STOP" width="-1"/>
+    <columnSettings attribute="TASK" width="-1"/>
+    <columnSettings attribute="TRANID" width="-1"/>
+    <columnSettings attribute="USERID" width="-1"/>
+    <columnSettings attribute="TERMID" width="-1"/>
+    <columnSettings attribute="RESPTIME" width="-1"/>
+    <columnSettings attribute="CPUTIME" width="-1"/>
+    <columnSettings attribute="ABCODEO" width="-1"/>
+  </tables>
+  <tables name="" type="MQCONN" id="com.ibm.cics.sm.ui.views.wmqConnectionStatistics">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="MQGQMGRNAME" width="-1"/>
+    <columnSettings attribute="MQGCONNSTAT" width="-1"/>
+    <columnSettings attribute="MQCONNECT" width="-1"/>
+  </tables>
+  <tables name="" type="TDQDEF" id="com.ibm.cics.sm.ui.views.tdQueueDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+    <columnSettings attribute="TDQTYPE" width="-1"/>
+  </tables>
+  <tables name="" type="TRANCLAS" id="com.ibm.cics.sm.ui.views.transactionClasses">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="MAXACTIVE" width="-1"/>
+    <columnSettings attribute="ACTIVE" width="-1"/>
+    <columnSettings attribute="ACTIVEPEAK" width="-1"/>
+    <columnSettings attribute="TIMESATMAX" width="-1"/>
+  </tables>
+  <tables name="" type="TASKASSC" id="com.ibm.cics.core.ui.views.taskAssociations">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="TASKID" width="-1"/>
+    <columnSettings attribute="STARTTIME" width="-1"/>
+    <columnSettings attribute="TRANSACTION" width="-1"/>
+    <columnSettings attribute="ODTRANSID" width="-1"/>
+    <columnSettings attribute="ODAPPLID" width="-1"/>
+    <columnSettings attribute="ODUSERID" width="-1"/>
+    <columnSettings attribute="ODTASKID" width="-1"/>
+    <columnSettings attribute="ODFACILTYPE" width="-1"/>
+    <columnSettings attribute="ODFACILNAME" width="-1"/>
+    <columnSettings attribute="ODCLNTIPADDR" width="-1"/>
+    <columnSettings attribute="ODCLNTPORT" width="-1"/>
+    <columnSettings attribute="ODIPFAMILY" width="-1"/>
+    <columnSettings attribute="ODLUNAME" width="-1"/>
+    <columnSettings attribute="USERCORRDATA" width="-1"/>
+    <columnSettings attribute="DNAME" width="-1"/>
+    <columnSettings attribute="REALM" width="-1"/>
+  </tables>
+  <tables name="" type="JVMPOOL" id="com.ibm.cics.sm.ui.views.jvmPools">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="STATUS" width="-1"/>
+    <columnSettings attribute="SJGCURRJVMS" width="-1"/>
+    <columnSettings attribute="PHASINGOUT" width="-1"/>
+    <columnSettings attribute="TOTAL" width="-1"/>
+  </tables>
+  <tables name="" type="PROGRAM" id="com.ibm.cics.sm.ui.views.programs">
+    <columnSettings attribute="PROGRAM" width="-1"/>
+    <columnSettings attribute="STATUS" width="-1"/>
+    <columnSettings attribute="USECOUNT" width="-1"/>
+    <columnSettings attribute="RESCOUNT" width="-1"/>
+    <columnSettings attribute="LANGUAGE" width="-1"/>
+    <columnSettings attribute="SHARESTATUS" width="-1"/>
+    <columnSettings attribute="CEDFSTATUS" width="-1"/>
+    <columnSettings attribute="COPY" width="-1"/>
+  </tables>
+  <tables name="" type="IPCONDEF" id="com.ibm.cics.sm.ui.views.ipicConnectionDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="PORT" width="-1"/>
+    <columnSettings attribute="TCPIPSERVICE" width="-1"/>
+    <columnSettings attribute="APPLID" width="-1"/>
+    <columnSettings attribute="HOST" width="-1"/>
+  </tables>
+  <tables name="" type="SESSDEF" id="com.ibm.cics.sm.ui.views.sessionDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+  </tables>
+  <tables name="" type="INTRATDQ" id="com.ibm.cics.core.ui.view.intraPartitionTdqueues">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="TDQUEUE" width="-1"/>
+    <columnSettings attribute="STATUS" width="-1"/>
+    <columnSettings attribute="OUTCNT" width="-1"/>
+    <columnSettings attribute="ATITRANID" width="-1"/>
+    <columnSettings attribute="ATITERMID" width="-1"/>
+    <columnSettings attribute="NUMITEMS" width="-1"/>
+    <columnSettings attribute="RECOVSTATUS" width="-1"/>
+  </tables>
+  <tables name="" type="WLMGROUP" id="com.ibm.cics.sm.ui.views.workloadGroups">
+    <columnSettings attribute="DESC" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="CHANGEUSRID" width="-1"/>
+  </tables>
+  <tables name="" type="BUNDDEF" id="com.ibm.cics.sm.ui.views.bundleDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="CHANGEUSRID" width="-1"/>
+  </tables>
+  <tables name="" type="ATOMSERV" id="com.ibm.cics.sm.ui.views.atomServices">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="ENABLESTATUS" width="-1"/>
+    <columnSettings attribute="INSTALLTIME" width="-1"/>
+  </tables>
+  <tables name="" type="REMFILE" id="com.ibm.cics.core.ui.view.remoteFiles">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="FILE" width="-1"/>
+    <columnSettings attribute="REMOTENAME" width="-1"/>
+    <columnSettings attribute="REMOTESYSTEM" width="-1"/>
+  </tables>
+  <tables name="" type="EXITGLUE" id="com.ibm.cics.sm.ui.views.globalUserExits">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="PROGRAM" width="-1"/>
+    <columnSettings attribute="ENTRYNAME" width="-1"/>
+    <columnSettings attribute="EXITPOINT" width="-1"/>
+    <columnSettings attribute="STARTSTATUS" width="-1"/>
+    <columnSettings attribute="NUMEXITS" width="-1"/>
+    <columnSettings attribute="ENTRY" width="-1"/>
+    <columnSettings attribute="GAENTRYNAME" width="-1"/>
+    <columnSettings attribute="GALENGTH" width="-1"/>
+    <columnSettings attribute="GAUSECOUNT" width="-1"/>
+  </tables>
+  <tables name="" type="WLPSERV" id="com.ibm.cics.sm.ui.views.wlpServices">
+    <columnSettings attribute="SRVCNAME" width="-1"/>
+    <columnSettings attribute="WLPAPPL" width="-1"/>
+    <columnSettings attribute="WLPCLASS" width="-1"/>
+    <columnSettings attribute="SRVCSTATUS" width="-1"/>
+    <columnSettings attribute="BUNDLE" width="-1"/>
+    <columnSettings attribute="BUNDLEPART" width="-1"/>
+  </tables>
+  <tables name="" type="JVMPROF" id="com.ibm.cics.sm.ui.views.jvmProfiles">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="CLASSCACHEST" width="-1"/>
+  </tables>
+  <tables name="" type="BUNDPART" id="com.ibm.cics.sm.ui.views.bundleParts">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="BUNDLE" width="-1"/>
+    <columnSettings attribute="BUNDLEPART" width="-1"/>
+    <columnSettings attribute="ENABLESTATUS" width="-1"/>
+    <columnSettings attribute="AVAILSTATUS" width="-1"/>
+    <columnSettings attribute="METADATAFILE" width="-1"/>
+    <columnSettings attribute="PARTCLASS" width="-1"/>
+    <columnSettings attribute="PARTTYPE" width="-1"/>
+  </tables>
+  <tables name="" type="MAPDEF" id="com.ibm.cics.sm.ui.views.mapSetDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+  </tables>
+  <tables name="" type="TERMNL" id="com.ibm.cics.core.ui.view.terminals">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="TERMID" width="-1"/>
+    <columnSettings attribute="NETNAME" width="-1"/>
+    <columnSettings attribute="ACQSTATUS" width="-1"/>
+    <columnSettings attribute="SERVSTATUS" width="-1"/>
+    <columnSettings attribute="ATISTATUS" width="-1"/>
+    <columnSettings attribute="TTISTATUS" width="-1"/>
+    <columnSettings attribute="CREATESESS" width="-1"/>
+    <columnSettings attribute="USERID" width="-1"/>
+    <columnSettings attribute="TRANSACTION" width="-1"/>
+  </tables>
+  <tables name="" type="EJCODEF" id="com.ibm.cics.sm.ui.views.corbaServerDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+  </tables>
+  <tables name="" type="CLCACHE" id="com.ibm.cics.sm.ui.views.jvmClassCaches">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="PROFILE" width="-1"/>
+    <columnSettings attribute="STATUS" width="-1"/>
+    <columnSettings attribute="PHASINGOUT" width="-1"/>
+  </tables>
+  <tables name="" type="STREAMNM" id="com.ibm.cics.sm.ui.views.streamNames">
+    <columnSettings attribute="STREAMNAME" width="-1"/>
+    <columnSettings attribute="STATUS" width="-1"/>
+    <columnSettings attribute="SYSTEMLOG" width="-1"/>
+    <columnSettings attribute="USECOUNT" width="-1"/>
+  </tables>
+  <tables name="" type="PROCDEF" id="com.ibm.cics.sm.ui.views.processTypeDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+    <columnSettings attribute="STATUS" width="-1"/>
+    <columnSettings attribute="FILE" width="-1"/>
+  </tables>
+  <tables name="" type="DB2CONN" id="com.ibm.cics.sm.ui.views.db2Connections">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DB2ID" width="-1"/>
+    <columnSettings attribute="DB2GROUPID" width="-1"/>
+    <columnSettings attribute="DB2RELEASE" width="-1"/>
+    <columnSettings attribute="CONNECTST" width="-1"/>
+    <columnSettings attribute="TCBLIMIT" width="-1"/>
+    <columnSettings attribute="TCBS" width="-1"/>
+  </tables>
+  <tables name="" type="EXITTRUE" id="com.ibm.cics.sm.ui.views.taskRelatedUserExits">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="PROGRAM" width="-1"/>
+    <columnSettings attribute="ENTRYNAME" width="-1"/>
+    <columnSettings attribute="STARTSTATUS" width="-1"/>
+    <columnSettings attribute="CONCURRENTST" width="-1"/>
+    <columnSettings attribute="APIST" width="-1"/>
+    <columnSettings attribute="TASKSTART" width="-1"/>
+  </tables>
+  <tables name="" type="DBCTLSS" id="com.ibm.cics.sm.ui.views.dbctlsss">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="LOCATION" width="-1"/>
+    <columnSettings attribute="CICSNAME" width="-1"/>
+    <columnSettings attribute="STATUS" width="-1"/>
+    <columnSettings attribute="MINTHREAD" width="-1"/>
+    <columnSettings attribute="MAXTHREAD" width="-1"/>
+  </tables>
+  <tables name="" type="TSQGBL" id="com.ibm.cics.sm.ui.views.globalTsQueueStatistics">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAMESINUSE" width="-1"/>
+    <columnSettings attribute="CURRSTG" width="-1"/>
+    <columnSettings attribute="TSMAININUSE" width="-1"/>
+    <columnSettings attribute="TSMAINPCT" width="-1"/>
+    <columnSettings attribute="PEAKSTG" width="-1"/>
+    <columnSettings attribute="AUXFULL" width="-1"/>
+    <columnSettings attribute="TSMAINHIT" width="-1"/>
+    <columnSettings attribute="CINUM" width="-1"/>
+    <columnSettings attribute="BUFFWAITS" width="-1"/>
+    <columnSettings attribute="STRINGWAIT" width="-1"/>
+  </tables>
+  <tables name="" type="REQID" id="com.ibm.cics.sm.ui.views.intervalControlRequests">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="REQTYPE" width="-1"/>
+    <columnSettings attribute="TRANSID" width="-1"/>
+    <columnSettings attribute="TERMID" width="-1"/>
+    <columnSettings attribute="USERID" width="-1"/>
+    <columnSettings attribute="QUEUE" width="-1"/>
+    <columnSettings attribute="INTERVAL" width="-1"/>
+    <columnSettings attribute="TIME" width="-1"/>
+  </tables>
+  <tables name="" type="EJCOSE" id="com.ibm.cics.sm.ui.views.corbaServers">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="ENABLESTATUS" width="-1"/>
+    <columnSettings attribute="STATE" width="-1"/>
+    <columnSettings attribute="HOST" width="-1"/>
+    <columnSettings attribute="HOSTTYPE" width="-1"/>
+    <columnSettings attribute="INSTALLTIME" width="-1"/>
+  </tables>
+  <tables name="" type="OSGISERV" id="com.ibm.cics.sm.ui.views.osgiServices">
+    <columnSettings attribute="SRVCNAME" width="-1"/>
+    <columnSettings attribute="OSGIBUNDLE" width="-1"/>
+    <columnSettings attribute="OSGIVERSION" width="-1"/>
+    <columnSettings attribute="SRVCSTATUS" width="-1"/>
+    <columnSettings attribute="BUNDLE" width="-1"/>
+    <columnSettings attribute="BUNDLEPART" width="-1"/>
+  </tables>
+  <tables name="" type="SYSDUMP" id="com.ibm.cics.sm.ui.views.systemDumps">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="SYSDUMPCODE" width="-1"/>
+    <columnSettings attribute="CURRENT" width="-1"/>
+    <columnSettings attribute="MAXIMUM" width="-1"/>
+    <columnSettings attribute="SDMPTOTL" width="-1"/>
+    <columnSettings attribute="SDMPSUPP" width="-1"/>
+    <columnSettings attribute="SYSDUMPING" width="-1"/>
+  </tables>
+  <tables name="" type="CONNECT" id="com.ibm.cics.core.ui.view.connections">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="TYPE" width="-1"/>
+    <columnSettings attribute="NETNAME" width="-1"/>
+    <columnSettings attribute="CONNSTATUS" width="-1"/>
+    <columnSettings attribute="SERVSTATUS" width="-1"/>
+    <columnSettings attribute="PENDSTATUS" width="-1"/>
+  </tables>
+  <tables name="" type="MGMTPART" id="com.ibm.cics.sm.ui.views.managementParts">
+    <columnSettings attribute="PLATFORM" width="-1"/>
+    <columnSettings attribute="APPLICATION" width="-1"/>
+    <columnSettings attribute="APPLMAJORVER" width="-1"/>
+    <columnSettings attribute="APPLMINORVER" width="-1"/>
+    <columnSettings attribute="APPLMICROVER" width="-1"/>
+    <columnSettings attribute="REGIONTYPE" width="-1"/>
+    <columnSettings attribute="BUNDLE" width="-1"/>
+    <columnSettings attribute="BUNDMAJORVER" width="-1"/>
+    <columnSettings attribute="BUNDMINORVER" width="-1"/>
+    <columnSettings attribute="BUNDMICROVER" width="-1"/>
+    <columnSettings attribute="ENABLESTATUS" width="-1"/>
+    <columnSettings attribute="AVAILSTATUS" width="-1"/>
+  </tables>
+  <tables name="" type="PIPEDEF" id="com.ibm.cics.sm.ui.views.pipelineDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+    <columnSettings attribute="CONFIGFILE" width="-1"/>
+    <columnSettings attribute="WSDIR" width="-1"/>
+    <columnSettings attribute="STATUS" width="-1"/>
+  </tables>
+  <tables name="" type="APPLDEF" id="com.ibm.cics.sm.ui.views.applicationDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+    <columnSettings attribute="PLATDEF" width="-1"/>
+    <columnSettings attribute="APPLDIR" width="-1"/>
+    <columnSettings attribute="BINDDIR" width="-1"/>
+    <columnSettings attribute="MAJORVERSION" width="-1"/>
+    <columnSettings attribute="MINORVERSION" width="-1"/>
+    <columnSettings attribute="MICROVERSION" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="CHANGEUSRID" width="-1"/>
+  </tables>
+  <tables name="" type="CICSSTOR" id="com.ibm.cics.sm.ui.views.cicsstors">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="SMSSOSSTATUS" width="-1"/>
+    <columnSettings attribute="SMSDSALIMIT" width="-1"/>
+    <columnSettings attribute="SMSDSATOTAL" width="-1"/>
+    <columnSettings attribute="SMSEDSALIMIT" width="-1"/>
+    <columnSettings attribute="SMSEDSATOTAL" width="-1"/>
+  </tables>
+  <tables name="" type="MQCON" id="com.ibm.cics.sm.ui.views.wmqConnections">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="CONNECTST" width="-1"/>
+    <columnSettings attribute="MQNAME" width="-1"/>
+    <columnSettings attribute="MQQMGR" width="-1"/>
+    <columnSettings attribute="MQRELEASE" width="-1"/>
+  </tables>
+  <tables name="" type="EVNTBIND" id="com.ibm.cics.core.ui.view.eventbindings">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="ENABLESTATUS" width="-1"/>
+    <columnSettings attribute="BUNDLE" width="-1"/>
+    <columnSettings attribute="EPADAPTER" width="-1"/>
+    <columnSettings attribute="EPADAPTERRES" width="-1"/>
+    <columnSettings attribute="EPADAPTERSET" width="-1"/>
+    <columnSettings attribute="INSTALLTIME" width="-1"/>
+  </tables>
+  <tables name="" type="ATOMDEF" id="com.ibm.cics.sm.ui.views.atomServiceDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+    <columnSettings attribute="ATOMTYPE" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="CHANGEUSRID" width="-1"/>
+  </tables>
+  <tables name="" type="FILEDEF" id="com.ibm.cics.sm.ui.views.fileDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+    <columnSettings attribute="STATUS" width="-1"/>
+  </tables>
+  <tables name="" type="TCPDEF" id="com.ibm.cics.sm.ui.views.tcpipServiceDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+  </tables>
+  <tables name="" type="MQINI" id="com.ibm.cics.sm.ui.views.wmqInitiationQueues">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="INITQNAME" width="-1"/>
+  </tables>
+  <tables name="" type="DB2TRN" id="com.ibm.cics.sm.ui.views.db2Transactions">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DB2ENTRY" width="-1"/>
+  </tables>
+  <tables name="" type="URIMAP" id="com.ibm.cics.sm.ui.views.uriMaps">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="ENABLESTATUS" width="-1"/>
+    <columnSettings attribute="AVAILSTATUS" width="-1"/>
+    <columnSettings attribute="USAGE" width="-1"/>
+    <columnSettings attribute="MAPREFCOUNT" width="-1"/>
+    <columnSettings attribute="TCPIPSERVICE" width="-1"/>
+    <columnSettings attribute="PIPELINE" width="-1"/>
+    <columnSettings attribute="WEBSERVICE" width="-1"/>
+    <columnSettings attribute="SCHEME" width="-1"/>
+    <columnSettings attribute="HOST" width="-1"/>
+    <columnSettings attribute="PATH" width="-1"/>
+  </tables>
+  <tables name="" type="PRTNDEF" id="com.ibm.cics.sm.ui.views.partitionSetDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+  </tables>
+  <tables name="" type="LOCTRAN" id="com.ibm.cics.core.ui.view.localTransactions">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="TRANID" width="-1"/>
+    <columnSettings attribute="STATUS" width="-1"/>
+    <columnSettings attribute="AVAILSTATUS" width="-1"/>
+    <columnSettings attribute="USECOUNT" width="-1"/>
+    <columnSettings attribute="PROGRAM" width="-1"/>
+    <columnSettings attribute="PRIORITY" width="-1"/>
+    <columnSettings attribute="TRANCLASS" width="-1"/>
+    <columnSettings attribute="PURGEABILITY" width="-1"/>
+    <columnSettings attribute="DUMPING" width="-1"/>
+    <columnSettings attribute="ROUTING" width="-1"/>
+  </tables>
+  <tables name="" type="WLMAROUT" id="com.ibm.cics.sm.ui.views.workloadRouterStatus">
+    <columnSettings attribute="WORKLOAD" width="-1"/>
+    <columnSettings attribute="WRKLOWNER" width="-1"/>
+    <columnSettings attribute="TOR" width="-1"/>
+    <columnSettings attribute="CON_STATUS" width="-1"/>
+    <columnSettings attribute="OWSTATE" width="-1"/>
+  </tables>
+  <tables name="" type="DB2TDEF" id="com.ibm.cics.sm.ui.views.db2TransactionDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+  </tables>
+  <tables name="" type="PROCTYP" id="com.ibm.cics.sm.ui.views.processTypes">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="FILE" width="-1"/>
+    <columnSettings attribute="AUDITLOG" width="-1"/>
+    <columnSettings attribute="AUDITLEV" width="-1"/>
+    <columnSettings attribute="ENASTAT" width="-1"/>
+  </tables>
+  <tables name="" type="EPADSET" id="com.ibm.cics.sm.ui.views.epAdapterSets">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="EPADAPTERSET" width="-1"/>
+    <columnSettings attribute="ENABLESTATUS" width="-1"/>
+    <columnSettings attribute="ADAPTERNUM" width="-1"/>
+    <columnSettings attribute="INSTALLTIME" width="-1"/>
+  </tables>
+  <tables name="" type="WLMATRAN" id="com.ibm.cics.sm.ui.views.workloadTransactions">
+    <columnSettings attribute="WORKLOAD" width="-1"/>
+    <columnSettings attribute="WRKLOWNER" width="-1"/>
+    <columnSettings attribute="TRANID" width="-1"/>
+    <columnSettings attribute="PSEUDOMODE" width="-1"/>
+    <columnSettings attribute="TRANGRP" width="-1"/>
+  </tables>
+  <tables name="" type="JRNLMODL" id="com.ibm.cics.sm.ui.views.journalModels">
+    <columnSettings attribute="JOURNALMODEL" width="-1"/>
+    <columnSettings attribute="JOURNALNAME" width="-1"/>
+    <columnSettings attribute="TYPE" width="-1"/>
+    <columnSettings attribute="STREAMNAME" width="-1"/>
+    <columnSettings attribute="INSTALLTIME" width="-1"/>
+  </tables>
+  <tables name="" type="OSGIBUND" id="com.ibm.cics.sm.ui.views.osgiBundles">
+    <columnSettings attribute="OSGIBUND" width="-1"/>
+    <columnSettings attribute="OSGIVERSION" width="-1"/>
+    <columnSettings attribute="OSGISTATUS" width="-1"/>
+    <columnSettings attribute="BUNDLE" width="-1"/>
+    <columnSettings attribute="BUNDLEPART" width="-1"/>
+  </tables>
+  <tables name="" type="LIBRARY" id="com.ibm.cics.sm.ui.views.libraries">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="SEARCHPOS" width="-1"/>
+    <columnSettings attribute="RANKING" width="-1"/>
+    <columnSettings attribute="CRITSTATUS" width="-1"/>
+    <columnSettings attribute="ENABLESTATUS" width="-1"/>
+    <columnSettings attribute="NUMDSNAMES" width="-1"/>
+    <columnSettings attribute="INSTALLTIME" width="-1"/>
+  </tables>
+  <tables name="" type="CSYSDEF" id="com.ibm.cics.sm.ui.views.regionDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DESC" width="-1"/>
+    <columnSettings attribute="APPLID" width="-1"/>
+    <columnSettings attribute="SYSID" width="-1"/>
+    <columnSettings attribute="HOST" width="-1"/>
+    <columnSettings attribute="NETWORKID" width="-1"/>
+    <columnSettings attribute="PORT" width="-1"/>
+    <columnSettings attribute="CREATEORIGIN" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="CHANGEUSRID" width="-1"/>
+  </tables>
+  <tables name="" type="WEBSVDEF" id="com.ibm.cics.sm.ui.views.webServiceDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+  </tables>
+  <tables name="" type="WLMATGRP" id="com.ibm.cics.sm.ui.views.workloadTransactionGroups">
+    <columnSettings attribute="WORKLOAD" width="-1"/>
+    <columnSettings attribute="WRKLOWNER" width="-1"/>
+    <columnSettings attribute="TRANGRP" width="-1"/>
+    <columnSettings attribute="STATUS" width="-1"/>
+    <columnSettings attribute="AFFAUTO" width="-1"/>
+    <columnSettings attribute="FILTER" width="-1"/>
+    <columnSettings attribute="AFFINITY" width="-1"/>
+    <columnSettings attribute="AFFLIFE" width="-1"/>
+    <columnSettings attribute="EVENTNAME" width="-1"/>
+    <columnSettings attribute="ABENDCRIT" width="-1"/>
+    <columnSettings attribute="ALGTYPE" width="-1"/>
+  </tables>
+  <tables name="" type="DOCDEF" id="com.ibm.cics.sm.ui.views.documentTemplateDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+  </tables>
+  <tables name="" type="PIPELINE" id="com.ibm.cics.sm.ui.views.pipelines">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="ENABLESTATUS" width="-1"/>
+    <columnSettings attribute="PIPEUSECOUNT" width="-1"/>
+    <columnSettings attribute="CONFIGFILE" width="-1"/>
+    <columnSettings attribute="WSDIR" width="-1"/>
+  </tables>
+  <tables name="" type="UOWLINK" id="com.ibm.cics.sm.ui.views.unitOfWorkLinks">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="LINK" width="-1"/>
+    <columnSettings attribute="UOWID" width="-1"/>
+    <columnSettings attribute="ROLE" width="-1"/>
+    <columnSettings attribute="TYPE" width="-1"/>
+    <columnSettings attribute="NETUOWID" width="-1"/>
+    <columnSettings attribute="RMIQFY" width="-1"/>
+    <columnSettings attribute="RESYNCSTATUS" width="-1"/>
+  </tables>
+  <tables name="" type="TERMDEF" id="com.ibm.cics.sm.ui.views.terminalDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+    <columnSettings attribute="TYPETERM" width="-1"/>
+    <columnSettings attribute="NETNAME" width="-1"/>
+  </tables>
+  <tables name="" type="IPCONN" id="com.ibm.cics.sm.ui.views.ipicConnections">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="PORT" width="-1"/>
+    <columnSettings attribute="TCPIPSERVICE" width="-1"/>
+    <columnSettings attribute="APPLID" width="-1"/>
+    <columnSettings attribute="HOST" width="-1"/>
+    <columnSettings attribute="CONNSTATUS" width="-1"/>
+    <columnSettings attribute="SERVSTATUS" width="-1"/>
+  </tables>
+  <tables name="" type="MQCONDEF" id="com.ibm.cics.sm.ui.views.wmqConnectionDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+  </tables>
+  <tables name="" type="JVMSVDEF" id="com.ibm.cics.sm.ui.views.jvmServerDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="CHANGEUSRID" width="-1"/>
+  </tables>
+  <tables name="" type="WLMATARG" id="com.ibm.cics.sm.ui.views.workloadTargetStatus">
+    <columnSettings attribute="AOR" width="-1"/>
+    <columnSettings attribute="RPTINGCMAS" width="-1"/>
+    <columnSettings attribute="ROUTEWGHT" width="-1"/>
+    <columnSettings attribute="WRKLDCNT" width="-1"/>
+    <columnSettings attribute="STATUS" width="-1"/>
+    <columnSettings attribute="CON_STATUS" width="-1"/>
+    <columnSettings attribute="OWSTATE" width="-1"/>
+    <columnSettings attribute="EVENTS" width="-1"/>
+  </tables>
+  <tables name="" type="WLMAWDEF" id="com.ibm.cics.sm.ui.views.activeWorkloadDefinitions">
+    <columnSettings attribute="WORKLOAD" width="-1"/>
+    <columnSettings attribute="WRKLOWNER" width="-1"/>
+    <columnSettings attribute="DESC" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="TRANGRP" width="-1"/>
+    <columnSettings attribute="LUNAME" width="-1"/>
+    <columnSettings attribute="PROCESSTYPE" width="-1"/>
+    <columnSettings attribute="AORSCOPE" width="-1"/>
+  </tables>
+  <tables name="" type="MVSWLM" id="com.ibm.cics.core.ui.view.zosworkload">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="MNGWLMGM" width="-1"/>
+    <columnSettings attribute="MNGWLMWN" width="-1"/>
+    <columnSettings attribute="MNGWLMSC" width="-1"/>
+    <columnSettings attribute="MNGWLMRC" width="-1"/>
+    <columnSettings attribute="MNGWLMRG" width="-1"/>
+    <columnSettings attribute="MNGWLMGT" width="-1"/>
+    <columnSettings attribute="MNGWLMGV" width="-1"/>
+    <columnSettings attribute="MNGWLMGI" width="-1"/>
+    <columnSettings attribute="MNGWLMCC" width="-1"/>
+    <columnSettings attribute="MNGWLMSK" width="-1"/>
+  </tables>
+  <tables name="" type="DOCTEMP" id="com.ibm.cics.sm.ui.views.documentTemplates">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="TEMPLATETYPE" width="-1"/>
+  </tables>
+  <tables name="" type="MAS" id="com.ibm.cics.sm.ui.views.managedRegions">
+    <columnSettings attribute="CICSNAME" width="-1"/>
+    <columnSettings attribute="MASTYPE" width="-1"/>
+    <columnSettings attribute="CMASNAME" width="-1"/>
+    <columnSettings attribute="CICSSTATE" width="-1"/>
+    <columnSettings attribute="MONSTATUS" width="-1"/>
+    <columnSettings attribute="RTASTATUS" width="-1"/>
+    <columnSettings attribute="WLMSTATUS" width="-1"/>
+    <columnSettings attribute="WLMOPTEN" width="-1"/>
+    <columnSettings attribute="DESC" width="-1"/>
+  </tables>
+  <tables name="" type="WLMAWAOR" id="com.ibm.cics.sm.ui.views.workloadTargets">
+    <columnSettings attribute="WORKLOAD" width="-1"/>
+    <columnSettings attribute="WRKLOWNER" width="-1"/>
+    <columnSettings attribute="AOR" width="-1"/>
+    <columnSettings attribute="STATUS" width="-1"/>
+    <columnSettings attribute="CON_STATUS" width="-1"/>
+    <columnSettings attribute="OWSTATE" width="-1"/>
+  </tables>
+  <tables name="" type="CMDT" id="com.ibm.cics.core.ui.view.datatables">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="FILE" width="-1"/>
+    <columnSettings attribute="ENABLESTATUS" width="-1"/>
+    <columnSettings attribute="OPENSTATUS" width="-1"/>
+    <columnSettings attribute="DSNAME" width="-1"/>
+    <columnSettings attribute="TABLE" width="-1"/>
+    <columnSettings attribute="CURCOUNT" width="-1"/>
+    <columnSettings attribute="MAXTSIZE" width="-1"/>
+    <columnSettings attribute="INSTALLTIME" width="-1"/>
+    <columnSettings attribute="TABLENAME" width="-1"/>
+  </tables>
+  <tables name="" type="EVNTGBL" id="com.ibm.cics.sm.ui.views.eventProcessing">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="EPSTATUS" width="-1"/>
+    <columnSettings attribute="EVNTPUT" width="-1"/>
+    <columnSettings attribute="EVNTCURREVQ" width="-1"/>
+    <columnSettings attribute="EVNTCURRTRQ" width="-1"/>
+  </tables>
+  <tables name="" type="CICSRGN" id="com.ibm.cics.core.ui.view.regions">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="JOBNAME" width="-1"/>
+    <columnSettings attribute="MVSSYSID" width="-1"/>
+    <columnSettings attribute="CURRTASKS" width="-1"/>
+    <columnSettings attribute="CICSSTATUS" width="-1"/>
+    <columnSettings attribute="CTSLEVEL" width="-1"/>
+    <columnSettings attribute="RELEASE" width="-1"/>
+    <columnSettings attribute="CPUTIME" width="-1"/>
+    <columnSettings attribute="PAGEIN" width="-1"/>
+    <columnSettings attribute="PAGEOUT" width="-1"/>
+    <columnSettings attribute="SIOREQ" width="-1"/>
+  </tables>
+  <tables name="" type="JRNMDEF" id="com.ibm.cics.sm.ui.views.journalModelDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+  </tables>
+  <tables name="" type="LOCFILE" id="com.ibm.cics.core.ui.view.localFiles">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="FILE" width="-1"/>
+    <columnSettings attribute="ENABLESTATUS" width="-1"/>
+    <columnSettings attribute="OPENSTATUS" width="-1"/>
+    <columnSettings attribute="ADD" width="-1"/>
+    <columnSettings attribute="BROWSE" width="-1"/>
+    <columnSettings attribute="DELETE" width="-1"/>
+    <columnSettings attribute="READ" width="-1"/>
+    <columnSettings attribute="UPDATE" width="-1"/>
+    <columnSettings attribute="LSRPOOLID" width="-1"/>
+    <columnSettings attribute="DSNAME" width="-1"/>
+  </tables>
+  <tables name="" type="WLMDEF" id="com.ibm.cics.sm.ui.views.workloadDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="TRANGRP" width="-1"/>
+    <columnSettings attribute="LUNAME" width="-1"/>
+    <columnSettings attribute="USERID" width="-1"/>
+    <columnSettings attribute="PROCESSTYPE" width="-1"/>
+    <columnSettings attribute="AORSCOPE" width="-1"/>
+    <columnSettings attribute="DESC" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="CHANGEUSRID" width="-1"/>
+  </tables>
+  <tables name="" type="WLMAWTOR" id="com.ibm.cics.sm.ui.views.workloadRouters">
+    <columnSettings attribute="WORKLOAD" width="-1"/>
+    <columnSettings attribute="WRKLOWNER" width="-1"/>
+    <columnSettings attribute="TOR" width="-1"/>
+    <columnSettings attribute="CON_STATUS" width="-1"/>
+    <columnSettings attribute="OWSTATE" width="-1"/>
+  </tables>
+  <tables name="" type="CICSPLEX" id="com.ibm.cics.sm.ui.views.cicsplexesView">
+    <columnSettings attribute="PLEXNAME" width="-1"/>
+    <columnSettings attribute="CMASNAME" width="-1"/>
+    <columnSettings attribute="STATUS" width="-1"/>
+    <columnSettings attribute="MPSTATUS" width="-1"/>
+    <columnSettings attribute="ACCESSTYPE" width="-1"/>
+    <columnSettings attribute="TRANSITCMAS" width="-1"/>
+    <columnSettings attribute="TRANSITCNT" width="-1"/>
+  </tables>
+  <tables name="" type="DSNAME" id="com.ibm.cics.core.ui.view.dsnames">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="DSNAME" width="-1"/>
+    <columnSettings attribute="FILECOUNT" width="-1"/>
+  </tables>
+  <tables name="" type="REMTDQ" id="com.ibm.cics.core.ui.view.remoteTdqueues">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="TDQUEUE" width="-1"/>
+    <columnSettings attribute="REMOTENAME" width="-1"/>
+    <columnSettings attribute="REMOTESYSTEM" width="-1"/>
+    <columnSettings attribute="OUTCNT" width="-1"/>
+  </tables>
+  <tables name="" type="URIMPDEF" id="com.ibm.cics.sm.ui.views.uriMapDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+  </tables>
+  <tables name="" type="CMTCMDEF" id="com.ibm.cics.sm.ui.views.cmasToCmasLinkDefinitions">
+    <columnSettings attribute="TARGETNAME" width="-1"/>
+    <columnSettings attribute="SYSID" width="-1"/>
+    <columnSettings attribute="TARGETAPPL" width="-1"/>
+    <columnSettings attribute="PROTOCOL" width="-1"/>
+    <columnSettings attribute="RECVPFX" width="-1"/>
+    <columnSettings attribute="SENDPFX" width="-1"/>
+    <columnSettings attribute="MODENAME" width="-1"/>
+    <columnSettings attribute="DESC" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="CHANGEUSRID" width="-1"/>
+  </tables>
+  <tables name="" type="PARTDEF" id="com.ibm.cics.sm.ui.views.partnerDefinitions">
+    <columnSettings attribute="NAME" width="-1"/>
+    <columnSettings attribute="DEFVER" width="-1"/>
+    <columnSettings attribute="CREATETIME" width="-1"/>
+    <columnSettings attribute="CHANGETIME" width="-1"/>
+    <columnSettings attribute="DESCRIPTION" width="-1"/>
+  </tables>
+  <tables name="" type="UOWENQ" id="com.ibm.cics.sm.ui.views.unitOfWorkEnqueues">
+    <columnSettings attribute="EYU_CICSNAME" width="-1"/>
+    <columnSettings attribute="UOWID" width="-1"/>
+    <columnSettings attribute="TYPE" width="-1"/>
+    <columnSettings attribute="STATE" width="-1"/>
+    <columnSettings attribute="RELATION" width="-1"/>
+    <columnSettings attribute="TASKID" width="-1"/>
+    <columnSettings attribute="TRANSID" width="-1"/>
+  </tables>
+  <ibmDefaultTableIds id="com.ibm.cics.core.ui.view.indirectTdqueues"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.jvmStatus"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.tcpipServices"/>
+  <ibmDefaultTableIds id="com.ibm.cics.core.ui.view.extraPartitionTdqueues"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.platformDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.core.ui.view.remoteTransactions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.libraryDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.rplList"/>
+  <ibmDefaultTableIds id="com.ibm.cics.core.ui.view.transactionDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.platforms"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.enqueueModelDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.jvmServers"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.transactionDumps"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.cmasToCmasLinks"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.webServices"/>
+  <ibmDefaultTableIds id="com.ibm.cics.core.ui.view.events"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.tsModels"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.requestModelDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.wlmActiveWorkloads"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.captureSpecifications"/>
+  <ibmDefaultTableIds id="com.ibm.cics.core.ui.view.tasks"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.workloadSpecifications"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.transactionClassDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.lsrPoolDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.regionGroupDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.core.ui.view.tsqueues"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.journalNames"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.programDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.xmlTransforms"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.cicsplexDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.dynamicStorageAreas"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.db2ConnectionDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.connectionDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.deployedJARFileDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.workloadAffinities"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.profileDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.applications"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.typetermDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.bundles"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.libraryDSNames"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.sharedTsqueues"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.db2Entries"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.cmasDetails"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.tsModelDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.epAdapters"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.db2EntryDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.completedTasks"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.wmqConnectionStatistics"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.tdQueueDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.transactionClasses"/>
+  <ibmDefaultTableIds id="com.ibm.cics.core.ui.views.taskAssociations"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.jvmPools"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.programs"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.ipicConnectionDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.sessionDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.core.ui.view.intraPartitionTdqueues"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.workloadGroups"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.bundleDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.atomServices"/>
+  <ibmDefaultTableIds id="com.ibm.cics.core.ui.view.remoteFiles"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.globalUserExits"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.wlpServices"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.jvmProfiles"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.bundleParts"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.mapSetDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.core.ui.view.terminals"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.corbaServerDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.jvmClassCaches"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.streamNames"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.processTypeDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.db2Connections"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.taskRelatedUserExits"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.dbctlsss"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.globalTsQueueStatistics"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.intervalControlRequests"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.corbaServers"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.osgiServices"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.systemDumps"/>
+  <ibmDefaultTableIds id="com.ibm.cics.core.ui.view.connections"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.managementParts"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.pipelineDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.applicationDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.cicsstors"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.wmqConnections"/>
+  <ibmDefaultTableIds id="com.ibm.cics.core.ui.view.eventbindings"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.atomServiceDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.fileDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.tcpipServiceDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.wmqInitiationQueues"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.db2Transactions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.uriMaps"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.partitionSetDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.core.ui.view.localTransactions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.workloadRouterStatus"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.db2TransactionDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.processTypes"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.epAdapterSets"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.workloadTransactions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.journalModels"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.osgiBundles"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.libraries"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.regionDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.webServiceDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.workloadTransactionGroups"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.documentTemplateDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.pipelines"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.unitOfWorkLinks"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.terminalDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.ipicConnections"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.wmqConnectionDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.jvmServerDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.workloadTargetStatus"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.activeWorkloadDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.core.ui.view.zosworkload"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.documentTemplates"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.managedRegions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.workloadTargets"/>
+  <ibmDefaultTableIds id="com.ibm.cics.core.ui.view.datatables"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.eventProcessing"/>
+  <ibmDefaultTableIds id="com.ibm.cics.core.ui.view.regions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.journalModelDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.core.ui.view.localFiles"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.workloadDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.workloadRouters"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.cicsplexesView"/>
+  <ibmDefaultTableIds id="com.ibm.cics.core.ui.view.dsnames"/>
+  <ibmDefaultTableIds id="com.ibm.cics.core.ui.view.remoteTdqueues"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.uriMapDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.cmasToCmasLinkDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.partnerDefinitions"/>
+  <ibmDefaultTableIds id="com.ibm.cics.sm.ui.views.unitOfWorkEnqueues"/>
+</model:Tables>

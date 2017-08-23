@@ -1,0 +1,7 @@
+//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.jdt.junit.launchconfig=com.ibm.debug.team.client.ui.junit.teamdelegate,debug,;
+//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.jdt.launching.javaApplet=com.ibm.debug.team.client.ui.applet.teamdelegate,debug,;
+//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.jdt.launching.localJavaApplication=com.ibm.debug.team.client.ui.java.teamdelegate,debug,;
+//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.jdt.launching.remoteJavaApplication=com.ibm.debug.team.client.ui.remotejavaapp.teamdelegate,debug,;
+//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.pde.ui.JunitLaunchConfig=com.ibm.debug.team.client.ui.pdejunit.teamdelegate,debug,;
+//org.eclipse.debug.core.PREFERRED_DELEGATES/org.eclipse.pde.ui.RuntimeWorkbench=com.ibm.debug.team.client.ui.pde.teamdelegate,debug,;
+eclipse.preferences.version=1

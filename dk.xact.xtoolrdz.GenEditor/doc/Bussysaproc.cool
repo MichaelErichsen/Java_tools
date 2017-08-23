@@ -1,0 +1,150 @@
+ 
+         Member name: P8361565
+ 
+         +->   SRV_MAINTAIN_D_ENTITY             09/07/2012  21:20
+         ¤       IMPORTS:
+         ¤         Group View import_request
+         ¤           Entity View import d_entity_name (Transient, Mandatory, Import only)
+         ¤             dsd_name
+         ¤             entity_name
+         ¤       EXPORTS:
+         ¤         Group View export_reply
+         ¤           Entity View export d_entity_name (Transient, Export only)
+         ¤             dsd_name
+         ¤             entity_name
+         ¤         Entity View export exitstate_control (Transient, Export only)
+         ¤           command
+         ¤           rollback_requested
+         ¤       LOCALS:
+         ¤         Entity View temp sin_ief_supplied
+         ¤           command
+         ¤
+         ¤     PROCEDURE STATEMENTS
+         ¤
+       1 ¤  NOTE:
+       1 ¤  26.07.2004: ABN - Erstattet USE af GA'er med USE af alm. AB, samt USE af GV'er med vers. 2
+       1 ¤                    og erstattet VP-worksets af transiente views.
+       1 ¤  18-05-1998: ABN - Ny kode
+       2 ¤
+       3 ¤  EXIT STATE IS processing_ok
+       4 ¤
+       5 ¤  MOVE import d_entity_name TO export d_entity_name
+       6 ¤
+       7 ¤  NOTE:
+       7 ¤  If the key field is blank, certain
+       7 ¤  commands are not allowed.
+       8 ¤  +->IF (COMMAND = "UPDATE"
+       8 ¤  ¤        OR  COMMAND = "CREATE"
+       8 ¤  ¤        OR  COMMAND = "DISPLAY"
+       8 ¤  ¤        OR  COMMAND = "DELETE")
+       9 ¤  ¤  +->IF import d_entity_name entity_name = SPACES
+      10 ¤  ¤  ¤  EXIT STATE IS entity_name_must_be_entered WITH ROLLBACK
+       9 ¤  ¤  +--
+       8 ¤  +--
+      11 ¤  +->IF EXITSTATE ^= processing_ok
+      12 ¤  ¤  SET temp sin_ief_supplied command TO COMMAND
+      13 ¤  ¤  COMMAND IS "BYPASS"
+      11 ¤  +--
+      14 ¤
+      15 ¤  NOTE:
+      15 ¤  Validation common to CREATE and UPDATE.
+      15 ¤  If an error is found, EXIT STATE should
+      15 ¤   be set.
+      16 ¤  +->IF COMMAND = "UPDATE"
+      16 ¤  ¤        OR  COMMAND = "CREATE"
+      17 ¤  ¤
+      18 ¤  ¤  +->IF import d_entity_name dsd_name = SPACES
+      19 ¤  ¤  ¤  EXIT STATE IS dsd_name_must_be_entered WITH ROLLBACK
+      20 ¤  ¤  ¤  SET temp sin_ief_supplied command TO COMMAND
+      21 ¤  ¤  ¤  COMMAND IS "BYPASS"
+      18 ¤  ¤  +--
+      16 ¤  +--
+      22 ¤  NOTE:
+      22 ¤  Main CASE OF COMMAND.
+      23 ¤
+      24 ¤  +->CASE OF COMMAND
+      24 ¤  +> CASE "DISPLAY"
+      25 ¤  ¤  USE read_entity_name
+      25 ¤  ¤     WHICH IMPORTS: Entity View import d_entity_name
+      25 ¤  ¤     WHICH EXPORTS: Entity View export d_entity_name
+      26 ¤  ¤
+      27 ¤  ¤  +->CASE OF EXITSTATE
+      27 ¤  ¤  +> CASE processing_ok
+      28 ¤  ¤  ¤  EXIT STATE IS display_ok
+      27 ¤  ¤  +> OTHERWISE
+      27 ¤  ¤  +--
+      24 ¤  +> CASE "CREATE"
+      29 ¤  ¤
+      30 ¤  ¤  USE create_d_entity_name
+      30 ¤  ¤     WHICH IMPORTS: Entity View import d_entity_name
+      30 ¤  ¤     WHICH EXPORTS: Entity View export d_entity_name
+      31 ¤  ¤
+      32 ¤  ¤  +->CASE OF EXITSTATE
+      32 ¤  ¤  +> CASE processing_ok
+      33 ¤  ¤  ¤  EXIT STATE IS create_ok
+      32 ¤  ¤  +--
+      24 ¤  +> CASE "UPDATE"
+      34 ¤  ¤
+      35 ¤  ¤  USE update_d_entity_name
+      35 ¤  ¤     WHICH IMPORTS: Entity View import d_entity_name
+      35 ¤  ¤     WHICH EXPORTS: Entity View export d_entity_name
+      36 ¤  ¤
+      37 ¤  ¤  +->CASE OF EXITSTATE
+      37 ¤  ¤  +> CASE processing_ok
+      38 ¤  ¤  ¤  EXIT STATE IS update_ok
+      37 ¤  ¤  +--
+      24 ¤  +> CASE "DELETE"
+      39 ¤  ¤
+      40 ¤  ¤  USE delete_d_entity_name
+      40 ¤  ¤     WHICH IMPORTS: Entity View import d_entity_name
+      40 ¤  ¤     WHICH EXPORTS: Entity View export d_entity_name
+      41 ¤  ¤
+      42 ¤  ¤  +->CASE OF EXITSTATE
+      42 ¤  ¤  +> CASE processing_ok
+      43 ¤  ¤  ¤  EXIT STATE IS delete_ok
+      42 ¤  ¤  +--
+      24 ¤  +> CASE "BYPASS"
+      44 ¤  ¤  NOTE:
+      44 ¤  ¤  The command is reset here in case it is
+      44 ¤  ¤  displayed on the screen.
+      45 ¤  ¤  COMMAND IS temp sin_ief_supplied command
+      24 ¤  +> OTHERWISE
+      46 ¤  ¤  EXIT STATE IS invalid_command WITH ROLLBACK
+      24 ¤  +--
+      47 ¤
+      48 ¤  NOTE:
+      48 ¤  VP  Dette er en standard som SKAL være til slut i alle servere:
+      48 ¤      Her styres korrekt returnering af exitstate og command til
+      48 ¤      client procedure.
+      49 ¤
+      50 ¤  USE gv000522_move_exit_state
+      50 ¤     WHICH EXPORTS: Entity View export exitstate_control
+      51 ¤
+      52 ¤  NOTE:
+      52 ¤  VP  Test om der skal udføres commit eller rollback.
+      53 ¤
+      54 ¤  +->IF export exitstate_control rollback_requested = "R"
+      55 ¤  ¤  EXIT STATE IS return_to_client_rollback WITH ROLLBACK
+      54 ¤  +> ELSE
+      56 ¤  ¤  EXIT STATE IS return_to_client
+      54 ¤  +--
+         +---
+ 
+         Procedure Step View Matching Report
+ 
+           Dialog Flows Targeting SRV_MAINTAIN_D_ENTITY
+ 
+             CLI_MAINTAIN_D_ENTITY links to SRV_MAINTAIN_D_ENTITY
+               flows on: LINK_TO_SERVER
+               setting command to <CURRENT>
+               sending EXPORT_REPLY to IMPORT_REQUEST
+ 
+             SRV_MAINTAIN_D_ENTITY returns to CLI_MAINTAIN_D_ENTITY
+               returns on: RETURN_TO_CLIENT_ROLLBACK
+               returns on: RETURN_TO_CLIENT
+               setting command to <CURRENT>
+               returning EXPORT_REPLY to IMPORT_REQUEST
+               returning EXPORT EXITSTATE_CONTROL to IMPORT EXITSTATE_CONTROL
+ 
+         End Of Procedure Step View Matching Report
+ 

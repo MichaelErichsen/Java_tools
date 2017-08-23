@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: GenEditor
+Bundle-SymbolicName: dk.xact.xtoolrdz.GenEditor;singleton:=true
+Bundle-Version: 1.0.5.qualifier
+Bundle-Activator: dk.xact.xtoolrdz.geneditor.Activator
+Bundle-Vendor: Xact Consulting
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ org.eclipse.jface.text,
+ org.eclipse.ui.editors,
+ org.eclipse.ui.views.properties.tabbed;bundle-version="3.5.300"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ActivationPolicy: lazy
+Export-Package: dk.xact.xtoolrdz.geneditor;
+  uses:="org.eclipse.jface.text,
+   org.eclipse.jface.text.source,
+   org.eclipse.jface.resource,
+   org.eclipse.ui,
+   org.eclipse.ui.plugin,
+   org.eclipse.jface.text.rules,
+   org.eclipse.core.runtime.preferences,
+   org.eclipse.jface.preference,
+   org.eclipse.jface.text.presentation,
+   org.eclipse.swt.graphics,
+   org.osgi.framework,
+   org.eclipse.ui.editors.text"

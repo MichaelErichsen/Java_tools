@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/dk.xact.xtoolrdz.SmpeEditor.feature_1.0.0.qualifier.jar" id="dk.xact.xtoolrdz.SmpeEditor.feature" version="1.0.0.qualifier">
+      <category name="dk.xact.xtoolrdz.SmpeCategory"/>
+   </feature>
+   <category-def name="dk.xact.xtoolrdz.SmpeCategory" label="Xact RDz Tools"/>
+</site>

@@ -1,0 +1,15 @@
+2016-01-15 18:43:59,480 [Worker-3] INFO  CorePlugin:? - ***** IBM Application Performance Analyzer Started *****
+2016-01-15 18:43:59,484 [Worker-3] INFO  CorePlugin:? - Version : 13.1.0.6
+2016-01-15 18:43:59,486 [Worker-3] INFO  ApaPlugin:? - Locale :  da_DK
+2016-01-15 18:43:59,495 [Worker-3] INFO  CorePlugin:? - ***** BankNet Core Plug-in Started *****
+2016-01-15 18:43:59,508 [Worker-3] INFO  CorePlugin:? - Version : 13.1.0.6
+2016-01-15 18:43:59,510 [Worker-3] INFO  CorePlugin:? - Locale :  da_DK
+2016-01-15 18:44:07,244 [Worker-3] INFO  CorePlugin:? - preStartup:  Check for Updates
+2016-01-15 18:44:07,869 [Worker-3] INFO  CorePlugin:? - ***** IBM Application Performance Analyzer PD Tools plug-in Started *****
+2016-01-15 18:44:07,872 [Worker-3] INFO  CorePlugin:? - Version : 13.1.0.6
+2016-01-15 18:44:10,353 [Worker-3] INFO  CorePlugin:? - Locale :  da_DK
+2016-01-15 18:44:11,679 [Worker-6] INFO  ZosSession:? - Constructor:  Heap Size 413335552
+2016-01-15 18:44:11,680 [Worker-6] INFO  ZosSession:? - Constructor:  Heap Max Size 1073741824
+2016-01-15 18:54:31,193 [Framework stop] INFO  CorePlugin:? - ***** IBM Application Performance Analyzer PD Tools plug-in Stopped *****
+2016-01-15 18:54:31,355 [Framework stop] INFO  CorePlugin:? - ***** IBM Application Performance Analyzer Stopped *****
+2016-01-15 18:54:31,356 [Framework stop] INFO  CorePlugin:? - ***** BankNet Core Plug-in Stopped *****

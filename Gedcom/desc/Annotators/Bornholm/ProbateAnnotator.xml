@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <primitive>true</primitive>
+  <annotatorImplementationName>net.myerichsen.bornholm.ProbateAnnotator</annotatorImplementationName>
+  <analysisEngineMetaData>
+    <name>ProbateAnnotator</name>
+    <description>Probate annotator for probate extracts</description>
+    <version>1.1, 23. 04. 2013</version>
+    <vendor>Michael Erichsen</vendor>
+    <configurationParameters>
+      <configurationParameter>
+        <name>Patterns</name>
+        <type>String</type>
+        <multiValued>true</multiValued>
+        <mandatory>true</mandatory>
+      </configurationParameter>
+    </configurationParameters>
+    <configurationParameterSettings>
+      <nameValuePair>
+        <name>Patterns</name>
+        <value>
+          <array>
+            <string>&lt;tr&gt;.*&lt;/tr&gt;</string>
+          </array>
+        </value>
+      </nameValuePair>
+    </configurationParameterSettings>
+    <typeSystemDescription>
+      <imports>
+        <import location="..\..\Records\GedcomTypeSystemDescriptor.xml"/>
+      </imports>
+    </typeSystemDescription>
+    <typePriorities/>
+    <fsIndexCollection/>
+    <capabilities>
+      <capability>
+        <inputs>
+          <type allAnnotatorFeatures="true">net.myerichsen.gedcom.IndividualRecType</type>
+          <type allAnnotatorFeatures="true">net.myerichsen.gedcom.PlaceType</type>
+          <type allAnnotatorFeatures="true">net.myerichsen.gedcom.SourceRecType</type>
+          <type allAnnotatorFeatures="true">net.myerichsen.gedcom.DateType</type>
+        </inputs>
+        <outputs>
+          <type allAnnotatorFeatures="true">net.myerichsen.gedcom.EventRecType</type>
+        </outputs>
+        <languagesSupported>
+          <language>en</language>
+        </languagesSupported>
+      </capability>
+    </capabilities>
+    <operationalProperties>
+      <modifiesCas>true</modifiesCas>
+      <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </analysisEngineMetaData>
+  <resourceManagerConfiguration/>
+</analysisEngineDescription>

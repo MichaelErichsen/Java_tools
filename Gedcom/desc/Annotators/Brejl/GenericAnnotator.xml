@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<analysisEngineDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <frameworkImplementation>org.apache.uima.java</frameworkImplementation>
+  <primitive>true</primitive>
+  <annotatorImplementationName>net.myerichsen.brejl.GenericAnnotator</annotatorImplementationName>
+  <analysisEngineMetaData>
+    <name>GenericAnnotator</name>
+    <description>Annotator to identify Individual Names, Places and Dates in probate extracts done by Erik Brejl and stored at www.brejl.dk.
+
+Requires encoding windows- 1252</description>
+    <version>1.0, 03. 12. 2011</version>
+    <vendor>Michael Erichsen</vendor>
+    <configurationParameters>
+      <configurationParameter>
+        <name>Patterns</name>
+        <description>Patterns to parse Erik Brejl probate extracts</description>
+        <type>String</type>
+        <multiValued>true</multiValued>
+        <mandatory>true</mandatory>
+      </configurationParameter>
+      <configurationParameter>
+        <name>RecordTypes</name>
+        <description>Names of the record types matching the patterns</description>
+        <type>String</type>
+        <multiValued>true</multiValued>
+        <mandatory>true</mandatory>
+      </configurationParameter>
+    </configurationParameters>
+    <configurationParameterSettings>
+      <nameValuePair>
+        <name>Patterns</name>
+        <value>
+          <array>
+            <string>(\p{Upper}|Æ|Ø|Å)(\w|æ|ø|å)*((\.?\s(\p{Upper}|Æ|Ø|Å)(\w|æ|ø|å)*)| von| de| la)+</string>
+            <string>(i|på|ved|uden for)\s+(\p{Upper}|Æ|Ø|Å)(\w|æ|ø|å)*</string>
+            <string>\d{1,2}\.\d{1,2}(\.|\s)\d{4}</string>
+            <string>\n\s*(\d{1,5})\s(\p{Upper}|Æ|Ø|Å)(\w|æ|ø|å)*((\.?\s(\p{Upper}|Æ|Ø|Å)(\w|æ|ø|å)*)| von| de| la)+</string>
+          </array>
+        </value>
+      </nameValuePair>
+      <nameValuePair>
+        <name>RecordTypes</name>
+        <value>
+          <array>
+            <string>Name</string>
+            <string>Place</string>
+            <string>Date</string>
+            <string>ProbateSignature</string>
+          </array>
+        </value>
+      </nameValuePair>
+    </configurationParameterSettings>
+    <typeSystemDescription>
+      <imports>
+        <import location="..\..\Records\GedcomTypeSystemDescriptor.xml"/>
+        <import name="org.apache.uima.examples.SourceDocumentInformation"/>
+      </imports>
+      <types>
+        <typeDescription>
+          <name>net.myerichsen.gedcom.ProbateSignature</name>
+          <description/>
+          <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+      </types>
+    </typeSystemDescription>
+    <typePriorities/>
+    <fsIndexCollection/>
+    <capabilities>
+      <capability>
+        <inputs/>
+        <outputs>
+          <type allAnnotatorFeatures="true">net.myerichsen.gedcom.IndividualRecType</type>
+          <type allAnnotatorFeatures="true">net.myerichsen.gedcom.DateType</type>
+          <type allAnnotatorFeatures="true">net.myerichsen.gedcom.PlaceType</type>
+          <type allAnnotatorFeatures="true">net.myerichsen.gedcom.ProbateSignature</type>
+        </outputs>
+        <languagesSupported/>
+      </capability>
+    </capabilities>
+    <operationalProperties>
+      <modifiesCas>true</modifiesCas>
+      <multipleDeploymentAllowed>true</multipleDeploymentAllowed>
+      <outputsNewCASes>false</outputsNewCASes>
+    </operationalProperties>
+  </analysisEngineMetaData>
+  <resourceManagerConfiguration/>
+</analysisEngineDescription>
