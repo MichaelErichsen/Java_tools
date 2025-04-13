@@ -11,8 +11,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Program til sortering af ark på 12 medlemskort, således at de kan skæres i
- * stabler
+ * Program til sortering af ark på et antal medlemskort, således at de kan
+ * skæres i stabler
  *
  * @author Michael Erichsen, 2025
  */
@@ -23,8 +23,8 @@ public class sorterstabel {
 	 * @param args
 	 */
 	public static void main(final String[] args) {
-		if (args.length < 2) {
-			System.out.println("Du bedes venligst skrive \"sorterstabel <inputfil>\"");
+		if (args.length < 3) {
+			System.out.println("Du bedes venligst skrive \"sorterstabel <inputfil> <antal kort pr. ark>\"");
 			System.exit(4);
 		}
 
@@ -65,6 +65,8 @@ public class sorterstabel {
 	 */
 
 	private void execute(final String[] args) throws Exception {
+		int kortPrArk = Integer.parseInt(args[2]);
+
 		final List<String> listOfStrings = new ArrayList<>();
 		final var br = new BufferedReader(new FileReader(args[0]));
 
@@ -96,8 +98,8 @@ public class sorterstabel {
 		br.close();
 
 		final double size = listOfStrings.size();
-		final var ark = Math.ceil(size / 12);
-		final var maxSize = ark * 12;
+		final var ark = Math.ceil(size / kortPrArk);
+		final var maxSize = ark * kortPrArk;
 
 		final var lastIndexOf = args[0].lastIndexOf(".");
 		final var newName = args[0].subSequence(0, lastIndexOf) + "_sorteret.csv";
@@ -127,7 +129,8 @@ public class sorterstabel {
 		bw.flush();
 		bw.close();
 
-		System.out.println("Færdig med sortering af " + (int) size + " medlemskort på " + (int) ark + " ark.");
+		System.out.println("Færdig med sortering af " + (int) size + " medlemskort på " + (int) ark + " ark med "
+				+ kortPrArk + " kort på hvert.");
 	}
 
 	/**
