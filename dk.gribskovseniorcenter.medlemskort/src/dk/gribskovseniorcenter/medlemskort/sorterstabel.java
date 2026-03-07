@@ -1,6 +1,3 @@
-/**
- *
- */
 package dk.gribskovseniorcenter.medlemskort;
 
 import java.io.BufferedReader;
@@ -23,7 +20,7 @@ public class sorterstabel {
 	 * @param args
 	 */
 	public static void main(final String[] args) {
-		if (args.length < 3) {
+		if (args.length < 2) {
 			System.out.println("Du bedes venligst skrive \"sorterstabel <inputfil> <antal kort pr. ark>\"");
 			System.exit(4);
 		}
@@ -65,7 +62,7 @@ public class sorterstabel {
 	 */
 
 	private void execute(final String[] args) throws Exception {
-		int kortPrArk = Integer.parseInt(args[2]);
+		int kortPrArk = Integer.parseInt(args[1]);
 
 		final List<String> listOfStrings = new ArrayList<>();
 		final var br = new BufferedReader(new FileReader(args[0]));
